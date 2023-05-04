@@ -1,0 +1,119 @@
+\section*{Core Technology}
+\addcontentsline{toc}{chapter}{Core Technology}
+\newcommand{\colorappendix}{blue!10}
+
+\subsection{Power Cells}
+\begin{table}[H]
+    \centering
+    \rowcolors{1}{}{\colorappendix}
+    \begin{tabularx}{\linewidth}{lXrXrXcXl}
+         \textbf{Power Cell} && \textbf{Weight} && \textbf{Cost} && \textbf{LC} && \textbf{Page} \\
+         % name && weight && cost && LC && page \\
+         AA cell && 0.0005 lb. && \$1 && -- && \pageref{itm:aa_cell}\\
+         A cell && 0.005 lb.. && \$2 && -- && \pageref{itm:a_cell}\\
+         B cell && 0.05 lb. && \$3 && -- && \pageref{itm:b_cell}\\
+         C cell && 0.5 lb && \$10 && -- && \pageref{itm:c_cell}\\
+         D cell && 5 lb. && \$100 && LC4 && \pageref{itm:d_cell}\\
+         E cell && 20 lb. && \$2,000 && LC4 && \pageref{itm:e_cell}\\
+         F cell && 200 lb. && \$20,000 && LC4 && \pageref{itm:f_cell}\\
+    \end{tabularx}
+\end{table}
+
+\subsection{Generators \& Energy Collection}
+\begin{table}[H]
+    \centering
+    \rowcolors{1}{}{\colorappendix}
+    \begin{tabularx}{\linewidth}{lXrXrrXcXl}
+         \textbf{Generator} && \textbf{Weight} && \textbf{Cost} & \textbf{Refueling/Maintenance} && \textbf{LC} && \textbf{Page} \\
+         % name && weight && \$ & \$ && LC && page \\
+         Semi-Portable Fission Reactor && 1,000 lb. && \$100,000 & \$50,000/5 yr. && LC2 && \pageref{itm:sp_fission_react} \\
+         Semi-Portable Fusion Reactor && 100 lb. && \$200,000 & \$20,000/20 yr. && LC3 && \pageref{itm:sp_fusion_react} \\
+         Solar Power Array && 500 lb. && \$10,000 & -- && LC4 && \pageref{itm:solar_array} \\
+         Solar Paint && 100 lb. && \$2,000 & -- && LC4 && \pageref{itm:solar_paint} \\
+    \end{tabularx}
+\end{table}
+
+\subsection{Computer Models}
+\begin{table}[H]
+    \centering
+    \rowcolors{1}{}{\colorappendix}
+    \begin{tabularx}{\linewidth}{llrrXllXcXl}
+         \textbf{Computer} & \textbf{Complexity} & \textbf{Storage} & \textbf{Weight} && \textbf{Cost} & \textbf{Power} && \textbf{LC} && \textbf{Page} \\
+         % Computer & Complexity && Storage && Weight && \$ && Power && LC && Page \\
+         Tiny Computer & Complexity 3 & 1 PB & 0.05 lb. && \$50 & 2A/20 hr. && LC4 && \pageref{itm:tiny_com} \\
+         Small Computer & Complexity 4 & 10 PB & 0.5 lb. && \$100 & 2B/20 hr. && LC4 && \pageref{itm:small_com} \\
+         Personal Computer & Complexity 5 & 100 PB & 5 lb. && \$100 & 2C/20 hr. && LC4 && \pageref{itm:person_com} \\
+         Microframe & Complexity 6 & 1,000 PB & 40 lb. && \$10,000 & external && LC3 && \pageref{itm:microframe} \\
+         Mainframe & Complexity 7 & 10,000 PB & 400 lb. && \$100,000 & external && LC3 && \pageref{itm:mainframe} \\
+         Macroframe & Complexity 8 & 100,000 PB & 4,000 lb. && \$1,000,000 & external && LC3 && \pageref{itm:macroframe} \\
+         Megacomputer & Complexity 9 & 1,000,000 PB & 40,000 lb. && \$10,000,000 & external && LC2 && \pageref{itm:mega_com} \\
+    \end{tabularx}
+\end{table}
+
+\subsubsection{Computer Upgrades}
+\begin{table}[H]
+    \centering
+    \rowcolors{1}{}{\colorappendix}
+    \begin{tabularx}{\linewidth}{lXlXrXrXcl}
+         \textbf{Upgrade} && \textbf{Complexity} && \textbf{Weight} && \textbf{Cost} && \textbf{LC} & \textbf{Page}\\
+         Compact && -- && ~x1/2 && ~x2 && -- & \pageref{itm:com_upg_compact}\\
+         Fast && +1 && -- && ~x20 && -- & \pageref{itm:com_upg_fast}\\
+         Genius && +2 && -- && ~x500 && -1 & \pageref{itm:com_upg_genius}\\
+         Hardened && -- && ~x2 && ~x2 && -- & \pageref{itm:com_upg_hardened}\\
+         High-Capacity && -- && -- && ~x1.5 && -- & \pageref{itm:com_upg_high-cap}\\
+         Printed && -1 && -- && -- && -- & \pageref{itm:com_upg_printed}\\
+         Quantum && -- && ~x2 && ~x10 && -1 & \pageref{itm:com_upg_quantum}\\
+         Slow && -1 && -- && ~x1/20 && -- & \pageref{itm:com_upg_slow}\\
+         Data Storage (Per PB) && -- && +0.0001 lb. && +\$1 && -- & \pageref{itm:com_upg_data}\\
+    \end{tabularx}
+\end{table}
+
+\subsection{Terminals}
+\begin{table}[H]
+    \centering
+    \rowcolors{1}{}{\colorappendix}
+    \begin{tabularx}{\linewidth}{lXrXrXcXcXr}
+        \textbf{Terminal} && \textbf{Weight} && \textbf{Cost} && \textbf{Power} && \textbf{LC} && \textbf{Page} \\
+        Datapad && 0.05 lb. && \$10 && 2A/20 hr. && LC4 && \pageref{itm:terminal_datapad} \\
+        Heads-Up Display (HUD) && neg. && \$50 && external && LC4 && \pageref{itm:terminal_hud} \\
+        Sleeve Display && neg. && \$50 && Af/10 hr. && LC4 && \pageref{itm:terminal_sleeve} \\
+        Portable Terminal && 0.5 lb. && \$50 && 2B/20 hr. && LC4 && \pageref{itm:terminal_portable} \\
+        Workstation Terminal && 5 lb. && \$500 && C/10 hr. or external && LC4 && \pageref{itm:terminal_wrkst} \\
+        Computerized Crew Station && 50 lb. && \$2,000 && external && LC4 && \pageref{itm:terminal_com_crew} \\
+        Holographic Crew Station && 50 lb. && \$10,000 && external && LC4 && \pageref{itm:terminal_holo_crew} \\
+        Multisensory Holographic Crew Station && 100 lb. && \$50,000 && external && LC4 && \pageref{itm:terminal_multisense_holo_crew} \\
+    \end{tabularx}
+\end{table}
+
+\begin{multicols}{2}
+    \begin{table}[H]
+        \centering
+        \rowcolors{1}{}{\colorappendix}
+        \begin{tabularx}{\columnwidth}{lXr}
+            \textbf{Complexity} && \textbf{Cost} \\
+            Complexity 1 && \$1 \\
+            Complexity 2 && \$3 \\
+            Complexity 3 && \$10 \\
+            Complexity 4 && \$30 \\
+            Complexity 5 && \$100 \\
+            Complexity 6 && \$300 \\
+            Complexity 7 && \$1,000 \\
+            Complexity 8 && \$3,000 \\
+            Complexity 9 && \$10,000 \\
+            Complexity 10 && \$30,000 \\
+            Complexity 11 && \$100,000 \\
+            Complexity 12 && \$300,000 \\
+            Complexity 13 && \$1,000,000 \\
+        \end{tabularx}
+        \label{tbl:software_cost}
+    \end{table}
+
+    \begin{table}[H]
+        \centering
+        \begin{tabularx}{\columnwidth}{XXlXl}
+            \textbf{Skill Difficulty} && \textbf{Good (+1)} && \textbf{Fine (+2)} \\
+            Easy && Complexity 4 && Complexity 6 \\
+            Average, Hard, or Very Hard && Complexity 6 && Complexity 7 \\
+        \end{tabularx}
+    \end{table}
+\end{multicols}

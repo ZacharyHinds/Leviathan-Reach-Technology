@@ -1,0 +1,243 @@
+\documentclass[oneside]{book}
+\usepackage{graphics}
+\usepackage{graphicx} % Required for inserting images
+\usepackage{caption}
+% \usepackage[a4paper, total={6.75in, 9.75in}]{geometry}
+\usepackage[a4paper, top=0.85in, left=0.66in, right=0.66in, bottom=0.85in]{geometry}
+\usepackage{wrapfig}
+\usepackage{hyperref}
+\usepackage{lineno}
+\usepackage{hyphenat}
+\usepackage[english]{babel}
+\usepackage{float}
+\usepackage{multicol}
+\usepackage[dvipsnames,table]{xcolor}
+% \usepackage{gensymb}
+\usepackage{textcomp, gensymb}
+\usepackage{hanging}
+\usepackage[framemethod=tikz]{mdframed}
+% \twocolumn
+% \usepackage[T1{fontenc}
+\usepackage{indentfirst}
+% \usepackage{widetabular}
+\usepackage{tabularx}
+% \usepackage[table]{xcolor}
+\usepackage{adjustbox}
+\usepackage{bookmark}
+
+\setcounter{secnumdepth}{0}
+\setcounter{tocdepth}{1}
+
+\useshorthands{~}
+\defineshorthand{~-}{\hyp{}}
+\defineshorthand{~x}{$\times$}
+
+\newcommand{\multicolinterrupt}[1]{% Stuff to span both rows
+\end{multicols}
+#1
+\begin{multicols}{2}
+}
+
+% \newcommand{\rowcolorsDefenses}{\rowcolors{1}{}{blue!10}}
+\newcommand{\colorcoretech}{RawSienna!10}
+\newcommand{\colorcomms}{RoyalPurple!10}
+\newcommand{\colorhousing}{ForestGreen!25}
+\newcommand{\colorsecurity}{Purple!10}
+\newcommand{\colorweaponry}{BlueViolet!15}
+\newcommand{\colordefenses}{Mahogany!10}
+\newcommand{\colormedical}{DarkOrchid!25}
+\newcommand{\colorvehicles}{green!10}
+
+% \newcommand{\rowcolorsB}{\rowcolors{1}{}{red!10}}
+
+% \newenvironment{WrapText}[1][r]
+%   {\wrapfigure{#1}{0.5\textwidth}\mdframed[backgroundcolor=gray!20,skipabove=0pt,skipbelow=0pt]}
+%   {\endmdframed\endwrapfigure}
+
+% \newcommand{\partcolor}{black!10}
+% \newcommand{\updatepartcolor}[1]{\renewcommand{\partcolor}{#1}}
+% \newcommand{\rowcolorspartcolor}{\rowcolors{1}{}{\partcolor}}
+
+\renewcommand\familydefault{\sfdefault}
+
+
+\newmdenv[%
+outerlinewidth=2,
+backgroundcolor=blue!10,
+roundcorner=5pt,
+innerbottommargin=2em]{calloutbox}
+
+\newmdenv[%
+outerlinewidth=2,
+nobreak=true,
+backgroundcolor=purple!10,
+roundcorner=5pt,
+innerbottommargin=2em]{ravenbox}
+
+\title{Leviathan Reach - Technology}
+\author{Zachary Hinds}
+\date{April 2023}
+
+\setlength\parindent{1em}
+\raggedbottom
+
+\begin{document}
+% \sffamily
+\maketitle
+
+\begin{multicols}{2}
+    \tableofcontents
+
+    \multicolinterrupt{\part{Rules and Information}\label{part:rules_information}}
+        \multicolinterrupt{\chapter{Buying Equipment}\label{ch:buying_equipment}}
+        \input{Parts/rules and info/buying_equipment}
+
+        \multicolinterrupt{\chapter{Wear and Care}\label{ch:wear_care}}
+        \input{Parts/rules and info/wear_and_care}
+
+        \multicolinterrupt{\chapter{Integrating and Modifying}\label{ch:integrating_modifying}}
+        \input{Parts/rules and info/integrating_modifying_equipment}
+
+    \multicolinterrupt{\part{Core Technologies}\label{part:core_tech}}
+    
+        \multicolinterrupt{\chapter{Power}\label{ch:power}}
+        \input{Parts/core_tech/power}
+        
+        \multicolinterrupt{\chapter{Computers}\label{ch:computers}}
+        \include{Parts/core_tech/computer}
+
+        \multicolinterrupt{\chapter{Robots and Total Cyborgs}\label{ch:robots_total_cyborgs}}
+        \include{Parts/core_tech/robots_total_cyborgs}
+
+        \multicolinterrupt{\chapter{Machines as Characters}}
+        \include{Parts/core_tech/machines_as_characters}
+
+        \multicolinterrupt{\chapter{Personal Gear and Consumer Goods}\label{ch:personal_gear}}
+        \input{Parts/core_tech/personal_gear}
+
+    \multicolinterrupt{\part{Communication, Sensors, and Media}\label{part:comm_sensors_media}}
+        \multicolinterrupt{\chapter{Communication and Interface}\label{ch:comm}}
+        \input{Parts/comms_sensors_media/communication}
+    
+        \multicolinterrupt{\chapter{Media and Education}\label{ch:media}}
+        \input{Parts/comms_sensors_media/media}
+        
+        \multicolinterrupt{\chapter{Sensors and Scientific Equipment}\label{ch:sensors}}
+        \input{Parts/comms_sensors_media/sensors}
+
+    \multicolinterrupt{\part{Housing, Tools, and Survival Gear}\label{part:housing}}
+        \multicolinterrupt{\chapter{Housing and Food}\label{ch:housing_and_food}}
+        \input{Parts/housing_tools_survival/housing_and_food}
+    
+        \multicolinterrupt{\chapter{Expedition Gear}\label{ch:expedition_gear}}
+        \input{Parts/housing_tools_survival/expedition_gear}
+    
+        \multicolinterrupt{\chapter{Tools and Construction Material}\label{ch:tools_construction}}
+        \input{Parts/housing_tools_survival/tools_construction}
+    
+        \multicolinterrupt{\chapter{Manufacturing}\label{ch:manufacturing}}
+        \input{Parts/housing_tools_survival/manufacturing}
+    
+        % \multicolinterrupt{\chapter{Psi Amplifiers}\label{ch:psi_amplifiers}}
+        % \input{Parts/housing_tools_survival/psi_amp}
+    
+    \multicolinterrupt{\part{Covert Ops and Security}\label{part:covert_ops}}
+
+        \multicolinterrupt{\chapter{Deception and Intrusion}\label{ch:deception_intrusion}}
+        \input{Parts/covert_ops_and_sec/deception_intrusion}
+    
+        \multicolinterrupt{\chapter{Security and Surveillance}\label{ch:security_surveillance}}
+        \input{Parts/covert_ops_and_sec/security_surveillance}
+    
+        \multicolinterrupt{\chapter{Enforcement and Coercion}\label{ch:enforcement_coercion}}
+        \input{Parts/covert_ops_and_sec/enforcement_coercion}
+    
+    % \multicolinterrupt{\chapter{Weaponry}}
+    \multicolinterrupt{\part{Weaponry}\label{part:weaponry}}
+        \multicolinterrupt{\chapter{Beam Weapons}\label{ch:beam_weapons}}
+        \input{Parts/weaponry/beam_weapons}
+
+        \multicolinterrupt{\chapter{Fluid Projectors}\label{ch:fluid_projectors}}
+        \input{Parts/weaponry/fluid_projectors}
+
+        \multicolinterrupt{\chapter{Guns and Launchers}\label{ch:guns_and_launchers}}
+        \input{Parts/weaponry/guns_launchers}
+
+        \multicolinterrupt{\chapter{Firearm Accessories}\label{ch:firearm_accessories}}
+        \input{Parts/weaponry/firearm_accesories}
+
+        \multicolinterrupt{\chapter{Warheads and Ammunition}\label{ch:warheads_ammunition}}
+        \input{Parts/weaponry/warheads_ammunition}
+
+        \multicolinterrupt{\chapter{Biochemical and Nanotech}\label{ch:biochem_nanotech}}
+        \input{Parts/weaponry/biochemical_nanotech}
+
+        \multicolinterrupt{\chapter{Melee and Thrown Weapons}\label{ch:melee_thrown_wep}}
+        \input{Parts/weaponry/melee_thrown_weapons}
+
+        \multicolinterrupt{\chapter{Combat Robots}\label{ch:combat_robots}}
+        \input{Parts/weaponry/combat_robots}
+
+    \multicolinterrupt{\part{Defenses}\label{part:defenses}}
+        \multicolinterrupt{\chapter{Body Armor and Protective Gear}\label{ch:body_armor}}
+        \input{Parts/defenses/body_armor_protective_gear}
+
+        \multicolinterrupt{\chapter{Powered Suits}\label{ch:powered_suits}}
+        \input{Parts/defenses/powered_suits}
+
+        \multicolinterrupt{\chapter{Defense Systems}\label{ch:defense_systems}}
+        \input{Parts/defenses/defense_systems}
+
+        \multicolinterrupt{\chapter{Force Fields}\label{ch:force_fields}}
+
+    \multicolinterrupt{\part{Medical and Biotech}\label{part:medical_biotech}}
+        \multicolinterrupt{\chapter{Biomedical Equipment}\label{ch:biomedical}}
+        \input{Parts/medical_biotech/biomedical_equipment}
+
+        \multicolinterrupt{\chapter{Cybernetics and Uploading}\label{ch:cybernetics_uploading}}
+        \normalsize
+        \input{Parts/medical_biotech/cybernetcs_uploading}
+
+    \multicolinterrupt{\part{Psi-Tech}\label{part:psi-tech}}
+        \multicolinterrupt{\chapter{Mundane Technology and Lab Equipment}\label{ch:mundane_technology_lab_equipment}}
+        \input{Parts/psi-tech/mundane_tech_lab}
+
+        \multicolinterrupt{\chapter{Psychotronic Equipment}\label{ch:psychotronic_equipment}}
+        \input{Parts/psi-tech/psychotronic_equipment}
+
+        \multicolinterrupt{\chapter{Psi~-Drugs and Nanodrugs}\label{ch:psi-drugs_and_nanodrugs}}
+
+        \multicolinterrupt{\chapter{Psibernetics}}
+
+    \multicolinterrupt{\part{Vehicles}\label{part:vehicles}}
+        \multicolinterrupt{\chapter{General Vehicles}\label{ch:vehicles}}
+        \input{Parts/vehicles/general_vehicles}
+
+        % \multicolinterrupt{\chapter{Personal Vehicles}\label{ch:personal_vehicles}}
+
+        % \multicolinterrupt{\chapter{Minisubs}\label{ch:minisubs}}
+
+        % \multicolinterrupt{\chapter{Diver Propulsion Systems}\label{ch:diver_propulsion_sys}}
+
+        % \multicolinterrupt{\chapter{Tilt~-Rotor Transport}\label{ch:tilt}}
+    
+    % \multicolinterrupt{\chapter{Defenses}}
+    
+    % \multicolinterrupt{\chapter{Medical and Biotech}}
+    
+    % \multicolinterrupt{\chapter{Vehicles}}
+    
+    % \multicolinterrupt{\chapter{Spaceships}}
+    
+    % \multicolinterrupt{\chapter{Raven-Tech and Raven Implants}}
+    
+    % \multicolinterrupt{\chapter{Cybernetics}}
+    
+\end{multicols}
+\appendix
+\part{Appendix}
+% \addcontentsline{toc}{part}{Appendix}
+\input{Parts/appendix/core_tech}
+% \input{Parts/appendix}
+
+\end{document}

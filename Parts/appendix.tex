@@ -1,0 +1,192 @@
+\chapter*{Power}
+\addcontentsline{toc}{chapter}{Power}
+
+\begin{table}[H]
+    \centering
+    \caption*{Power Cells}
+    \begin{tabular}{|r|l|l|l|l|l|}
+        \textbf{Power Cell} & \textbf{Size} & \textbf{Cost} & \textbf{Weight} & \textbf{LC} & \textbf{Page}\\
+        \hline
+        AA & Tiny & \$1 & 0.0005 lb. & LC4 & \pageref{itm:aa_cell}\\
+        A & Watch battery & \$2 & 0.005 lb. & LC4 & \pageref{itm:a_cell}\\
+        B & Pistol cartridge & \$3 & 0.05 lb. & LC4 & \pageref{itm:b_cell}\\
+        C & Pistol magazine & \$10 & 0.5 lb. & LC4 & \pageref{itm:c_cell}\\
+        D & Thick paperback book & \$100 & 5 lb. & LC4 & \pageref{d_cell}\\
+        E & Backpack & \$2,000 & 20 lb. & LC4 & \pageref{e_cell}\\
+        F & Compact car engine & \$20,000 & 2,000 lb. & LC4 & \pageref{f_cell}\\
+    \end{tabular}
+    \label{tab:power_cell}
+\end{table}
+
+\begin{table}[H]
+    \centering
+    \caption*{Reactors}
+    \begin{tabular}{|r|l|l|l|l|}
+        \textbf{Generator} & \textbf{Cost} & \textbf{Weight} & \textbf{LC} & \textbf{Page} \\
+        \hline
+        Semi-Portable Fission Reactor & \$100,000 & 1,000 lb. & LC2 & \pageref{itm:sp_fission_react}\\
+        \textit{Refueling and Maintenance} & \$50,000 & - & - & \\
+        Semi-Portable Fusion Reactor & \$200,000 & 100 lb. & LC3 & \\
+        \textit{Refueling and Maintenance} & \$20,000 & - & - & \pageref{itm:sp_fission_react}\\
+    \end{tabular}
+    \label{tab:tab_reactor}
+\end{table}
+
+\begin{table}[H]
+    \centering
+    \caption*{Solar Panels}
+    \begin{tabular}{|r|l|l|l|l|}
+         \textbf{Solar Panel} & \textbf{Cost} & \textbf{Weight} & \textbf{LC} & \textbf{Page}  \\
+         \hline
+         Solar Power Array & \$10,000 & 500 lb. & LC4 & \pageref{itm:solar_array} \\
+         Solar Paint (gallon) & \$2,000 & 
+    \end{tabular}
+    \label{tab:tab_solar}
+\end{table}
+
+\section*{Computers}
+\addcontentsline{toc}{section}{Computers}
+\begin{table}[H]
+    \caption*{Computer Models}
+    \centering
+    \begin{tabular}{|r|l|l|l|l|l|l|l|}
+        \textbf{Model} & \textbf{Complexity} & \textbf{Storage} & \textbf{Cost} & \textbf{Weight} & \textbf{Power} & \textbf{LC} & \textbf{Page} \\
+        \hline
+        Tiny & Complexity 5 & 1 PB & \$50 & 0.05 lb. & 2A/20 hr. & LC4 & \pageref{itm:tiny_com} \\
+        Small & Complexity 6 & 10 PB & \$100 & 0.5 lb. & 2B/20 hr. & LC4 & \pageref{itm:small_com} \\
+        Personal & Complexity 7 & 100 PB & \$1,000 & 5 lb. & 2C/20 hr. & LC4 & \pageref{itm:person_com} \\
+        Microframe & Complexity 8 & 1 EB & \$10K & 40 lb. & external & LC3 & \pageref{itm:microframe} \\
+        Mainframe & Complexity 9 & 10 EB & \$100K & 400 lb. & external & LC3 & \pageref{itm:mainframe} \\
+        Macroframe & Complexity 10 & 100 EB & \$1M & 4K lb. & external & LC3 & \pageref{itm:macroframe} \\
+        Megacomputer & Complexity 11 & 1 ZB & \$10M & 40K lb. & external & LC2 & \pageref{itm:mega_com}
+    \end{tabular}
+    \label{tab:com_models}
+\end{table}
+
+\begin{table}[H]
+    \centering
+    \caption*{Hardware Customization}
+    \begin{tabular}{|r|l|l|l|l|l|}
+        \textbf{Customization} & \textbf{Complexity} & \textbf{LC} & \textbf{Cost} & \textbf{Weight} & \textbf{Page} \\
+        \hline
+        Compact & -- & -- & × 2 & × 1/2 & \pageref{itm:com_upg_compact} \\
+        Fast & +1 & -- & × 20 & -- & \pageref{itm:com_upg_fast} \\
+        Genius & +2 & -1 & × 500 &  & \pageref{itm:com_upg_genius} \\
+        Hardened & -- & -- & × 2 & × 2 & \pageref{itm:com_upg_high-cap} \\
+        Printed & -1 & -- & -- & -- & \pageref{itm:com_upg_printed} \\
+        Quantum & -- & -- & × 10 & × 2 & \pageref{itm:com_upg_quantum} \\
+        Slow & -1 & -- & × 1/20 & -- & \pageref{itm:com_upg_slow} \\
+        Data Storage & -- & -- & \$1 per PB & -- & \pageref{itm:com_upg_data}
+    \end{tabular}
+    \label{tab:com_custom}
+\end{table}
+
+\begin{table}[H]
+    \centering
+    \caption*{Terminals}
+    \begin{tabular}{|r|l|l|l|l|l|}
+         \textbf{Terminal} & \textbf{Cost} & \textbf{Weight} & \textbf{Power} & \textbf{LC} & \textbf{Page} \\
+         \hline
+         Datapad & \$10 & 0.05 lb. & 2A/20 hr. & LC4 & \pageref{itm:terminal_datapad} \\
+         Head-Up Display (HUD) & \$50 & neg. & external & LC4 & \pageref{itm:terminal_hud} \\
+         Sleeve Display & \$50 & neg. & Af/10 hr. & LC4 & \pageref{itm:terminal_sleeve} \\
+         Portable Terminal & \$50 & 0.5 lb. & 2B/20 hr. & LC4 & \pageref{itm:terminal_portable} \\
+         Workstation Terminal & \$500 & 5 lb. & C/10 hr. or external & LC4 & \pageref{itm:terminal_wrkst} \\
+         Computerized Crew Station & \$2,000 & 50 lb. & external & LC4 & \pageref{itm:terminal_com_crew} \\
+         Holographic Crew Station & \$10,000 & 50 lb. & external & LC4 & \pageref{itm:terminal_holo_crew} \\
+         Multisensory Holographic Crew Station & \$50,000 & 100 lb. & external & LC4 & \pageref{itm:terminal_multisense_holo_crew} \\
+         \textit{Holoprojection} & +0.5 CF & -- & -- & -- & \pageref{itm:terminal_holoproj}
+    \end{tabular}
+    \label{tab:terminals}
+\end{table}
+
+\begin{table}[H]
+    \centering
+    \caption*{Software Cost}
+    \begin{tabular}{|l|l|}
+        \textbf{Complexity} & \textbf{Cost} \\
+        \hline
+        Complexity 1 & \$1 \\ 
+        Complexity 2 & \$3 \\
+        Complexity 3 & \$10 \\
+        Complexity 4 & \$30 \\
+        Complexity 5 & \$100 \\
+        Complexity 6 & \$300 \\
+        Complexity 7 & \$1,000 \\
+        Complexity 8 & \$3,000 \\
+        Complexity 9 & \$10,000 \\
+        Complexity 10 & \$30,000 \\
+        Complexity 11 & \$100,000 \\
+        Complexity 12 & \$300,000 \\
+        Complexity 13 & \$1,000,000
+    \end{tabular}
+    \label{tab:software_cost}
+\end{table}
+
+\section*{Personal Gear and Consumer Goods}
+\addcontentsline{toc}{section}{Personal Gear and Consumer Goods}
+
+\begin{table}[H]
+    \centering
+    \caption*{Personal Gear}
+    \begin{tabular}{|r|l|l|l|l|l|}
+        \textbf{Gear} & \textbf{Cost} & \textbf{Weight} & \textbf{Power} & \textbf{LC} & \textbf{Page} \\
+        \hline
+         Attaché Case & \$80 & 2 lb. & -- & LC4 & \pageref{itm:attache_case} \\
+         Pocket Pack & \$25 & 0.75 lb. & -- & LC4 & \pageref{itm:pocket_pack} \\
+         Cleaning Gel & \$7 & 1.5 lb. & -- & LC4 & \pageref{itm:cleaning_gel} \\
+         Smart Bush & \$50 & 0.5 lb. & B/24 hr. & LC4 & \pageref{itm:smart_brush} \\
+         Depilatory Cream & \$10 & 0.1 lb. & -- & LC4 & \pageref{itm:depilatory_cream} \\
+         Smart Hairspray & \$2/application & -- & -- & LC4 & \pageref{itm:smart_hairspray} \\
+         Bioplas Contact Lenses & \$20 & -- & -- & LC4 & \pageref{itm:bioplas_contact_lenses} \\
+    \end{tabular}
+    \label{tab:personal_gear}
+\end{table}
+
+\begin{table}[H]
+    \centering
+    \caption*{Clothing}
+    \begin{tabular}{|r|l|l|l|l|l|}
+         \textbf{Clothing} & \textbf{Cost} & \textbf{Weight} & \textbf{Power} & \textbf{LC} & \textbf{Page} \\
+         \hline
+         Imprint Circuits & varies & -- & varies & LC4 & \pageref{itm:imprint_circuits} \\
+         Computer Clothing & \$100 & 0.5 lb. & 2Bf/20 hr. & LC4 & \pageref{itm:computer_clothing} \\
+         Varicloth & +2 CF & -- & -- & -- & \pageref{itm:varicloth} \\
+         Buzz Fabric & +1 CF & -- & -- & -- & \pageref{itm:buzz_fabric} \\
+         Buzz Fabric for bioplastic & +0.2 CF \\
+         Responsive Fabric (``Memswear'') & +2 CF & -- & -- & -- & \pageref{itm:memswear} \\
+         with buzz fabric or varicloth & +3 CF \\
+         Bioplas Swimsuit & \$100 & 0.2 lb. & -- & LC4 & \pageref{itm:bioplas_swimsuit} \\
+         with fins & \$150 & 0.2 lb. \\
+         Suitspray & \$4 & 0.25 lb. & -- & LC4 & \pageref{itm:suitspray} \\
+         Video Suitspray & \$20 & 0.25 lb. & -- & LC4 & \pageref{itm:video_suitspray} \\
+         Slicksuit Spray & \$40 & 0.25 lb. & -- & LC3 & \pageref{itm:slicksuit_spray} \\
+         Swarmwear & -- & -- & -- & -- & \pageref{subsec:swarmwear}
+    \end{tabular}
+    \label{tab:clothing}
+\end{table}
+
+\begin{table}[H]
+    \centering
+    \caption*{Entertainment}
+    \begin{tabular}{|r|l|l|l|l|l|}
+         \textbf{Entertainment} & \textbf{Cost} & \textbf{Weight} & \textbf{Power} & \textbf{LC} & \textbf{Page} \\
+         \hline
+         Cybervox & \$200 & 2.5 lb. & C/10 hr. & LC4 & \pageref{itm:cybervox} \\
+         Euphoria Machine & \$100 & 0.1 lb. & A/100 hr. & LC3 & \pageref{itm:euphoria_machine} \\
+         Ecstasy Machine & \$500 & 0.5 lb. & 2A/24 hr. & LC2 & \pageref{itm:ecstasy_machine} \\
+         Neurostimulator & \$100 & 0.2 lb. & A/1 hr. & LC3 & \pageref{itm:neurostimulator}
+    \end{tabular}
+    \label{tab:entertainment}
+\end{table}
+
+\begin{table}[H]
+    \centering
+    \caption*{Recreational and Personal Robots}
+    \begin{tabular}{|r|l|l|l|l|l|}
+        \textbf{Entertainment} & \textbf{Cost} & \textbf{Weight} & \textbf{Power} & \textbf{LC} & \textbf{Page} \\
+        \hline
+        7S General Purpose Robot Body & \$50,000 & 100-250 lbs. & 2D/24 hr. & LC4 & \pageref{robot_7sign_general} 
+    \end{tabular}
+    \label{tab:my_label}
+\end{table}

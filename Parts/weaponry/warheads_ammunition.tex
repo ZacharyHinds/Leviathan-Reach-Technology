@@ -1,0 +1,523 @@
+The default warhead for guns and missiles is an inert metal projectile, such as a jacketed lead slug. However, most modern weapons are designed to be able to fire more sophisticated (and deadly) rounds. The warheads described below are additional options.
+
+For mines and hand grenades, there is no default warhead; each grenade or mine must be given one of the options described below.
+
+Some types of warheads are only available for certain size classes -- for example, swarm warheads must be at least 25mm.
+
+\section{Conventional}\label{sec:conventional_warhead_ammu}
+Conventional rounds are ordinary kinetic~-energy, chemical, explosive warheads.
+
+\subsection{Armor~-Piercing Hard Core (APHC)}\label{subsec:aphc}
+These bullets or darts have a dense, armor~-piercing core. Add a (2) divisor for most guns or missiles; this is not available for Gauss and railguns, which already use similar ammunition. If the gun caliber is below 20mm, damage type degrades: pi++ drops to pi+, pi+ to pi, and pi to pi-. There is no effect on pi-. Unavailable for hand grenades or mines. Double normal cost. LC2.
+
+\subsection{Armor~-Piercing Discarding~-Sabot (APDS)}\label{subsec:apds}
+A sub~-caliber tungsten dart encased in a plastic sheath that falls away when the round leaves the barrel. APDS works like APHC (above), but has a higher velocity: add 50\% to range and +1 damage per die. This option is unavailable for railguns (which already use saboted ammunition), hand grenade, or mines. Five times normal cost. LC1.
+
+\subsection{Armor~-Piercing Enhanced Penetrator (APEP)}\label{subsec:apep}
+An APDS round with a core made of tungsten~-reinforced bulk amorphous metal. This provides equivalent or superior performance to depleted uranium without toxic residue. Double range and give a (3) armor divisor for most guns and missiles; this is not available for Gauss and railguns, which already use similar ammunition. Reduce the class of piercing damage by one step (to a minimum of pi-) unless the gun is 20mm caliber or larger. Unavailable for hand grenades or mines. Ten times normal cost. LC1.
+
+\subsection{Armor~-Piercing Hardcore Explosive (APHEX)}\label{subsec:aphex}
+A warhead with a high density penetrator and a small charge fused to explode after penetrating. APHEX inflicts normal piercing damage with a (2) armor divisor, along with the damage shown below as a follow~-up attack:
+\begin{table}[H]
+    \centering
+    \caption*{APHEX Warhead Table}
+    \rowcolors{1}{}{\colorweaponry}
+    \begin{tabularx}{\columnwidth}{XlXlX}
+        & \textbf{Warhead} & & \textbf{Damage} & \\
+        & 10mm && 1d-3 cr ex [1d-2] & \\
+        & 15mm && 1d-1 cr ex [1d-1] & \\
+        & 18.5mm && 1d cr ex [1d] & \\
+        & 25mm && 1d+1 cr ex [1d-1] & \\
+        & 40mm && 2d+2 cr ex [2d] & \\
+        & 64mm && 4d+4 cr ex [3d] & \\
+        & 100mm && 8d+8 cr ex [5d] & 
+    \end{tabularx}
+    \label{tab:aphex_warhead}
+\end{table}
+
+Damage in brackets is cutting fragmentation damage.
+
+This warhead is only available for 10mm or larger rounds; it is unavailable for hand grenades or mines. The normal armor divisor of Gauss guns and electromagnetic guns is downgraded to (2) when using APHEX ammunition.
+
+APHEX warheads have four times normal cost. LC1.
+
+\subsection{Biochemical Aerosol}\label{subsec:biochemical_aerosol}
+This releases an airborne chemical agent (see \textit{Gases and Clouds}, p. TODO). The cloud fills the indicated area, usually lasting for about five minutes if there's no wind. The effect depends on the agent.
+
+Biochemical aerosol is available for any 10mm or larger round. A 10mm round will only affect a target if he's struck in the face; it carries too little gas to affect a significant area. Grenades and satchel charges inflict the damage shown below. Guns and launchers \textit{replace} their normal piercing damage with the damage shown below. The table also shows the number of doses required to fill a typical warhead -- for example, filling a hand grenade (64mm) will require 150 doses of chemical.
+
+\begin{table}[H]
+    \centering
+    \caption*{Biochemical Aerosol Table}
+    \rowcolors{1}{}{\colorweaponry}
+    \begin{tabularx}{\columnwidth}{XlXlXcX}
+        & \textbf{Warhead} && \textbf{Damage} && \textbf{Doses} & \\
+        & 10mm && spec. (face) && 1 & \\
+        & 15mm && spec. (1 yard) && 3 & \\
+        & 18.5mm && spec. (1.5 yard) && 5 & \\
+        & 25mm && spec. (2 yards) && 10 & \\
+        & 40mm && spec. (4 yards) && 40 & \\
+        & 64mm && spec. (7 yards) && 150 & \\
+        & 100mm && spec. (10 yards) && 300 &
+    \end{tabularx}
+    \label{tab:biochemical_aerosol}
+\end{table}
+
+They are normal cost \textit{plus} the cost of filler times the number of doses. See \textit{Gases and Clouds} (p. TODO) for the cost of various fillers, their effects, and their LC.
+
+\subsection{Biochemical Liquid}\label{subsec:biochemical_liquid}
+This is designed to release a ground~-covering heavier~-than~-air liquid or foam. The effects are the same as biochemical aerosol, but with a different burst radius. Most liquids are persistant, remaining until cleaned up or evaporated.
+
+Biochemical liquid is available for any 15mm or larger round.
+
+\begin{table}[H]
+    \centering
+    \caption*{Biochemical Liquid Table}
+    \rowcolors{1}{}{\colorweaponry}
+    \begin{tabularx}{\columnwidth}{XlXlXcX}
+        & \textbf{Warhead} && \textbf{Damage} && \textbf{Doses} & \\
+        & 15mm && spec. (1 yard) && 1 & \\
+        & 18.5mm && spec. (1.5 yard) && 2 & \\
+        & 25mm && spec. (2 yards) && 4 & \\
+        & 40mm && spec. (4 yards) && 16 & \\
+        & 64mm && spec. (9 yards) && 65 & \\
+        & 100mm && spec. (18 yards) && 250 &
+    \end{tabularx}
+    \label{tab:biochemical_liquid}
+\end{table}
+
+They are normal cost \textit{plus} the cost of filler times the number of doses. See \textit{Foams and Liquids} (p. TODO) for the cost of various fillers, their effects, and their LC.
+
+\subsection{Flare}\label{subsec:flare}
+These release a pillar of smoke and burn brightly, removing all combat penalties for darkness over their illumination radius. They may start fires if in contact with flammable material, and will do 1d burning damage to anyone directly struck. They work normally underwater.
+
+When a flare is set off, anyone withing 1\% of the illumination radius who is looking in that direction must succeed at a HT roll or be blinded for seconds equal to the margin of failure; this is a vision~-based affliction effect. Roll at HT-3 if the flare is set off in darkness.
+
+Flares burn for five minutes. They are visible to the horizon if fired at ground level and for up to 20 miles if fired in the air (weather and intervening terrain permitting). Flares are usually equipped with a small parachute to allow them to stay in the air for the duration of the burn.
+
+Flares are available for any 15mm or larger round. The radius shown under damage is the illumination radius.
+
+\begin{table}[H]
+    \centering
+    \caption*{Flare Table}
+    \rowcolors{1}{}{\colorweaponry}
+    \begin{tabularx}{\columnwidth}{XlXlX}
+         & \textbf{Warhead} && \textbf{Damage} &\\
+         & 15mm && spec. (150 yards) &\\
+         & 18.5mm && spec. (185 yards) &\\
+         & 25mm && spec. (250 yards) &\\
+         & 40mm && spec. (400 yards) &\\
+         & 64mm && spec. (600 yards) &\\
+         & 100mm && spec. (1,000 yards) &
+    \end{tabularx}
+    \label{tab:flare}
+\end{table}
+
+Flares are double normal cost. LC4.
+
+\subsection{High Explosive (HE)}\label{subsec:high_explosive}
+A warhead with a large explosive charge and a fragmenting case. This is the basic warhead for fragmentation hand grenades, and is also commonly used by grenade launchers and light artillery. It is available for any 10mm or larger round.
+
+Modern HE projectiles (except hand grenades) incorporate a programmable fuse that can be set for either impact or, if the target is at least 40 yards away, for proximity detonation -- see below.
+
+Grenades and satchel charges with HE warheads inflict the damage shown below. When set for impact detonation, guns and launchers with HE warheads inflict their normal piercing damage witha (0.5) armor divisor, plus a follow~-up attack causing the damage shown below.
+
+\begin{table}[H]
+    \centering
+    \caption*{HE Warhead Table}
+    \rowcolors{1}{}{\colorweaponry}
+    \begin{tabularx}{\columnwidth}{XlXlX}
+         & \textbf{Warhead} && \textbf{Damage} &\\
+         & 10mm && 1d+1 cr ex [1d-2] &\\
+         & 15mm && 2d+2 cr ex [1d-1] &\\
+         & 18.5mm && 2d+4 cr ex [1d] &\\
+         & 25mm && 4d+4 cr ex [1d+1] &\\
+         & 40mm && 10d+1 cr ex [2d] &\\
+         & 64mm && 8d+8×2 cr ex [3d] &\\
+         & 100mm && 6d+6×5 [5d] &
+    \end{tabularx}
+    \label{tab:he_warhead}
+\end{table}
+
+Damage in brackets is cutting fragmentation damage. HE warheads are normal cost. LC2.
+
+\subsubsection{Proximity Detonation}\label{subsubsec:proximity_detonation}
+If the warhead is fused for proximity detonation, a sensor will detonate it when it is in the air, close to the intended target. Use the \textit{Attack an Area} (p. B414) rules: roll to hit +4, and the square of the margin of failure is the distance missed by. Proximity~-fuse airbursts can attack areas in space or the air as well as an area of ground.
+
+A proximity detonation round inflicts only fragmentation damage, typically in a cone in the direction of the shot. If used for indirect fire, apply the rules for \textit{Airbursts} (p. B415): the fragments rain down from above, bypassing any cover that is not overhead and negating attack penalties to hit crouching, kneeling, sitting, or prone targets. Most HE rounds use laser proximity fuses, which are immunie to radio~-frequency jamming.
+
+\subsection{High Explosive Concussion (HEC)}\label{subsec:hec_warheads}
+This has a light body to minimuze fragmentation. It is available for any 10mm or larger round. Grenades and satchel charges with HEC warheads inflict the damage shown below. Guns and launchers with HEC warheads inflict their normal piercing dmage with a (0.5) armor divisor (no armor divisor for electromagnetic guns), along with a linked attack causing the damage shown below:
+
+\begin{table}[H]
+    \centering
+    \caption*{HEC Warhead Table}
+    \rowcolors{1}{}{\colorweaponry}
+    \begin{tabularx}{\columnwidth}{XlXlX}
+         & \textbf{Warhead} && \textbf{Damage} &\\
+         & 10mm && 1d+1 cr ex &\\
+         & 15mm && 2d+2 cr ex &\\
+         & 18.5mm && 2d+4 cr ex &\\
+         & 25mm && 4d+4 cr ex &\\
+         & 40mm && 8d+8 cr ex &\\
+         & 64mm && 8d+8×2 cr ex &\\
+         & 100mm && 6d+6×5 cr ex &\\
+    \end{tabularx}
+    \label{tab:hec_warhead}
+\end{table}
+
+Concussion warheads are normal cost. LC2.
+
+\subsection{Hollow~-Point (HP)}\label{subsec:hollow-point}
+These bullets expand in flesh, causing bigger wounds. This improves damage type: pi- becomes pi, pi becomes pi+, and pi+ becomes pi++. However, HP ammo has trouble penetrating berriers or armor; add an armor divisor of (0.5). Unlike much older hollow~-point ammo, modern hollow~-points never have problems expanding. They're unavailable for grenades, mines, or weapons of 15mm+ caliber. Normal cost. LC4.
+
+\subsection{Shaped Charge}\label{subsec:shaped_charge}
+This is a precision shaped charge with secondary explosive and fragmentation effects. The explosion forges the warhead into a high~-velocity, high~-temperature metal jet which can punch a small hole through most types of armor.
+
+These warheads are available for any 25mm or larger round. Grenades and satchel charges use the damage listed below. Guns and launcher replace their normal piercing damage with the damage shown below.
+
+\begin{table}[H]
+    \centering
+    \footnotesize
+    \caption*{Shaped Charge Warhead Table}
+    \rowcolors{1}{}{\colorweaponry}
+    \begin{tabularx}{\columnwidth}{llX}
+         \textbf{Warhead} & \textbf{Damage} &\\
+         25mm & 5d+5×3(10) cr inc + linked 2d cr ex [1d+1] &\\
+         40mm & 6d+6×4(10) cr inc + linked 4d cr ex [2d] &\\
+         64mm & 6d+6×7(10) cr inc + linked 8d cr ex [3d] &\\
+         100mm & 6d+6×10(10) cr inc + linked 8d×2 cr ex [5d] &
+    \end{tabularx}
+    \label{tab:shaped_warhead}
+\end{table}
+
+Damage in brackets is cutting fragmentation damage. Shaped charge warheads are double normal cost. LC1.
+
+\subsection{Memory Baton}\label{subsec:memory_baton}
+These expanding memory~-plastic slugs are available for all weapons of 15mm or larger caliber. Change damage to crushing, add a (0.25) armor divisor and double knockback modifier, and reduce range to 1/5 range. They're unavailable for grenades or mines. Five times normal cost. LC4.
+
+\subsection{Monochain}\label{subsec:monochain}
+This duplex~-type round consists of two slugs with a foot~-long strand of monowire slung between them. They spread apart after leaving the barrel, creating a high~-speed flying garrote that slices anything in its path. Monochain has half the damage range of an ordinary solid round, but gets +1 to hit. If it hits a neck, face, skull, extremity, or limb (or anywhere on a foe who has SM -2 or less) it does cutting damage with a (10) armor divisor. Unavailable for mines or hand grenades. Five times normal cost. LC2.
+
+\subsection{Shotshell}\label{subsec:shotshell}
+Multiple~-projectile rounds are available for grenade launchers, shotguns (including Gauss shotguns), and gyrocs. Divide the damage by 4, reduce the damage type from pi++ to pi, halve Range, add a ×9 multiplier to RoF, and reduce Rcl to 1. Normal cost. LC4.
+
+\subsection{Smart Explosively Forged Projectile (SEFOP)}\label{subsec:sefop}
+This is a multi~-purpose sensor~-fused round capable of top attack. The round will detonate several feet away and usually above the target, forging the warhead into a high~-density slug that attacks from overhead.
+
+SEFOP warheads are only available for homing projectiles. If fired to overfly the target, they may choose to attack the side they are facing or the top. If the warhead attack from the top, it ignores penalties due to posture and cover that does not protect from above.
+
+SEFOP warhead damage replaces the piercing damage of the weapon. They can, alternatively, be programmed before firing to function as APHEX warheads (p. \pageref{subsec:aphex}). Decide which mode to use before the weapon is fired. 
+
+\begin{table}[H]
+    \centering
+    \caption*{SEFOP Warhead Table}
+    \rowcolors{1}{}{\colorweaponry}
+    \begin{tabularx}{\columnwidth}{XlXlX}
+         & \textbf{Warhead} && \textbf{Damage} &\\
+         & 15mm && 4d+4(2) imp inc &\\
+         & 18.5mm && 5d+5(2) imp inc &\\
+         & 25mm && 5d+5×3(3) cr inc &\\
+         & 40mm && 6d+6×4(3) cr inc &\\
+         & 64mm && 6d+6×7(3) cr inc &\\
+         & 100mm && 6d+6×10(3) &\\
+    \end{tabularx}
+    \label{tab:sefop_warhead}
+\end{table}
+SEFOP Warheads are five times normal cost. LC2.
+
+\subsection{Tangler}\label{subsec:tangler_warhead}
+A tangler warhead releases a mass of sticky weblike polymers. Anyone struck is grappled and rooted in place. The victim cannot select the Move or Change Posture maneuvers or change facing, and is at -4 to DX. The ST of this effect depends on the warhead size; see the table below. Additional hits \textit{layer} over a victim; each extra layer further increases ST.
+
+To break free, the victim must win a Quick Contest of ST or Escape skill against the ST of the attack. Each attempt takes one second. If the victim fails to break free, they lose 1 FP but may try again. Alternatively, they may try to destroy the tanglestrands. Innate Attacks hit automatically; other attacks are at -4. External attacks take no penalty, but risk hitting the victim on a miss (see \textit{Striking Into a Close Combat}, p. B392). The tanglesstrands have DR = ST/3 (round down). Each point of damage reduces ST by 1. At ST 0, it is destroyed and the victim is freed.
+
+The 64mm and 100mm tangler warheads fill a one~-yard radius: anyone standing next to the target struck will also be affected, as an area~-effect attack. Hand grenades and mines use the warhead damage. Guns and launchers replace their piercing damage with the damage shown below.
+
+\begin{table}[H]
+    \centering
+    % \small
+    \caption*{Tangler Warhead Table}
+    \rowcolors{1}{}{\colorweaponry}
+    \begin{tabularx}{\columnwidth}{llc}
+         \textbf{Warhead} & \textbf{Damage} & \textbf{+ST per layer} \\
+         25mm & ST 15 & +1 \\
+         40mm & ST 24 & +2 \\
+         64mm & ST 36; 1~-yard radius & +2 \\
+         100mm & ST 60; 1~-yard radius & +3 \\
+    \end{tabularx}
+    \label{tab:tangler_warhead}
+\end{table}
+Tangler warheads are double normal cost. LC4.
+
+\subsection{Thermobaric}\label{subsec:thermobaric}
+These volumetric~-slurry warheads produce high temperatures and massive overpressures by releasing a flammable explosive mixture and then igniting the cloud. They are used in mortars, missiles, and grenades, and their devastating effectiveness is one reason for the popularity of sealed combat armor.
+
+They are available for 25mm or larger warheads. Hand grenades and mines use the warhead damage. Guns and launchers with thermal warheads replace their normal piercing damage with the warhead damage shown below.
+
+Thermobaric warheads rely on combining with air for much of the blast. Divide the damage by 4 in trace or vacuum conditions, and by 2 in very thin atmospheres.
+
+\begin{table}[H]
+    \centering
+    \caption*{Thermobaric Warhead Table}
+    \rowcolors{1}{}{\colorweaponry}
+    \begin{tabularx}{\columnwidth}{XlXlX}
+         & \textbf{Warhead} && \textbf{Damage} &\\
+         & 25mm && 8d+8 cr ex inc &\\
+         & 40mm && 8d+8×2 cr ex inc &\\
+         & 64mm && 6d+6×5 cr ex inc &\\
+         & 100mm && 6d+6×10 cr ex inc &\\
+    \end{tabularx}
+    \label{tab:thermobaric_warhead}
+\end{table}
+Thermal warheads are five times normal cost. LC1.
+
+\subsection{Burrow Darts}\label{subsec:burrow_darts}
+These needles or bullets flex and change shape once they enter flesh, enlarging the wound channel and burrowing into the body. Burrow darts are only available for guns doing small piercing (pi-) or piercing (pi) damage (i.e., under 10mm). They have a (0.5) armor divisor, plus a special cyclic follow~-up attack: if even 1 point of injury was inflicted, the darts will burrow, inflicting 1 HP of injury each turn until the victim is dead, or seconds have passed equal to the caliber in mm. Digging a burrowing projectile out requires a sharp instrument and a First Aid roll (at -1 per second it has burrowed). Success or failure does 1 HP of injury; success also removes the projectile. If a victim tries to remove a burrowing projectile from his own body, the shock penalty from the damage applies. Triple normal cost. LC2.
+
+\subsection{High Explosive Multi~-Purpose (HEMP)}\label{subsec:hemp}
+This shaped~-charge warhead can be miniaturized to fit into a bullet~-sized projectile. HEMP is available for any 10mm or larger round. Guns and launchers replace their normal piercing damage with the damage shown below.
+
+\begin{table}[H]
+    \centering
+    \small
+    \caption*{HEMP Warhead Table}
+    \rowcolors{1}{}{\colorweaponry}
+    \begin{tabularx}{\columnwidth}{llX}
+         \textbf{Warhead} & \textbf{Damage} & \\
+         10mm & 8d(5) imp inc + linked 1d-2 cr ex [1d-2] &\\
+         15mm & 5d×2(5) imp inc + linked 1d cr ex [1d-1] &\\
+         18.5mm & 6d×2(5) imp inc + linked 1d+1 cr ex [1d] &\\
+         25mm & 6d×3(10) cr inc + linked 2d cr ex [1d+1] &\\
+         40mm & 6d×5(10) cr inc + linked 4d cr ex [2d] &\\
+         64mm & 6d×8(10) cr inc + linked 8d cr ex [3d] &\\
+         100mm & 6d×12(10) cr inc + linked 8d×2 cr ex [5d] &
+    \end{tabularx}
+    \label{tab:hemp_warhead}
+\end{table}
+HEMP warheads are double normal cost. LC1.
+
+\subsection{Stingray}\label{subsec:stringray}
+A stingray round is a charged capacitor sheathed in an insulator which is burned off in flight. This warhead is only available for 10mm or larger rounds, and not for hand grenades or mines. A stingray round inflicts half normal piercing damage with a (0.25) armor divisor, then discharges a linked attack that inflicts the lethal electrical damage (p. B432) shown below.
+
+\begin{table}[H]
+    \centering
+    \caption*{Stingray Round Table}
+    \rowcolors{1}{}{\colorweaponry}
+    \begin{tabularx}{\columnwidth}{XlXlX}
+         & \textbf{Warhead} && \textbf{Damage} &\\
+         & 10mm && 1d-3 burn sur &\\
+         & 15mm && 1d-1 burn sur &\\
+         & 18.5mm && 1d burn sur &\\
+         & 25mm && 1d+1 burn sur &\\
+         & 40mm && 2d burn sur &\\
+         & 64mm && 3d burn sur &\\
+         & 100mm && 5d burn sur &\\
+    \end{tabularx}
+    \label{tab:stingray_round}
+\end{table}
+Singray rounds five times normal cost. LC2.
+
+\subsection{Swarm}\label{subsec:swarm_warhead}
+This a padded container designed to release swarmbots (p. TODO). They are available for 40mm or larger warheads. The number of one~-square~-yard swarms carried by the warhead is shown below.
+
+Hand grenades and mines use the warhead effect. Guns and launcher sreplace their normal piercing damage with the warhead damage shown below
+
+\begin{table}[H]
+    \centering
+    \caption*{Swarm Warhead Table}
+    \rowcolors{1}{}{\colorweaponry}
+    \begin{tabularx}{\columnwidth}{XlXlX}
+         & \textbf{Warhead} && \textbf{Damage} &\\
+         & 40mm && spec. (1~-square~-yard swarm) &\\
+         & 64mm && spec. (4~-square~-yard swarm) &\\
+         & 100mm && spec. (16~-square~-yard swarm) &
+    \end{tabularx}
+    \label{tab:swarm_warhead}
+\end{table}
+They are five times normal cost \textit{plsu} the cost of the swarm. See \textit{Swarmbots} (p. TODO) for the cost of various swarms, their effects, and their LC.
+
+\section{Nuclear and Antimatter}\label{sec:nuclear_antimatter_warheads}
+
+
+\subsection{Mininuke}\label{subsec:mininuke}
+A mininuke uses a small laser diode, nuclear isomer, metallic hydrogen explosive, or microscopic pellet of antimatter to trigger a nuclear fusion; similar technology is also used to create the fuel pellets for nuclear pulse drive spacecraft. This results in a ``clean'' nuclear fusion explosion with limited radioactive fallout (although there is still radiation from the blast itself). 
+
+Nuclear weapons are rated for their yield in kilotons of TNT. They inflict crushing damage with the explosion damage modifier, plus additional linked burning damage with the explosions, radiation, and surge damage modifiers. About half the energy is in the blast wave, and the rest is in the heat and radiation pulse. (Mininukes produce more radiation and less concussion than larger bombs.)
+
+A mininuke has a dial~-a~-yield setting that can be set from 0.01 kilotons to one kiloton of explosive force. This takes a Ready maneuver. The \textit{minimum} size of the mininuke is 64mm.
+
+\begin{table}[H]
+    \centering
+    \caption*{Mininuke Warhead Table}
+    % \rowcolors{1}{}{\colorweaponry}
+    % \rowcolor{\colorweaponry}
+    \begin{tabularx}{\columnwidth}{XlXlX}
+         & \textbf{Warhead} && \textbf{Damage} &\\
+         \rowcolor{\colorweaponry}
+         & 0.01 kiloton && 6d×200 cr ex &\\
+         \rowcolor{\colorweaponry}
+         & \textit{linked} && 4d×200 burn ex* rad sur &\\
+         & 0.1 kiloton && 6d×600 cr ex &\\
+         & \textit{linked} && 6d×400 burn ex* rad sur &\\
+         \rowcolor{\colorweaponry}
+         & 1 kiloton && 6d×2,000 cr ex &\\
+         \rowcolor{\colorweaponry}
+         & \textit{linked} && 4d×2,000 burn ex* rad sur &\\
+    \end{tabularx}
+    \label{tab:mininuke_warhead}
+\end{table}
+* Divided by distance from the blast center, rather than by 3 × distance.
+
+Cost is 1,000 times normal. LC0.
+
+\subsection{Micro~-Antimatter Warheads}\label{subsec:micro-antimatter_warheads}
+These warheads contain a small amount of antimatter in a shielded magnetic ``bottle.'' When the warhead is detonated, it reacts with ordinary matter and is annihilated, converting 100\% of its own mass, and the same mass of ordinary matter, to energy. This inflicts burning damage with the explosion and surge damage modifiers, plus linked toxic radiation damage.
+
+Unlike mininukes, antimatter warheads are not dial~-a~-yield. They create an immediate explosion greater than conventional munitions but smaller than a nuke, with a high gamma radiation output but no significant nuclear fallout. The \textit{minimum} size of microantimatter warheads is 100mm.
+
+There are three typical sizes of antimatter warhead: 0.1 micrograms (\micro{}g), 1 microgram, and 10 micrograms:
+\begin{table}[H]
+    \centering
+    \caption*{Micro~-Antimatter Warhead Table}
+    \begin{tabularx}{\columnwidth}{XlXlX}
+         & \textbf{Warhead} && \textbf{Damage} &\\
+         \rowcolor{\colorweaponry}
+         & 0.1 \micro{}g && 6d×4 burn ex sur* &\\
+         \rowcolor{\colorweaponry}
+         & \textit{linked} && 6d×10,000 tox rad† &\\
+         & 1 \micro{}g && 6d×12 burn ex sur* &\\
+         & \textit{linked} && 6d×100,000 tox rad† &\\
+         \rowcolor{\colorweaponry}
+         & 10 \micro{}g && 6d×40 burn ex sur* &\\
+         \rowcolor{\colorweaponry}
+         & \textit{linked} && 6d×1,000,000 tox rad† &\\
+    \end{tabularx}
+    \label{tab:antimatter_warhead}
+\end{table}
+* Divided by distance from the blast center, rather than 3 × distance.
+
+† Divided by square of the distance.
+
+The cost is 10 times that of a normal round, plus the cost of the antimatter (p. \pageref{itm:exp_antimatter}). LC0.
+
+\section{Energy}\label{sec:energy_warheads}
+Energy warheads contain a disposable power cell or explosive power cartridge and some form of energy emitter. Some energy warheads destroy themselves while emitting energy. Others activate for several seconds, and can be picked up or attacked.
+
+\subsection{EMP}\label{subsec:emp_warheads}
+This uses an explosive power cartridge to energize a non~nuclear electromagnetic pule. Anything electrical (or anyone with the Electrical disadvantage) in the radius of the special effect (below) must make a HT-8 (2) resistance roll or be knocked out of action for seconds equal to the margin of failure. Robots become unconscious, while total cyborgs suffer the Seizure incapacitating condition (p. 429), ignoring FP loss if they have the Machine meta~-trait.
+
+EMP warheads are available for any 15mm or larger round. Grenades and satchel charges inflict the damage shown below. Guns and launchers replace their normal piercing damage with the damage shown below.
+
+\subsection{Expendable Jammer}\label{subsec:expendable_jammer}
+These neutralize all enemy radio equipment within a certain radius, swamping it with static. They are available for any 10mm or larger round.
+
+When a jammer goes off, it gives a -10 penalty to all Electronics Operation (Comm) solls made to operate radio and radar equipment in the radius of effect. The enemy will know immediately that a jammer is operating, but not where it is. Duration is 30 minutes.
+
+\begin{table}[H]
+    \centering
+    \caption*{Jammer Warhead Table}
+    \rowcolors{1}{}{\colorweaponry}
+    \begin{tabularx}{\columnwidth}{XlXlX}
+         & \textbf{Warhead} && \textbf{Radius} &\\
+         & 10mm && 10-yard radius &\\
+         & 15mm && 15-yard radius &\\
+         & 18.5mm && 20-yard radius &\\
+         & 40mm && 40-yard radius &\\
+         & 64mm && 60-yard radius &\\
+         & 100mm && 100-yard radius &
+    \end{tabularx}
+    \label{tab:jammer_warhead}
+\end{table}
+Jammers include a digital timer that can trigger at any time desired. They are five times normal cost. LC3.
+
+\subsection{Strobe}\label{subsec:strobe_warheads}
+Strobe warheads emit intense light, pulsating at frequencies that can induce seizures in many individuals. Anyone within the area of effect who is facing the strobe warhead when it goes off suffers a vision~-based affliction attack. Failing the HT roll results in stunning and Blindness for seconds equal to the margin of failure. Failing by 5 or more (or \textit{any} failure by someone with the Epilepsy disadvantage) results in an incapacitating seizure for minutes equal to the margin of failure. The effects dissipate with distance: add +1 to HT to resist for every yard away from the center of the effect.
+
+The strobe option is available for any 25mm or larger warhead. Strobe grenades and satchel charges inflict the damage shown below, and guns and launchers replace their normal piercing damage with this damage.
+
+\begin{table}[H]
+    \centering
+    \caption*{Strobe Warhead Table}
+    \rowcolors{1}{}{\colorweaponry}
+    \begin{tabularx}{\columnwidth}{XlXlX}
+         & \textbf{Warhead} && \textbf{Radius} &\\
+         & 10mm && 10-yard radius &\\
+         & 15mm && 15-yard radius &\\
+         & 18.5mm && 20-yard radius &\\
+         & 40mm && 40-yard radius &\\
+         & 64mm && 60-yard radius &\\
+         & 100mm && 100-yard radius
+    \end{tabularx}
+    \label{tab:strobe_warhead}
+\end{table}
+Strobe warheads are four times normal cost. LC3.
+
+\subsection{Warbler}\label{subsec:warbler}
+Warblers are sonic area denial warheads that produce an ear~-splitting shriek.  This hearing~-based affliction area effect dissipates with distance: add +1 to resist for every yard from the center of the effect. A failed HT roll results in both Deafness and moderate pain (p. B428) for minutes equal to the margin of failure. A failure by 5 or more causes lingering hearing loss (recover as per a crippling injury).
+
+The warbler continues to function for up to 10 seconds. Repeated resistance rolls will be required if someone fails to succumb but remains in the zone -- most people without hearing protection \textit{leave}! Anyone within the area of effect is also at -10 to any Hearing rols; anyone within twice the radius is at -5, and anyone within five times the radiu is at -2.
+
+% \centering
+The warbler option is available for any 25mm or larger warhead. Hand grenades and mines use the warhead damage. Guns and launcher replace their normal piercing damage with the warhead damage shown below.
+
+\begin{table}[H]
+    \centering
+    \caption*{Warbler Warhead Table}
+    \rowcolors{1}{}{\colorweaponry}
+    \begin{tabularx}{\columnwidth}{XlXlX}
+         & \textbf{Warhead} && \textbf{Damage} &\\
+         & 25mm && HT-3 aff (3-yard radius) &\\
+         & 40mm && HT-4 aff (4-yard radius) &\\
+         & 64mm && HT-6 aff (6-yard radius) &\\
+         & 100mm && HT-10 aff (10-yard radius) &
+    \end{tabularx}
+    \label{tab:warbler_warhead}
+\end{table}
+Warbler warheads are four times normal cost. LC3.
+
+\subsection{Force}\label{subsec:force_warheads}
+These warheads emit an omni~-directional gravity pulse. A force warhead inflicts crushing damage with the explosive and double knockback damage modifiers. Force warheads are often preferred for fighting in vehicles or buildings, since they are not incendiary and produce no fragmentation.
+
+The force option is available for any 15mm or larger warhead. Grenades and satche charges inflict the damage shown below. Guns and launchers inflict the damage shown instead of their normal piercing damage.
+
+\begin{table}[H]
+    \centering
+    \caption*{Force Warhead Table}
+    \rowcolors{1}{}{\colorweaponry}
+    \begin{tabularx}{\columnwidth}{XlXlX}
+         & \textbf{Warhead} && \textbf{Damage} &\\
+         & 15mm && 2d cr dkb ex &\\
+         & 18.5mm && 2d+2 cr dkb ex &\\
+         & 25mm && 4d cr dkb ex &\\
+         & 40mm && 8d cr dkb ex &\\
+         & 64mm && 8d×2 cr dkb ex &\\
+         & 100mm && 6d×5 cr dkb ex &
+    \end{tabularx}
+    \label{tab:force_warhead}
+\end{table}
+They are five times normal cost. LC2.
+
+\subsection{Plasma}\label{subsec:plasma_warheads}
+Plasma warheads are essentially one~-hot power cartridge. When armed, the warhead' internal plasma generator compresses a pellet of hydrogen fuel, then releases it as a blast of ionized plasma. Guns that fire small~-caliber plasma warheads are often confused with energy weapons.
+
+Plasma is available for any 10mm or larger warhead. Plasma warheads inflict burning damage with the explosion and surge damage modifiers.
+
+Hand grenades and mines use the warhead damage. Guns and launchers with plasma warheads replace their normal piercing damage with the warhead damage shown below.
+
+\begin{table}[H]
+    \centering
+    \caption*{Plasma Warhead Table}
+    \rowcolors{1}{}{\colorweaponry}
+    \begin{tabularx}{\columnwidth}{XlXlX}
+         & \textbf{Warhead} && \textbf{Damage} &\\
+         & 10mm && 1d+2 burn ex sur &\\
+         & 15mm && 3d burn ex sur &\\
+         & 18.5mm && 3d+2 burn ex sur &\\
+         & 25mm && 6d burn ex sur &\\
+         & 40mm && 6d×2 burn ex sur &\\
+         & 64mm && 6d×4 burn ex sur &\\
+         & 100mm && 6d×10 burn ex sur &\\
+    \end{tabularx}
+    \label{tab:plasma_warhead}
+\end{table}
+Plasma warheads are 10 times normal cost. LC1.

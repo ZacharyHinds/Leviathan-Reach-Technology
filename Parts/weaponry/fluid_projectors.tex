@@ -1,0 +1,56 @@
+These weapons project streams of liquid or gas. They are fired using Liquid Projector skill (p. B205).
+
+\section{Sprays}\label{sec:sprays}
+These are pressurized aerosol spray cans or tanks. They can spray a variety of biochemical or nanotech substances.
+
+\subsubsection{Weapons}\label{subsubsec:sprays_weapons}
+\textit{Pocket Aerosol:}\label{itm:pocket_aerosol} A palm~-sized disposable tank that sprays a single dose. Respiratory agents must be sprayed into the face, but there's no location penalty to hit due to the size of the cloud. Contact agents can be sprayed onto the body.
+
+\textit{Spray Can:}\label{itm:spray_can} The size of a can of bug spray, it holds 10 doses of gas. It can spray up to three doses at once to fill a one~-yard radius. The cloud lasts 10 seconds indoors, but dissipates quickly in a strong wind.
+
+\textit{Spray Tank:}\label{itm:spray_tank} A spray gun attached by a short hose to a tank, which can be worn as a backpack. The tank has DR 10, but is under presure: any penetrating damage can rupture it, releasing the entire store of chemicals. This has the same effect as a 10mm biochemical warhead (p. TODO). Spray tanks can (and often are) be integrated as part of a security system.
+
+\section{Vortex Ring Projectors}\label{sec:vortex_ring_projectors}
+These advanced gas projector weapons consist of a reservoir tank, a chamber for mixing the delivery gas with a propellant, and a wave~-shaping chamber that forms the ejected cloud into a \textit{vortex ring} -- a high~-velocity smoke ring. This allows the weapon to deliver doses of gas at long range. Vortex rings retain their momentum and cohesion for a long distance, and are not affected by light winds. They break up, depositing their payload, on direct collision with a solid object\ldots but will bounce from a glancing impact. Thus, they can be bounced around corners, if the user is skilled and knows where their target is. Each bounce gives -2 to hit and -10\% to range per bounce; e.g., a weapon with Range 30 could bounce four times at -8, but this would limit the total path length to 18 yards.
+
+Vortex ring projectors can fire almost any gas. Some of the more exotic ``gas missiles'' include carbon dioxide to choke internal combustion engines, Halon to extinguish fires, and even explosive vapors. 
+
+Vortex ring projectors are regular ranged weapons that deliver a linked area~-effect release of whatever gas they are loaded with. The vortex ring also has enough velocity to inflict crushing damage with double knockback.
+
+\subsubsection{Weapons}\label{subsubsec:vortex_ring_weapons}
+\textit{Underbarrel Vortex Ring Projector:}\label{itm:underbarrel_vortex_ring_projector} A vortex ring projector that can bel clamped under the barrel of a rifle or other long arm in place of a grenade launcher (Any weapon with more than -4 Bulk). Use the Bulk, ST, and sighting bonuses of the weapon it is installed on.
+
+\textit{Vortex Pistol:}\label{itm:vortex_pistol} A vortex ring sidearm the size of an ordinary automatic pistol.
+
+\textit{Backpack Vortex Ring Projector:}\label{itm:backpack_vortex_ring_projector} A heavy flamethrower~-like device sometimes used by combat engineers or police for house~-to~-house fighting or riot control. It is also occasionally used for non~-combat applications, such as projecting fire~-extinguishing foam.
+
+\multicolinterrupt{
+    \begin{table}[H]
+        \hrule height 1pt\medskip
+        \subsection{\textit{Fluid Projector Table}}
+        \noindent LIQUID PROJECTOR (SPRAYER) (DX-4)
+        \centering
+        \small
+        % \rowcolors{1}{}{\colorweaponry}
+        \begin{tabularx}{\linewidth}{lcXccXcXcXcX}
+            \textbf{Weapon} & \textbf{Damage} & \textbf{Acc} & \textbf{Range} & \textbf{Weight} & \textbf{RoF} & \textbf{Shots} & \textbf{ST} & \textbf{Bulk} & \textbf{Rcl} & \textbf{Cost} & \textbf{LC} \\
+            % name & damage & acc & range & weight & rof & shots & st & bulk & rcl & \$ & LC \\ 
+            \rowcolor{\colorweaponry}
+            Backpack Vortex Projector & spec. (2 yd) & 3 & 30 & 12/12p & 1 & 10(5) & 10† & -4 & 1 & \$1,200 & 3 \\ 
+            \rowcolor{\colorweaponry}
+            \textit{linked} & 1d-3 cr dkb &  &  &  &  &  &  &  &  &  &  \\
+            Pocket Aerosol & spec. & Jet & 1 & 0.1 & 1 & 1 & 1 & -1 & 1 & \$10 & 4 \\ 
+            \rowcolor{\colorweaponry}
+            Spray Can & spec. (1 yd) & Jet & 2 & 1/0.5 & 1 & 10(5) & 2 & -2 & 1 & \$25 & 4 \\ 
+            Spray Tank & spec. (1 yd) & Jet & 3 & 8/5 & 1 & 10(5) & 4 & -4 & 1 & \$400 & 4 \\ 
+            \rowcolor{\colorweaponry}
+            Underbarrel Vortex Projector & spec. (1 yd) & 2 & 20/40 & 5/3 & 1 & 10(3) & -- & -- & 1 & \$150 & 4 \\ 
+            \rowcolor{\colorweaponry}
+            \textit{linked} & 1d-3 cr dkb &  &  &  &  &  &  &  &  &  &  \\
+            Vortex Pistol & spec. (1 yd) & 2 & 15 & 1.8/0.8 & 1 & 5(3) & 7 & -2 & 1 & \$100 & 4 \\ 
+            % \rowcolor{\colorweaponry}
+            \textit{linked} & 1d-3 cr dkb &  &  &  &  &  &  &  &  &  &  \\
+        \end{tabularx}
+        \label{tab:fluid_projector}
+    \end{table}
+}

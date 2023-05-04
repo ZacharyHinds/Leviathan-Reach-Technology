@@ -1,0 +1,58 @@
+Modern manufacturing equipment has become very portable. Homes, starships, and shops are able to have their own manufacturing facilities.
+
+Many of these systems use the cost of goods as a rough indicator of how long it takes to manufacture things. This assumes a baseline, standard product; cost factors will vary due to artistic of collector value, non~-intrinsic value, age, and source (black market, second~-hand,etc.).
+
+\section{Industrial Equipment}\label{sec:industrial_equip}
+
+\subsection{Factory Production Line}\label{sec:factory_prod_line}
+This is a production line for assembling a \textit{specific} product from existing components. Each can assemble one copy of a device every (retail price/100) hours. Computer chips and other small gadgets take longer: multiply time required by 5 if the item's weight is under 0.1 lb., by 20 if under 0.01 lb., by 100 if under 0.001 lb., etc.
+
+The per~-item production cost is 25\% of the retail cost for parts. (The production line requires a supply of component parts.) The cost of the production line is \$20 times the retail cost times the small gadget multiplier above. Each station in the production line requires one worker and weights 1lb. per \$100 the production line costs (minimum 20 times item weight). It uses external power. LC is the same as the item. Big factories may have several lines with multiple stations up to a maximum of cost/100 stations; divide the timer per item by number of stations in the line.
+
+\subsection{Robotic Production Line}\label{subsec:robotic_prod_line}
+A production line can be used that is capable of producing devices without any direct human involvement at all. Necessary raw materials must still be delivered. It requires its own mainframe (or fast microframe) computer to supervise. A robotic production line is 10 times the cost and double the weight of a production line, but goods are manufactured without the need for human operators (except possibly for maintenance and programming).
+
+\subsection{Fabricator}\label{subsec:fabricator}
+This is a programmable factory capable of making, repairing, or modifying most manufactured goods, assuming parts such as sheet metal, circuit boards, and chemicals are available.
+
+Fabricators incorporate multi~-axis lathes, grinders, laser welders, and mills. They create custom parts and assemble pre~-built components into a final product inside their manufacturing chamber. They also incorporate rapid~-prototyping, multi~-material 3D printer systems to manufacture solid objects. With appropriate blueprints, a fabricator can build just about anything that fits inside it.
+
+Fabricators are capable of assembling microtech by assembling them one molecular layer at a time. Multiply the time required to fabricate microtech gadgets by 5 if item weight is under 0.1 lb., by 20 for under 0.01 lb., by 100 for under 0.0001 lb., etc.
+
+Fabricators require databases with the appropriate blueprints. Blueprints for controlled devices such as military lasers are difficult to come by, though a good programmer with the technical understanding of such gadgets could also write them herself, given enough time.
+
+Fabricators are not as efficient as production lines as they are not specialized, instead they're designed to produce a wide variety of high~-tech items in small quantities. 
+
+Each type of fabricator lists a manufacture speed, use the longer manufacture time between cost and weight. This speed assumes the fabricator is working from new, packaged, specialized parts for everything it needs. If working from scrap, printer cartridges, or salvaged materials it takes twice as long, or longer with particular poor materials. Furthermore, fabricators are not capable of atomic~-level assembly, so a critical shortage of an element can and will stop production. 
+
+The material cost of items manufactured in a fabricator is about 60\% of base price if working from specialized parts -- or 50\% if using generic scrap or printer cartridges.
+
+Fabricators also serve as basic equipment for the Machinist skill; larger systems provide a bonus to skill due to their utility in making spare parts.
+
+\textit{Industrial Fabricator:}\label{itm:industrial_fabricator} A full~-size factory; it adds +5 (quality) to Machinist skill. For every \$1,000 or 10 lb. of goods it can fabricate per hour, it is \$500,000, 1,000 lb., requires industrial power. LC3.
+
+\textit{Minifac:}\label{itm:minifac} A workshop~-sized unit. It can fabricate \$100 or 2 lb. of product per hour. It adds +3 (quality) to Machinist skill. \$50,000, 100 lb., external power. LC4.
+
+\textit{Suitcase Minifac}\label{itm:suitcase_miniface} A portable system that fits in a carrying case, or a large backpack. It adds +1 (quality) to Machinist skill and can fabricate \$10 or 0.1 lb. of product per hour. \%5,000, 10 lb., C/8 hr. LC2.
+
+\subsection{Robofac}\label{subsec:robofac}
+While all factories incorporate a awide variety of automated, programmable machine tools, these are automated to an extreme degree. These fabricators operate with no human involvement; all operations and maintenance is directed and performed by machines.
+
+Robofacs can reconfigure themselves to manufacture almost any product. The largest robofacs cover several city blocks, and cost billions.
+
+Universal robofacs function exactly like fabricators, but they are also capable of fully autonomous control with their own Machinist skill.
+
+\textit{Industrial Robofac:}\label{itm:industrial_robofac} A full~-size factory; it has Machinist~-14. For every \%1,000 or 10 lb. of goods it can fabricate per hour, it is \$1,000,000, 1,000 lb., industrial power. LC3.
+
+\textit{Robotic Minifac:}\label{itm:robotic_minifac} A workshop~-sized unit. It can fabricate \$100 or 1 lb. of product per hour. It has Machinist-13. \$100,000, 100 lb., external power. LC4
+
+\subsection{Blueprints}\label{subsec:blueprints}
+The instructions to build a gadget. For many commercial goods, blue prints are licensed rather than sold outright. The licensing agreements require royalty payments based on the quantity of goods produced -- typically 10\%-50\% of the base cost of the item. This royalty may exceed 90\% on goods whose main cost is their artistic value, information content, or trademark. LC is equal to that of the item.
+
+\textit{3D Blueprints:}\label{itm:3d_blueprints} These are used with fabricators (p. \pageref{subsec:fabricator}=) and robofacs (above). They are Complexity 2 for devices costing up to \$100, Complexity 3 for devices up to \$1,000, etc. 
+
+\subsection{Wet Nanofabrication Systems}\label{subsec:wet_nanofac}
+Early industrial nanofactories require highly controlled environments. They use  mix of protein~-based nanobots and top~-down manufacturing techniques, which is sometimes referred to as ``wet'' nanotechnology.
+
+\subsection{Vatfac}\label{subsec:vatfac}
+This is a large biofactory unit that can grow food, pulp, industrial bacteria, or similar products. It can feed up to 20 people, or half as many if creating a variety of imitation flesh and other foods. \$100,000, 200 tons, external power.
