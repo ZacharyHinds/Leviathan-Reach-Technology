@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.5.4)  5 MAY 2023 16:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.5.4)  5 MAY 2023 17:35
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -705,24 +705,24 @@ File: bkm-pdftex.def 2020-11-06 v1.29 bookmark driver for pdfTeX (HO)
 )) (./main.aux (./Parts/core_tech/computer.aux) (./Parts/core_tech/robots_total_cyborgs.aux) (./Parts/core_tech/machines_as_characters.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 86.
-LaTeX Font Info:    ... okay on input line 86.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 86.
-LaTeX Font Info:    ... okay on input line 86.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 86.
-LaTeX Font Info:    ... okay on input line 86.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 86.
-LaTeX Font Info:    ... okay on input line 86.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 86.
-LaTeX Font Info:    ... okay on input line 86.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 86.
-LaTeX Font Info:    ... okay on input line 86.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 86.
-LaTeX Font Info:    ... okay on input line 86.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 86.
-LaTeX Font Info:    ... okay on input line 86.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 86.
-LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 87.
+LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 87.
+LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 87.
+LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 87.
+LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 87.
+LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 87.
+LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 87.
+LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 87.
+LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 87.
+LaTeX Font Info:    ... okay on input line 87.
  (c:/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count333
@@ -782,24 +782,24 @@ Package caption Info: End \AtBeginDocument code.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 86.
+Package hyperref Info: Link coloring OFF on input line 87.
 \symgns@font=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `gns@font' in version `bold'
-(Font)                  TS1/cmss/m/n --> TS1/cmss/b/n on input line 86.
-Package gensymb Info: Math companion symbols declared on input line 86.
-LaTeX Info: Redefining \degree on input line 86.
-LaTeX Info: Redefining \celsius on input line 86.
-Package gensymb Info: Using text companion symbols for \degree, \celsius and \perthousand on input line 86.
-LaTeX Info: Redefining \ohm on input line 86.
-Package gensymb Info: Using \textohm for \ohm on input line 86.
-Package gensymb Info: Using \textmu for \micro on input line 86.
+(Font)                  TS1/cmss/m/n --> TS1/cmss/b/n on input line 87.
+Package gensymb Info: Math companion symbols declared on input line 87.
+LaTeX Info: Redefining \degree on input line 87.
+LaTeX Info: Redefining \celsius on input line 87.
+Package gensymb Info: Using text companion symbols for \degree, \celsius and \perthousand on input line 87.
+LaTeX Info: Redefining \ohm on input line 87.
+Package gensymb Info: Using \textohm for \ohm on input line 87.
+Package gensymb Info: Using \textmu for \micro on input line 87.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 89.
+(Font)              <12> on input line 90.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 89.
+(Font)              <8> on input line 90.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 89.
-LaTeX Font Info:    Trying to load font information for TS1+cmss on input line 89.
+(Font)              <6> on input line 90.
+LaTeX Font Info:    Trying to load font information for TS1+cmss on input line 90.
 (c:/texlive/2023/texmf-dist/tex/latex/base/ts1cmss.fd
 File: ts1cmss.fd 2022/07/10 v2.5l Standard LaTeX font definitions
 ) [1
@@ -1211,57 +1211,57 @@ Overfull \hbox (13.07101pt too wide) in paragraph at lines 425--425
  []
 
 [83] [84] [85]
-Overfull \hbox (1.02336pt too wide) in paragraph at lines 613--613
+Overfull \hbox (1.02336pt too wide) in paragraph at lines 620--620
 []|\OT1/cmss/m/n/9 8+3| 
  []
 
 
-Overfull \hbox (9.61859pt too wide) in paragraph at lines 613--613
+Overfull \hbox (9.61859pt too wide) in paragraph at lines 620--620
 []|\OT1/cmss/bx/n/8 Acc| 
  []
 
 
-Overfull \hbox (6.68524pt too wide) in paragraph at lines 613--613
+Overfull \hbox (6.68524pt too wide) in paragraph at lines 620--620
 []|\OT1/cmss/bx/n/8 ST| 
  []
 
 
-Overfull \hbox (7.50746pt too wide) in paragraph at lines 613--613
+Overfull \hbox (7.50746pt too wide) in paragraph at lines 620--620
 []|\OT1/cmss/bx/n/8 Rcl| 
  []
 
 
-Overfull \hbox (6.19635pt too wide) in paragraph at lines 613--613
+Overfull \hbox (6.19635pt too wide) in paragraph at lines 620--620
 []|\OT1/cmss/bx/n/8 LC| 
  []
 
 
-Overfull \hbox (4.42975pt too wide) in paragraph at lines 613--613
+Overfull \hbox (4.42975pt too wide) in paragraph at lines 620--620
 []|\OT1/cmss/m/n/8 12| 
  []
 
 
-Overfull \hbox (16.09657pt too wide) in paragraph at lines 613--613
+Overfull \hbox (16.09657pt too wide) in paragraph at lines 620--620
 []|\OT1/cmss/m/n/8 240M| 
  []
 
 
-Overfull \hbox (4.42975pt too wide) in paragraph at lines 613--613
+Overfull \hbox (4.42975pt too wide) in paragraph at lines 620--620
 []|\OT1/cmss/m/n/8 12| 
  []
 
 
-Overfull \hbox (11.84651pt too wide) in paragraph at lines 613--613
+Overfull \hbox (11.84651pt too wide) in paragraph at lines 620--620
 []|\OT1/cmss/m/n/8 50M| 
  []
 
 
-Overfull \hbox (4.42975pt too wide) in paragraph at lines 613--613
+Overfull \hbox (4.42975pt too wide) in paragraph at lines 620--620
 []|\OT1/cmss/m/n/8 12| 
  []
 
 
-Overfull \hbox (11.84651pt too wide) in paragraph at lines 613--613
+Overfull \hbox (11.84651pt too wide) in paragraph at lines 620--620
 []|\OT1/cmss/m/n/8 27M| 
  []
 
@@ -2297,18 +2297,18 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 28690 strings out of 476001
- 541969 string characters out of 5793198
+ 28694 strings out of 476001
+ 542052 string characters out of 5793198
  1934068 words of memory out of 5000000
- 47188 multiletter control sequences out of 15000+600000
+ 47191 multiletter control sequences out of 15000+600000
  523549 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  104i,12n,102p,1286b,1226s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <c:/Users/Zacha/.texlive2023/texmf-var/fonts/pk/ljfour/jknappen/ec/tcss0800.600pk> <c:/Users/Zacha/.texlive2023/texmf-var/fonts/pk/ljfour/public/cm/cmss8.600pk> <c:/Users/Zacha/.texlive2023/texmf-var/fonts/pk/ljfour/public/cm/cmssbx10.480pk> <c:/Users/Zacha/.texlive2023/texmf-var/fonts/pk/ljfour/public/cm/cmssi9.600pk> <c:/Users/Zacha/.texlive2023/texmf-var/fonts/pk/ljfour/jknappen/ec/tcss0900.600pk> <c:/Users/Zacha/.texlive2023/texmf-var/fonts/pk/ljfour/public/cm/cmss9.600pk> <c:/Users/Zacha/.texlive2023/texmf-var/fonts/pk/ljfour/public/cm/cmssbx10.540pk> <c:/texlive/2023/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmmi10.pk> <c:/texlive/2023/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmr7.pk> <c:/texlive/2023/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmr10.pk> <c:/texlive/2023/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmsy10.pk> <c:/Users/Zacha/.texlive2023/texmf-var/fonts/pk/ljfour/jknappen/ec/tcss1000.600pk> <c:/Users/Zacha/.texlive2023/texmf-var/fonts/pk/ljfour/public/cm/cmssbx10.864pk> <c:/Users/Zacha/.texlive2023/texmf-var/fonts/pk/ljfour/public/cm/cmssbx10.1244pk> <c:/Users/Zacha/.texlive2023/texmf-var/fonts/pk/ljfour/public/cm/cmssi10.600pk> <c:/Users/Zacha/.texlive2023/texmf-var/fonts/pk/ljfour/public/cm/cmss10.600pk> <c:/Users/Zacha/.texlive2023/texmf-var/fonts/pk/ljfour/public/cm/cmssbx10.600pk> <c:/Users/Zacha/.texlive2023/texmf-var/fonts/pk/ljfour/public/cm/cmssbx10.720pk> <c:/Users/Zacha/.texlive2023/texmf-var/fonts/pk/ljfour/public/cm/cmssbx10.1493pk> <c:/Users/Zacha/.texlive2023/texmf-var/fonts/pk/ljfour/public/cm/cmss12.600pk> <c:/Users/Zacha/.texlive2023/texmf-var/fonts/pk/ljfour/public/cm/cmss17.600pk>
-Output written on main.pdf (186 pages, 1037032 bytes).
+ <c:/Users/Zacha/.texlive2023/texmf-var/fonts/pk/ljfour/jknappen/ec/tcss0800.600pk> <c:/Users/Zacha/.texlive2023/texmf-var/fonts/pk/ljfour/public/cm/cmss8.600pk> <c:/Users/Zacha/.texlive2023/texmf-var/fonts/pk/ljfour/public/cm/cmssbx10.480pk> <c:/Users/Zacha/.texlive2023/texmf-var/fonts/pk/ljfour/public/cm/cmssi9.600pk> <c:/Users/Zacha/.texlive2023/texmf-var/fonts/pk/ljfour/jknappen/ec/tcss0900.600pk> <c:/Users/Zacha/.texlive2023/texmf-var/fonts/pk/ljfour/public/cm/cmss9.600pk> <c:/Users/Zacha/.texlive2023/texmf-var/fonts/pk/ljfour/public/cm/cmssbx10.540pk> <c:/texlive/2023/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmsy10.pk> <c:/texlive/2023/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmmi10.pk> <c:/texlive/2023/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmr7.pk> <c:/texlive/2023/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmr10.pk> <c:/Users/Zacha/.texlive2023/texmf-var/fonts/pk/ljfour/jknappen/ec/tcss1000.600pk> <c:/Users/Zacha/.texlive2023/texmf-var/fonts/pk/ljfour/public/cm/cmssbx10.864pk> <c:/Users/Zacha/.texlive2023/texmf-var/fonts/pk/ljfour/public/cm/cmssbx10.1244pk> <c:/Users/Zacha/.texlive2023/texmf-var/fonts/pk/ljfour/public/cm/cmssi10.600pk> <c:/Users/Zacha/.texlive2023/texmf-var/fonts/pk/ljfour/public/cm/cmss10.600pk> <c:/Users/Zacha/.texlive2023/texmf-var/fonts/pk/ljfour/public/cm/cmssbx10.600pk> <c:/Users/Zacha/.texlive2023/texmf-var/fonts/pk/ljfour/public/cm/cmssbx10.720pk> <c:/Users/Zacha/.texlive2023/texmf-var/fonts/pk/ljfour/public/cm/cmssbx10.1493pk> <c:/Users/Zacha/.texlive2023/texmf-var/fonts/pk/ljfour/public/cm/cmss12.600pk> <c:/Users/Zacha/.texlive2023/texmf-var/fonts/pk/ljfour/public/cm/cmss17.600pk>
+Output written on main.pdf (186 pages, 1037599 bytes).
 PDF statistics:
  4537 PDF objects out of 5155 (max. 8388607)
- 3572 compressed objects within 36 object streams
- 1406 named destinations out of 1440 (max. 500000)
+ 3573 compressed objects within 36 object streams
+ 1407 named destinations out of 1440 (max. 500000)
  1573 words of extra memory for PDF output out of 10000 (max. 10000000)
 
