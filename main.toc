@@ -856,275 +856,277 @@
 \contentsline {subsubsection}{Peter-Pan Process}{144}{section*.890}%
 \contentsline {subsubsection}{Basic}{144}{section*.891}%
 \contentsline {subsubsection}{Hypoxyline}{144}{section*.892}%
+\contentsline {subsection}{Biomedical Nanomachines}{144}{section*.893}%
+\contentsline {subsubsection}{Tailored Immune Machines}{144}{section*.894}%
 \contentsline {chapter}{\numberline {32}Cybernetics and Uploading}{145}{chapter.32}%
-\contentsline {subsection}{Social Effects of Cybernetics}{145}{section*.893}%
-\contentsline {subsection}{Statistics}{145}{section*.894}%
-\contentsline {subsection}{Availability}{145}{section*.895}%
-\contentsline {subsection}{Procedure}{145}{section*.896}%
-\contentsline {subsection}{Surgical Procedure Tables}{145}{section*.898}%
-\contentsline {subsection}{Biofabrication}{146}{section*.899}%
-\contentsline {subsection}{Detecting and Removing Cybernetics}{146}{section*.900}%
-\contentsline {subsection}{Second~-Hand Cybernetics}{146}{section*.901}%
-\contentsline {subsection}{Repairing Cybernetics}{146}{section*.902}%
-\contentsline {subsection}{Powering Cybernetics}{146}{section*.903}%
-\contentsline {subsection}{Acquiring Cybernetics}{146}{section*.904}%
-\contentsline {section}{Body Modifications}{146}{section*.905}%
-\contentsline {subsection}{Biomonitor Implant}{146}{section*.906}%
-\contentsline {subsection}{Bionic Arm or Hand}{146}{section*.907}%
-\contentsline {subsubsection}{One Bionic Arm}{146}{section*.908}%
-\contentsline {subsubsection}{Two Bionic Arms}{146}{section*.909}%
-\contentsline {subsubsection}{Bionic Hand}{146}{section*.910}%
-\contentsline {subsection}{Bionic Ears}{147}{section*.911}%
-\contentsline {subsubsection}{Bionic Ear}{147}{section*.912}%
-\contentsline {subsubsection}{Bionic Ears}{147}{section*.913}%
-\contentsline {subsubsection}{Advanced Bionic Ears}{147}{section*.914}%
-\contentsline {subsection}{Bionic Eyes}{147}{section*.915}%
-\contentsline {subsubsection}{One Bionic Eye}{147}{section*.916}%
-\contentsline {subsubsection}{Two Bionic Eyes}{147}{section*.917}%
-\contentsline {subsection}{Bionic Leg}{147}{section*.918}%
-\contentsline {subsubsection}{One Bionic Leg}{147}{section*.919}%
-\contentsline {subsubsection}{Two Bionic Legs}{147}{section*.920}%
-\contentsline {subsection}{Bionic Vital Organs}{147}{section*.921}%
-\contentsline {subsubsection}{Bionic Organ Transplants}{147}{section*.922}%
-\contentsline {subsubsection}{Boosted Heart}{147}{section*.923}%
-\contentsline {subsection}{Bionic Voicebox}{147}{section*.924}%
-\contentsline {subsubsection}{Cybervoder}{147}{section*.925}%
-\contentsline {subsubsection}{Silvertongue Implant}{148}{section*.926}%
-\contentsline {subsection}{Bomb Implant}{148}{section*.927}%
-\contentsline {subsection}{Boosted Reflexes}{148}{section*.928}%
-\contentsline {subsection}{Cyber Claws}{148}{section*.929}%
-\contentsline {subsection}{Filter Implant}{148}{section*.930}%
-\contentsline {subsection}{Flesh Pocket}{148}{section*.931}%
-\contentsline {subsection}{Gyrobalance}{148}{section*.932}%
-\contentsline {subsection}{Hidden Compartments}{148}{section*.933}%
-\contentsline {subsection}{Implant Radio}{148}{section*.934}%
-\contentsline {subsection}{Implant Video Comm}{148}{section*.935}%
-\contentsline {subsection}{Memory Flesh}{148}{section*.936}%
-\contentsline {subsection}{Subdermal Armor}{149}{section*.937}%
-\contentsline {subsection}{Smart Tattoos}{149}{section*.938}%
-\contentsline {subsection}{Stinger}{149}{section*.939}%
-\contentsline {subsection}{Weapons Mounts}{149}{section*.940}%
-\contentsline {subsubsection}{Bionic Arm or Hand Mount}{149}{section*.941}%
-\contentsline {subsubsection}{Heavy Weapon Arm}{149}{section*.942}%
-\contentsline {subsection}{Accelerated Reflexes}{149}{section*.943}%
-\contentsline {subsection}{Bioplastic Skin}{149}{section*.944}%
-\contentsline {subsection}{Cyberhair}{149}{section*.945}%
-\contentsline {subsubsection}{Shoulder~-Length Cyberhair}{150}{section*.946}%
-\contentsline {subsubsection}{Waist~-Length Cyberhair}{150}{section*.947}%
-\contentsline {subsubsection}{Knee~-Length Cyberhair}{150}{section*.948}%
-\contentsline {subsection}{Variskin}{150}{section*.949}%
-\contentsline {subsection}{Gill Implant}{150}{section*.950}%
-\contentsline {subsection}{Hive Implant}{150}{section*.951}%
-\contentsline {subsection}{Intestinal Recycler}{150}{section*.952}%
-\contentsline {subsection}{Nanoweave Subdermal Armor}{150}{section*.953}%
-\contentsline {subsection}{Polyskin}{150}{section*.954}%
-\contentsline {subsubsection}{Polyskin Body}{150}{section*.955}%
-\contentsline {subsubsection}{Polyskin Face}{150}{section*.956}%
-\contentsline {subsection}{Reinforced Skeleton}{151}{section*.957}%
-\contentsline {subsection}{Ripsnake}{151}{section*.958}%
-\contentsline {subsection}{Sexmorph}{151}{section*.959}%
-\contentsline {subsection}{Slickskin}{151}{section*.960}%
-\contentsline {subsection}{Thermal Imaging Eyes}{151}{section*.961}%
-\contentsline {section}{Brain Implants}{151}{section*.962}%
-\contentsline {subsection}{Braintap}{151}{section*.963}%
-\contentsline {subsubsection}{Braintap Jack}{151}{section*.964}%
-\contentsline {subsubsection}{Wireless Braintap}{151}{section*.965}%
-\contentsline {subsection}{Computer Implant}{151}{section*.966}%
-\contentsline {subsubsection}{Computer Implant}{152}{section*.967}%
-\contentsline {subsection}{Chip Slots}{152}{section*.968}%
-\contentsline {subsubsection}{Skip Slot}{152}{section*.969}%
-\contentsline {subsection}{Computer Implant Template}{152}{section*.970}%
-\contentsline {subsubsection}{Lenses}{152}{section*.971}%
-\contentsline {subsection}{Neural Interface Implant}{152}{section*.972}%
-\contentsline {subsubsection}{Neural Jack}{152}{section*.973}%
-\contentsline {subsubsection}{Wireless Neural Interface}{152}{section*.974}%
-\contentsline {subsection}{Neurotherapy Implant}{153}{section*.975}%
-\contentsline {subsection}{Psych Implant}{153}{section*.976}%
-\contentsline {subsection}{Biological Operating System (BOS) Implant}{153}{section*.977}%
-\contentsline {subsection}{Sensie Transceiver Implant}{153}{section*.978}%
-\contentsline {subsubsection}{Sensie Transceiver Jack}{153}{section*.979}%
-\contentsline {subsubsection}{Wireless Sensie Transceiver}{153}{section*.980}%
-\contentsline {subsection}{Cognitive Enhancement}{153}{section*.981}%
-\contentsline {subsection}{Puppet Implant}{153}{section*.982}%
-\contentsline {subsubsection}{Personality Implant}{154}{section*.983}%
-\contentsline {section}{Cybernetic Uplift}{154}{section*.984}%
-\contentsline {subsection}{Enhanced Voicebox}{154}{section*.985}%
-\contentsline {subsection}{Finger Paws}{154}{section*.986}%
-\contentsline {subsection}{Neural Uplift}{154}{section*.987}%
-\contentsline {section}{Total Cyborg Brain Transplants}{154}{section*.988}%
-\contentsline {section}{Uploading}{154}{section*.989}%
-\contentsline {subsection}{Destructive Uploading}{154}{section*.990}%
-\contentsline {subsection}{Non~-Destructing Uploading}{154}{section*.991}%
-\contentsline {subsection}{Uploading the Dead}{155}{section*.992}%
-\contentsline {subsection}{Mind Emulation}{155}{section*.993}%
-\contentsline {subsubsection}{Backup Storage}{155}{section*.994}%
-\contentsline {subsection}{Low- and Very-Low-Res Copies}{155}{section*.995}%
-\contentsline {subsubsection}{Robot Bodies}{155}{section*.996}%
-\contentsline {subsubsection}{Ghost Comps and Communities}{155}{section*.997}%
-\contentsline {subsubsection}{Computers in Biological Shells}{155}{section*.998}%
-\contentsline {subsubsection}{Multiple Bodies, Multiple Personalities}{156}{section*.999}%
-\contentsline {subsubsection}{Downloading Mind}{156}{section*.1000}%
-\contentsline {subsection}{Mind Emulation Templates}{156}{section*.1001}%
-\contentsline {subsection}{Mind Emulation (``Ghost'') Programs}{156}{section*.1002}%
-\contentsline {section}{Downloading Minds}{156}{section*.1003}%
-\contentsline {subsection}{Personality Overlays}{156}{section*.1004}%
-\contentsline {subsection}{Incarnation}{156}{section*.1005}%
+\contentsline {subsection}{Social Effects of Cybernetics}{145}{section*.895}%
+\contentsline {subsection}{Statistics}{145}{section*.896}%
+\contentsline {subsection}{Availability}{145}{section*.897}%
+\contentsline {subsection}{Procedure}{145}{section*.898}%
+\contentsline {subsection}{Surgical Procedure Tables}{145}{section*.900}%
+\contentsline {subsection}{Biofabrication}{146}{section*.901}%
+\contentsline {subsection}{Detecting and Removing Cybernetics}{146}{section*.902}%
+\contentsline {subsection}{Second~-Hand Cybernetics}{146}{section*.903}%
+\contentsline {subsection}{Repairing Cybernetics}{146}{section*.904}%
+\contentsline {subsection}{Powering Cybernetics}{146}{section*.905}%
+\contentsline {subsection}{Acquiring Cybernetics}{146}{section*.906}%
+\contentsline {section}{Body Modifications}{146}{section*.907}%
+\contentsline {subsection}{Biomonitor Implant}{146}{section*.908}%
+\contentsline {subsection}{Bionic Arm or Hand}{146}{section*.909}%
+\contentsline {subsubsection}{One Bionic Arm}{146}{section*.910}%
+\contentsline {subsubsection}{Two Bionic Arms}{146}{section*.911}%
+\contentsline {subsubsection}{Bionic Hand}{146}{section*.912}%
+\contentsline {subsection}{Bionic Ears}{147}{section*.913}%
+\contentsline {subsubsection}{Bionic Ear}{147}{section*.914}%
+\contentsline {subsubsection}{Bionic Ears}{147}{section*.915}%
+\contentsline {subsubsection}{Advanced Bionic Ears}{147}{section*.916}%
+\contentsline {subsection}{Bionic Eyes}{147}{section*.917}%
+\contentsline {subsubsection}{One Bionic Eye}{147}{section*.918}%
+\contentsline {subsubsection}{Two Bionic Eyes}{147}{section*.919}%
+\contentsline {subsection}{Bionic Leg}{147}{section*.920}%
+\contentsline {subsubsection}{One Bionic Leg}{147}{section*.921}%
+\contentsline {subsubsection}{Two Bionic Legs}{147}{section*.922}%
+\contentsline {subsection}{Bionic Vital Organs}{147}{section*.923}%
+\contentsline {subsubsection}{Bionic Organ Transplants}{147}{section*.924}%
+\contentsline {subsubsection}{Boosted Heart}{147}{section*.925}%
+\contentsline {subsection}{Bionic Voicebox}{147}{section*.926}%
+\contentsline {subsubsection}{Cybervoder}{147}{section*.927}%
+\contentsline {subsubsection}{Silvertongue Implant}{148}{section*.928}%
+\contentsline {subsection}{Bomb Implant}{148}{section*.929}%
+\contentsline {subsection}{Boosted Reflexes}{148}{section*.930}%
+\contentsline {subsection}{Cyber Claws}{148}{section*.931}%
+\contentsline {subsection}{Filter Implant}{148}{section*.932}%
+\contentsline {subsection}{Flesh Pocket}{148}{section*.933}%
+\contentsline {subsection}{Gyrobalance}{148}{section*.934}%
+\contentsline {subsection}{Hidden Compartments}{148}{section*.935}%
+\contentsline {subsection}{Implant Radio}{148}{section*.936}%
+\contentsline {subsection}{Implant Video Comm}{148}{section*.937}%
+\contentsline {subsection}{Memory Flesh}{148}{section*.938}%
+\contentsline {subsection}{Subdermal Armor}{149}{section*.939}%
+\contentsline {subsection}{Smart Tattoos}{149}{section*.940}%
+\contentsline {subsection}{Stinger}{149}{section*.941}%
+\contentsline {subsection}{Weapons Mounts}{149}{section*.942}%
+\contentsline {subsubsection}{Bionic Arm or Hand Mount}{149}{section*.943}%
+\contentsline {subsubsection}{Heavy Weapon Arm}{149}{section*.944}%
+\contentsline {subsection}{Accelerated Reflexes}{149}{section*.945}%
+\contentsline {subsection}{Bioplastic Skin}{149}{section*.946}%
+\contentsline {subsection}{Cyberhair}{149}{section*.947}%
+\contentsline {subsubsection}{Shoulder~-Length Cyberhair}{150}{section*.948}%
+\contentsline {subsubsection}{Waist~-Length Cyberhair}{150}{section*.949}%
+\contentsline {subsubsection}{Knee~-Length Cyberhair}{150}{section*.950}%
+\contentsline {subsection}{Variskin}{150}{section*.951}%
+\contentsline {subsection}{Gill Implant}{150}{section*.952}%
+\contentsline {subsection}{Hive Implant}{150}{section*.953}%
+\contentsline {subsection}{Intestinal Recycler}{150}{section*.954}%
+\contentsline {subsection}{Nanoweave Subdermal Armor}{150}{section*.955}%
+\contentsline {subsection}{Polyskin}{150}{section*.956}%
+\contentsline {subsubsection}{Polyskin Body}{150}{section*.957}%
+\contentsline {subsubsection}{Polyskin Face}{150}{section*.958}%
+\contentsline {subsection}{Reinforced Skeleton}{151}{section*.959}%
+\contentsline {subsection}{Ripsnake}{151}{section*.960}%
+\contentsline {subsection}{Sexmorph}{151}{section*.961}%
+\contentsline {subsection}{Slickskin}{151}{section*.962}%
+\contentsline {subsection}{Thermal Imaging Eyes}{151}{section*.963}%
+\contentsline {section}{Brain Implants}{151}{section*.964}%
+\contentsline {subsection}{Braintap}{151}{section*.965}%
+\contentsline {subsubsection}{Braintap Jack}{151}{section*.966}%
+\contentsline {subsubsection}{Wireless Braintap}{151}{section*.967}%
+\contentsline {subsection}{Computer Implant}{151}{section*.968}%
+\contentsline {subsubsection}{Computer Implant}{152}{section*.969}%
+\contentsline {subsection}{Chip Slots}{152}{section*.970}%
+\contentsline {subsubsection}{Skip Slot}{152}{section*.971}%
+\contentsline {subsection}{Computer Implant Template}{152}{section*.972}%
+\contentsline {subsubsection}{Lenses}{152}{section*.973}%
+\contentsline {subsection}{Neural Interface Implant}{152}{section*.974}%
+\contentsline {subsubsection}{Neural Jack}{152}{section*.975}%
+\contentsline {subsubsection}{Wireless Neural Interface}{152}{section*.976}%
+\contentsline {subsection}{Neurotherapy Implant}{153}{section*.977}%
+\contentsline {subsection}{Psych Implant}{153}{section*.978}%
+\contentsline {subsection}{Biological Operating System (BOS) Implant}{153}{section*.979}%
+\contentsline {subsection}{Sensie Transceiver Implant}{153}{section*.980}%
+\contentsline {subsubsection}{Sensie Transceiver Jack}{153}{section*.981}%
+\contentsline {subsubsection}{Wireless Sensie Transceiver}{153}{section*.982}%
+\contentsline {subsection}{Cognitive Enhancement}{153}{section*.983}%
+\contentsline {subsection}{Puppet Implant}{153}{section*.984}%
+\contentsline {subsubsection}{Personality Implant}{154}{section*.985}%
+\contentsline {section}{Cybernetic Uplift}{154}{section*.986}%
+\contentsline {subsection}{Enhanced Voicebox}{154}{section*.987}%
+\contentsline {subsection}{Finger Paws}{154}{section*.988}%
+\contentsline {subsection}{Neural Uplift}{154}{section*.989}%
+\contentsline {section}{Total Cyborg Brain Transplants}{154}{section*.990}%
+\contentsline {section}{Uploading}{154}{section*.991}%
+\contentsline {subsection}{Destructive Uploading}{154}{section*.992}%
+\contentsline {subsection}{Non~-Destructing Uploading}{154}{section*.993}%
+\contentsline {subsection}{Uploading the Dead}{155}{section*.994}%
+\contentsline {subsection}{Mind Emulation}{155}{section*.995}%
+\contentsline {subsubsection}{Backup Storage}{155}{section*.996}%
+\contentsline {subsection}{Low- and Very-Low-Res Copies}{155}{section*.997}%
+\contentsline {subsubsection}{Robot Bodies}{155}{section*.998}%
+\contentsline {subsubsection}{Ghost Comps and Communities}{155}{section*.999}%
+\contentsline {subsubsection}{Computers in Biological Shells}{155}{section*.1000}%
+\contentsline {subsubsection}{Multiple Bodies, Multiple Personalities}{156}{section*.1001}%
+\contentsline {subsubsection}{Downloading Mind}{156}{section*.1002}%
+\contentsline {subsection}{Mind Emulation Templates}{156}{section*.1003}%
+\contentsline {subsection}{Mind Emulation (``Ghost'') Programs}{156}{section*.1004}%
+\contentsline {section}{Downloading Minds}{156}{section*.1005}%
+\contentsline {subsection}{Personality Overlays}{156}{section*.1006}%
+\contentsline {subsection}{Incarnation}{156}{section*.1007}%
 \contentsline {part}{IX\hspace {1em}Psi-Tech}{157}{part.9}%
 \contentsline {chapter}{\numberline {33}Mundane Technology and Lab Equipment}{158}{chapter.33}%
-\contentsline {section}{Psi Testing Equipment}{158}{section*.1006}%
-\contentsline {section}{Sensory Deprivation}{158}{section*.1007}%
-\contentsline {section}{Electroencephalography(EEG)}{158}{section*.1008}%
-\contentsline {section}{Psis and HyMRIs}{159}{section*.1009}%
+\contentsline {section}{Psi Testing Equipment}{158}{section*.1008}%
+\contentsline {section}{Sensory Deprivation}{158}{section*.1009}%
+\contentsline {section}{Electroencephalography(EEG)}{158}{section*.1010}%
+\contentsline {section}{Psis and HyMRIs}{159}{section*.1011}%
 \contentsline {chapter}{\numberline {34}Psychotronic Equipment}{160}{chapter.34}%
-\contentsline {section}{Psi~-Interface Technology}{160}{section*.1010}%
-\contentsline {subsection}{Psiberface Port}{160}{section*.1011}%
-\contentsline {subsection}{Psiberface Helmet}{160}{section*.1012}%
-\contentsline {subsection}{Psiberface Implant}{160}{section*.1013}%
-\contentsline {subsubsection}{Psiberface Jack}{160}{section*.1014}%
-\contentsline {subsubsection}{Wireless Psiberface}{160}{section*.1015}%
-\contentsline {subsection}{Psiberface Field}{160}{section*.1016}%
-\contentsline {subsection}{Brainlock}{160}{section*.1017}%
-\contentsline {section}{Psi~-Amplifiers}{160}{section*.1018}%
-\contentsline {subsection}{Psi~-Amplifier Headband}{161}{section*.1019}%
-\contentsline {subsection}{Psi~-Amplifier Helmet}{161}{section*.1020}%
-\contentsline {subsection}{Backpack Psi~-Amplifier}{161}{section*.1021}%
-\contentsline {subsection}{Psi~-Amplifier Throne}{161}{section*.1022}%
-\contentsline {subsection}{Psi~-Amplifier Citadel}{161}{section*.1023}%
-\contentsline {subsection}{Universal Psi~-Amplifier}{161}{section*.1024}%
-\contentsline {subsection}{Dedicated Psi~-Amplifier}{161}{section*.1025}%
-\contentsline {section}{Psychotronic Generators}{161}{section*.1026}%
-\contentsline {subsection}{Design}{162}{section*.1027}%
-\contentsline {subsection}{Psychotronic Generators Table}{162}{section*.1028}%
-\contentsline {section}{Examples of Psychotronic Generators}{163}{section*.1030}%
-\contentsline {section}{Other Augmentation Devices}{163}{section*.1031}%
-\contentsline {subsection}{Gestalt Web}{163}{section*.1032}%
-\contentsline {subsection}{Psychotronic Battery}{163}{section*.1033}%
-\contentsline {subsubsection}{Dedicated Psychotronic Battery}{163}{section*.1034}%
-\contentsline {subsection}{Symbiotic Crystal}{163}{section*.1035}%
-\contentsline {section}{Anti-Psi Technology}{164}{section*.1036}%
-\contentsline {subsection}{Electro-Psionic Neutralizer}{164}{section*.1037}%
-\contentsline {subsection}{Null-Field Generator}{164}{section*.1038}%
-\contentsline {subsection}{Null-Neutralizer Node}{164}{section*.1039}%
-\contentsline {subsection}{Overload-Field Generator}{165}{section*.1040}%
-\contentsline {subsection}{Psi-Impeder}{165}{section*.1041}%
-\contentsline {subsubsection}{Dedicated Psi-Impeder}{165}{section*.1042}%
-\contentsline {subsection}{Psycho-Optic Filter}{165}{section*.1043}%
-\contentsline {subsection}{Psychotronic Para-Stealth}{165}{section*.1044}%
-\contentsline {section}{Astral Technology}{166}{section*.1046}%
-\contentsline {subsection}{Astral Barrier-Field Generator}{166}{section*.1047}%
-\contentsline {subsection}{Astral Duplicator}{166}{section*.1048}%
-\contentsline {subsection}{Kirlian Sensor Field}{166}{section*.1049}%
-\contentsline {subsection}{OOBE Machine}{167}{section*.1050}%
-\contentsline {section}{Ergokinetic and Information Technology}{167}{section*.1051}%
-\contentsline {subsection}{P-Web Shield}{167}{section*.1052}%
-\contentsline {section}{Extrasensory Perception Technology}{167}{section*.1053}%
-\contentsline {subsection}{Deathscanner}{167}{section*.1054}%
-\contentsline {subsection}{Psychometer}{168}{section*.1055}%
-\contentsline {section}{Psychic Healing, Vampiric, and Biokinetic Devices}{168}{section*.1056}%
-\contentsline {subsection}{Life-Transference Machine}{168}{section*.1057}%
-\contentsline {subsection}{Psychospectral Imaging System}{168}{section*.1058}%
-\contentsline {subsection}{Thanatos-Field Generator}{169}{section*.1059}%
-\contentsline {subsubsection}{Selective Thanatos-Field Generator}{169}{section*.1060}%
-\contentsline {subsubsection}{Exterminator Field Generator}{169}{section*.1061}%
-\contentsline {section}{Psychokinetic Technology}{169}{section*.1062}%
-\contentsline {subsection}{PK-Sensitive Materials}{169}{section*.1063}%
-\contentsline {subsubsection}{Kinetic Bubble}{169}{section*.1064}%
-\contentsline {subsubsection}{TKS Structure}{169}{section*.1065}%
-\contentsline {subsection}{Telocs}{169}{section*.1066}%
-\contentsline {subsection}{Psiberweave}{169}{section*.1067}%
-\contentsline {section}{Telepathic Technology}{170}{section*.1068}%
-\contentsline {subsection}{Empathic Mirror}{170}{section*.1069}%
-\contentsline {subsection}{Memory Crystal}{170}{section*.1070}%
-\contentsline {subsection}{Mental Translator}{170}{section*.1071}%
-\contentsline {subsection}{Mind-Transfer Machine}{170}{section*.1072}%
-\contentsline {subsection}{Mindscanner}{171}{section*.1073}%
-\contentsline {subsection}{Mindseeker}{171}{section*.1074}%
-\contentsline {subsection}{Psionic Mind Shield}{171}{section*.1075}%
-\contentsline {subsection}{Telepathic Switches}{171}{section*.1076}%
-\contentsline {subsubsection}{Basic Telswitch}{171}{section*.1077}%
-\contentsline {subsubsection}{Secure Teleswitch}{171}{section*.1078}%
-\contentsline {subsubsection}{Telepathic Control Panel}{171}{section*.1079}%
-\contentsline {subsection}{Thought Globe}{172}{section*.1080}%
-\contentsline {section}{Teleportation Technology}{172}{section*.1081}%
-\contentsline {subsection}{Actuality Shield}{172}{section*.1082}%
-\contentsline {subsection}{Jump Beacon}{172}{section*.1083}%
-\contentsline {subsection}{Jump-Vortex Generator}{172}{section*.1084}%
-\contentsline {subsection}{Teleport Jammer}{172}{section*.1085}%
+\contentsline {section}{Psi~-Interface Technology}{160}{section*.1012}%
+\contentsline {subsection}{Psiberface Port}{160}{section*.1013}%
+\contentsline {subsection}{Psiberface Helmet}{160}{section*.1014}%
+\contentsline {subsection}{Psiberface Implant}{160}{section*.1015}%
+\contentsline {subsubsection}{Psiberface Jack}{160}{section*.1016}%
+\contentsline {subsubsection}{Wireless Psiberface}{160}{section*.1017}%
+\contentsline {subsection}{Psiberface Field}{160}{section*.1018}%
+\contentsline {subsection}{Brainlock}{160}{section*.1019}%
+\contentsline {section}{Psi~-Amplifiers}{160}{section*.1020}%
+\contentsline {subsection}{Psi~-Amplifier Headband}{161}{section*.1021}%
+\contentsline {subsection}{Psi~-Amplifier Helmet}{161}{section*.1022}%
+\contentsline {subsection}{Backpack Psi~-Amplifier}{161}{section*.1023}%
+\contentsline {subsection}{Psi~-Amplifier Throne}{161}{section*.1024}%
+\contentsline {subsection}{Psi~-Amplifier Citadel}{161}{section*.1025}%
+\contentsline {subsection}{Universal Psi~-Amplifier}{161}{section*.1026}%
+\contentsline {subsection}{Dedicated Psi~-Amplifier}{161}{section*.1027}%
+\contentsline {section}{Psychotronic Generators}{161}{section*.1028}%
+\contentsline {subsection}{Design}{162}{section*.1029}%
+\contentsline {subsection}{Psychotronic Generators Table}{162}{section*.1030}%
+\contentsline {section}{Examples of Psychotronic Generators}{163}{section*.1032}%
+\contentsline {section}{Other Augmentation Devices}{163}{section*.1033}%
+\contentsline {subsection}{Gestalt Web}{163}{section*.1034}%
+\contentsline {subsection}{Psychotronic Battery}{163}{section*.1035}%
+\contentsline {subsubsection}{Dedicated Psychotronic Battery}{163}{section*.1036}%
+\contentsline {subsection}{Symbiotic Crystal}{163}{section*.1037}%
+\contentsline {section}{Anti-Psi Technology}{164}{section*.1038}%
+\contentsline {subsection}{Electro-Psionic Neutralizer}{164}{section*.1039}%
+\contentsline {subsection}{Null-Field Generator}{164}{section*.1040}%
+\contentsline {subsection}{Null-Neutralizer Node}{164}{section*.1041}%
+\contentsline {subsection}{Overload-Field Generator}{165}{section*.1042}%
+\contentsline {subsection}{Psi-Impeder}{165}{section*.1043}%
+\contentsline {subsubsection}{Dedicated Psi-Impeder}{165}{section*.1044}%
+\contentsline {subsection}{Psycho-Optic Filter}{165}{section*.1045}%
+\contentsline {subsection}{Psychotronic Para-Stealth}{165}{section*.1046}%
+\contentsline {section}{Astral Technology}{166}{section*.1048}%
+\contentsline {subsection}{Astral Barrier-Field Generator}{166}{section*.1049}%
+\contentsline {subsection}{Astral Duplicator}{166}{section*.1050}%
+\contentsline {subsection}{Kirlian Sensor Field}{166}{section*.1051}%
+\contentsline {subsection}{OOBE Machine}{167}{section*.1052}%
+\contentsline {section}{Ergokinetic and Information Technology}{167}{section*.1053}%
+\contentsline {subsection}{P-Web Shield}{167}{section*.1054}%
+\contentsline {section}{Extrasensory Perception Technology}{167}{section*.1055}%
+\contentsline {subsection}{Deathscanner}{167}{section*.1056}%
+\contentsline {subsection}{Psychometer}{168}{section*.1057}%
+\contentsline {section}{Psychic Healing, Vampiric, and Biokinetic Devices}{168}{section*.1058}%
+\contentsline {subsection}{Life-Transference Machine}{168}{section*.1059}%
+\contentsline {subsection}{Psychospectral Imaging System}{168}{section*.1060}%
+\contentsline {subsection}{Thanatos-Field Generator}{169}{section*.1061}%
+\contentsline {subsubsection}{Selective Thanatos-Field Generator}{169}{section*.1062}%
+\contentsline {subsubsection}{Exterminator Field Generator}{169}{section*.1063}%
+\contentsline {section}{Psychokinetic Technology}{169}{section*.1064}%
+\contentsline {subsection}{PK-Sensitive Materials}{169}{section*.1065}%
+\contentsline {subsubsection}{Kinetic Bubble}{169}{section*.1066}%
+\contentsline {subsubsection}{TKS Structure}{169}{section*.1067}%
+\contentsline {subsection}{Telocs}{169}{section*.1068}%
+\contentsline {subsection}{Psiberweave}{169}{section*.1069}%
+\contentsline {section}{Telepathic Technology}{170}{section*.1070}%
+\contentsline {subsection}{Empathic Mirror}{170}{section*.1071}%
+\contentsline {subsection}{Memory Crystal}{170}{section*.1072}%
+\contentsline {subsection}{Mental Translator}{170}{section*.1073}%
+\contentsline {subsection}{Mind-Transfer Machine}{170}{section*.1074}%
+\contentsline {subsection}{Mindscanner}{171}{section*.1075}%
+\contentsline {subsection}{Mindseeker}{171}{section*.1076}%
+\contentsline {subsection}{Psionic Mind Shield}{171}{section*.1077}%
+\contentsline {subsection}{Telepathic Switches}{171}{section*.1078}%
+\contentsline {subsubsection}{Basic Telswitch}{171}{section*.1079}%
+\contentsline {subsubsection}{Secure Teleswitch}{171}{section*.1080}%
+\contentsline {subsubsection}{Telepathic Control Panel}{171}{section*.1081}%
+\contentsline {subsection}{Thought Globe}{172}{section*.1082}%
+\contentsline {section}{Teleportation Technology}{172}{section*.1083}%
+\contentsline {subsection}{Actuality Shield}{172}{section*.1084}%
+\contentsline {subsection}{Jump Beacon}{172}{section*.1085}%
+\contentsline {subsection}{Jump-Vortex Generator}{172}{section*.1086}%
+\contentsline {subsection}{Teleport Jammer}{172}{section*.1087}%
 \contentsline {chapter}{\numberline {35}Bio-Psi}{173}{chapter.35}%
-\contentsline {section}{Psi-Drugs}{173}{section*.1086}%
-\contentsline {subsection}{Blocker}{173}{section*.1087}%
-\contentsline {subsection}{Blue Fire}{173}{section*.1088}%
-\contentsline {subsection}{Brainstorm}{173}{section*.1089}%
-\contentsline {subsection}{Catalyst Drug}{173}{section*.1090}%
-\contentsline {subsection}{Mind Hype}{174}{section*.1091}%
-\contentsline {subsection}{Muffler}{174}{section*.1092}%
-\contentsline {subsection}{Psi-Boosters}{174}{section*.1093}%
-\contentsline {subsection}{Shatter}{174}{section*.1094}%
-\contentsline {subsection}{Trance}{174}{section*.1095}%
-\contentsline {subsection}{Window}{174}{section*.1096}%
+\contentsline {section}{Psi-Drugs}{173}{section*.1088}%
+\contentsline {subsection}{Blocker}{173}{section*.1089}%
+\contentsline {subsection}{Blue Fire}{173}{section*.1090}%
+\contentsline {subsection}{Brainstorm}{173}{section*.1091}%
+\contentsline {subsection}{Catalyst Drug}{173}{section*.1092}%
+\contentsline {subsection}{Mind Hype}{174}{section*.1093}%
+\contentsline {subsection}{Muffler}{174}{section*.1094}%
+\contentsline {subsection}{Psi-Boosters}{174}{section*.1095}%
+\contentsline {subsection}{Shatter}{174}{section*.1096}%
+\contentsline {subsection}{Trance}{174}{section*.1097}%
+\contentsline {subsection}{Window}{174}{section*.1098}%
 \contentsline {part}{X\hspace {1em}Vehicles}{176}{part.10}%
 \contentsline {chapter}{\numberline {36}General Vehicles}{177}{chapter.36}%
-\contentsline {section}{Planetary Travel}{177}{section*.1097}%
-\contentsline {subsection}{Self~-Driving Vehicles}{177}{section*.1098}%
-\contentsline {subsection}{Mag~-Lev Trains}{177}{section*.1099}%
-\contentsline {subsection}{Super Airships}{177}{section*.1100}%
-\contentsline {subsection}{Ballistic Liners}{177}{section*.1101}%
-\contentsline {subsection}{Transcontinental Tunnels}{177}{section*.1102}%
-\contentsline {subsection}{Fusion~-Powered Watercraft}{177}{section*.1103}%
-\contentsline {subsection}{Contragravity}{177}{section*.1104}%
-\contentsline {section}{Space Travel}{178}{section*.1105}%
-\contentsline {subsection}{Space Elevator}{178}{section*.1106}%
-\contentsline {subsection}{Vehicle Systems}{178}{section*.1107}%
-\contentsline {section}{ATVs}{178}{section*.1108}%
-\contentsline {subsection}{Wheeled ATV}{178}{section*.1109}%
-\contentsline {subsection}{Exo~-Spider}{178}{section*.1110}%
-\contentsline {section}{Personal Vehicles}{178}{section*.1111}%
-\contentsline {subsection}{Smart Car}{179}{section*.1112}%
-\contentsline {subsection}{Dynamic Car}{179}{section*.1113}%
-\contentsline {subsection}{Flying Cars}{179}{section*.1114}%
-\contentsline {subsubsection}{Air Car}{179}{section*.1115}%
-\contentsline {subsection}{Grav Jeep}{179}{section*.1116}%
-\contentsline {subsection}{Ground Vehicle Table}{179}{section*.1118}%
-\contentsline {section}{Tanks}{179}{section*.1119}%
-\contentsline {subsection}{Light Battle Tank}{179}{section*.1120}%
-\contentsline {subsection}{Hovertank}{179}{section*.1121}%
-\contentsline {subsection}{Grav Tanks}{180}{section*.1122}%
-\contentsline {subsection}{Tanks Table}{180}{section*.1124}%
-\contentsline {section}{Hovercraft}{180}{section*.1125}%
-\contentsline {subsection}{Armored Hovercraft}{180}{section*.1126}%
-\contentsline {subsection}{Hover Jeep}{180}{section*.1127}%
-\contentsline {subsection}{Hovercraft Table}{180}{section*.1129}%
-\contentsline {section}{Minisubs}{180}{section*.1130}%
-\contentsline {subsection}{Deep~-Sea Minisub}{181}{section*.1131}%
-\contentsline {subsection}{Supercav Minisub}{181}{section*.1132}%
-\contentsline {subsection}{Nuclear Minisub}{181}{section*.1133}%
-\contentsline {section}{Diver Propulsion Systems}{181}{section*.1134}%
-\contentsline {subsection}{Aquasled}{181}{section*.1135}%
-\contentsline {subsection}{Underwater Jet Pack}{181}{section*.1136}%
-\contentsline {subsection}{Minisub and Diver Propulsion System Table}{181}{section*.1138}%
-\contentsline {section}{Tilt~-Rotor Transport}{181}{section*.1139}%
-\contentsline {subsection}{Tactical Tilt~-Rotor}{181}{section*.1140}%
-\contentsline {section}{Utility Vertol}{182}{section*.1141}%
-\contentsline {subsection}{Utility Vertol}{182}{section*.1142}%
-\contentsline {subsection}{Tilt~-Rotor and Vertol Table}{182}{section*.1144}%
-\contentsline {section}{Grav Bikes and Platforms}{182}{section*.1145}%
-\contentsline {subsection}{Grav Bike}{182}{section*.1146}%
-\contentsline {section}{Microplanes}{182}{section*.1147}%
-\contentsline {subsection}{Dragonfly Microlight}{182}{section*.1148}%
-\contentsline {subsection}{Backpack Dragonfly}{182}{section*.1149}%
-\contentsline {subsection}{Grav Bike and Microplane Table}{182}{section*.1151}%
-\contentsline {section}{Flight Packs}{182}{section*.1152}%
-\contentsline {subsection}{Helipack}{183}{section*.1153}%
-\contentsline {section}{Zero~-G Thruster}{183}{section*.1154}%
-\contentsline {subsection}{Hand Thrusters}{183}{section*.1155}%
-\contentsline {subsection}{Thruster Pack}{183}{section*.1156}%
-\contentsline {subsection}{Flight Pack and Thruster Pack Table}{183}{section*.1158}%
-\contentsline {section}{Drop Capsules}{183}{section*.1159}%
-\contentsline {subsection}{Life Pod}{183}{section*.1160}%
-\contentsline {subsection}{Drop Capsules}{184}{section*.1161}%
-\contentsline {subsection}{Stealth Capsules}{184}{section*.1162}%
-\contentsline {subsection}{Drop Capsules Table}{184}{section*.1164}%
-\contentsline {section}{Other Transport}{184}{section*.1165}%
-\contentsline {subsection}{Matter Transmission Booths}{184}{section*.1166}%
-\contentsline {subsection}{Witch Gate}{184}{section*.1167}%
-\contentsline {subsection}{Hydra Gates}{184}{section*.1168}%
+\contentsline {section}{Planetary Travel}{177}{section*.1099}%
+\contentsline {subsection}{Self~-Driving Vehicles}{177}{section*.1100}%
+\contentsline {subsection}{Mag~-Lev Trains}{177}{section*.1101}%
+\contentsline {subsection}{Super Airships}{177}{section*.1102}%
+\contentsline {subsection}{Ballistic Liners}{177}{section*.1103}%
+\contentsline {subsection}{Transcontinental Tunnels}{177}{section*.1104}%
+\contentsline {subsection}{Fusion~-Powered Watercraft}{177}{section*.1105}%
+\contentsline {subsection}{Contragravity}{177}{section*.1106}%
+\contentsline {section}{Space Travel}{178}{section*.1107}%
+\contentsline {subsection}{Space Elevator}{178}{section*.1108}%
+\contentsline {subsection}{Vehicle Systems}{178}{section*.1109}%
+\contentsline {section}{ATVs}{178}{section*.1110}%
+\contentsline {subsection}{Wheeled ATV}{178}{section*.1111}%
+\contentsline {subsection}{Exo~-Spider}{178}{section*.1112}%
+\contentsline {section}{Personal Vehicles}{178}{section*.1113}%
+\contentsline {subsection}{Smart Car}{179}{section*.1114}%
+\contentsline {subsection}{Dynamic Car}{179}{section*.1115}%
+\contentsline {subsection}{Flying Cars}{179}{section*.1116}%
+\contentsline {subsubsection}{Air Car}{179}{section*.1117}%
+\contentsline {subsection}{Grav Jeep}{179}{section*.1118}%
+\contentsline {subsection}{Ground Vehicle Table}{179}{section*.1120}%
+\contentsline {section}{Tanks}{179}{section*.1121}%
+\contentsline {subsection}{Light Battle Tank}{179}{section*.1122}%
+\contentsline {subsection}{Hovertank}{179}{section*.1123}%
+\contentsline {subsection}{Grav Tanks}{180}{section*.1124}%
+\contentsline {subsection}{Tanks Table}{180}{section*.1126}%
+\contentsline {section}{Hovercraft}{180}{section*.1127}%
+\contentsline {subsection}{Armored Hovercraft}{180}{section*.1128}%
+\contentsline {subsection}{Hover Jeep}{180}{section*.1129}%
+\contentsline {subsection}{Hovercraft Table}{180}{section*.1131}%
+\contentsline {section}{Minisubs}{180}{section*.1132}%
+\contentsline {subsection}{Deep~-Sea Minisub}{181}{section*.1133}%
+\contentsline {subsection}{Supercav Minisub}{181}{section*.1134}%
+\contentsline {subsection}{Nuclear Minisub}{181}{section*.1135}%
+\contentsline {section}{Diver Propulsion Systems}{181}{section*.1136}%
+\contentsline {subsection}{Aquasled}{181}{section*.1137}%
+\contentsline {subsection}{Underwater Jet Pack}{181}{section*.1138}%
+\contentsline {subsection}{Minisub and Diver Propulsion System Table}{181}{section*.1140}%
+\contentsline {section}{Tilt~-Rotor Transport}{181}{section*.1141}%
+\contentsline {subsection}{Tactical Tilt~-Rotor}{181}{section*.1142}%
+\contentsline {section}{Utility Vertol}{182}{section*.1143}%
+\contentsline {subsection}{Utility Vertol}{182}{section*.1144}%
+\contentsline {subsection}{Tilt~-Rotor and Vertol Table}{182}{section*.1146}%
+\contentsline {section}{Grav Bikes and Platforms}{182}{section*.1147}%
+\contentsline {subsection}{Grav Bike}{182}{section*.1148}%
+\contentsline {section}{Microplanes}{182}{section*.1149}%
+\contentsline {subsection}{Dragonfly Microlight}{182}{section*.1150}%
+\contentsline {subsection}{Backpack Dragonfly}{182}{section*.1151}%
+\contentsline {subsection}{Grav Bike and Microplane Table}{182}{section*.1153}%
+\contentsline {section}{Flight Packs}{182}{section*.1154}%
+\contentsline {subsection}{Helipack}{183}{section*.1155}%
+\contentsline {section}{Zero~-G Thruster}{183}{section*.1156}%
+\contentsline {subsection}{Hand Thrusters}{183}{section*.1157}%
+\contentsline {subsection}{Thruster Pack}{183}{section*.1158}%
+\contentsline {subsection}{Flight Pack and Thruster Pack Table}{183}{section*.1160}%
+\contentsline {section}{Drop Capsules}{183}{section*.1161}%
+\contentsline {subsection}{Life Pod}{183}{section*.1162}%
+\contentsline {subsection}{Drop Capsules}{184}{section*.1163}%
+\contentsline {subsection}{Stealth Capsules}{184}{section*.1164}%
+\contentsline {subsection}{Drop Capsules Table}{184}{section*.1166}%
+\contentsline {section}{Other Transport}{184}{section*.1167}%
+\contentsline {subsection}{Matter Transmission Booths}{184}{section*.1168}%
+\contentsline {subsection}{Witch Gate}{184}{section*.1169}%
+\contentsline {subsection}{Hydra Gates}{184}{section*.1170}%
