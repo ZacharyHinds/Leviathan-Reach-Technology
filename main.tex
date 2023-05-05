@@ -38,6 +38,8 @@
 \begin{multicols}{2}
 }
 
+\newcommand{\headertag}[1]{\hfill {\large\textbf{#1}}}
+
 % \newcommand{\rowcolorsDefenses}{\rowcolors{1}{}{blue!10}}
 \newcommand{\colorcoretech}{RawSienna!10}
 \newcommand{\colorcomms}{RoyalPurple!10}
@@ -109,7 +111,7 @@ innerbottommargin=2em]{ravenbox}
         \multicolinterrupt{\chapter{Robots and Total Cyborgs}\label{ch:robots_total_cyborgs}}
         \include{Parts/core_tech/robots_total_cyborgs}
 
-        \multicolinterrupt{\chapter{Machines as Characters}}
+        \multicolinterrupt{\chapter{Machines as Characters}\label{ch:machines_as_characters}}
         \include{Parts/core_tech/machines_as_characters}
 
         \multicolinterrupt{\chapter{Personal Gear and Consumer Goods}\label{ch:personal_gear}}
@@ -205,9 +207,10 @@ innerbottommargin=2em]{ravenbox}
         \multicolinterrupt{\chapter{Psychotronic Equipment}\label{ch:psychotronic_equipment}}
         \input{Parts/psi-tech/psychotronic_equipment}
 
-        \multicolinterrupt{\chapter{Psi~-Drugs and Nanodrugs}\label{ch:psi-drugs_and_nanodrugs}}
+        \multicolinterrupt{\chapter{Bio-Psi}\label{ch:psi-drugs_and_nanodrugs}}
+        \input{Parts/psi-tech/bio-psi}
 
-        \multicolinterrupt{\chapter{Psibernetics}}
+        % \multicolinterrupt{\chapter{Psibernetics}}
 
     \multicolinterrupt{\part{Vehicles}\label{part:vehicles}}
         \multicolinterrupt{\chapter{General Vehicles}\label{ch:vehicles}}
@@ -234,10 +237,10 @@ innerbottommargin=2em]{ravenbox}
     % \multicolinterrupt{\chapter{Cybernetics}}
     
 \end{multicols}
-\appendix
-\part{Appendix}
+% \appendix
+% \part{Appendix}
 % \addcontentsline{toc}{part}{Appendix}
-\input{Parts/appendix/core_tech}
+% \input{Parts/appendix/core_tech}
 % \input{Parts/appendix}
 
 \end{document}

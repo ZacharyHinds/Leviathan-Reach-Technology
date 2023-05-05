@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.5.4)  4 MAY 2023 12:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.5.4)  5 MAY 2023 15:43
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -702,31 +702,27 @@ Package: bookmark 2020-11-06 v1.29 PDF bookmarks (HO)
  (c:/texlive/2023/texmf-dist/tex/latex/bookmark/bkm-pdftex.def
 File: bkm-pdftex.def 2020-11-06 v1.29 bookmark driver for pdfTeX (HO)
 \BKM@id=\count332
-)) (./main.aux (./Parts/core_tech/computer.aux) (./Parts/core_tech/robots_total_cyborgs.aux) (./Parts/core_tech/machines_as_characters.aux)
-
-LaTeX Warning: Label `tbl:software_cost' multiply defined.
-
-)
+)) (./main.aux (./Parts/core_tech/computer.aux) (./Parts/core_tech/robots_total_cyborgs.aux) (./Parts/core_tech/machines_as_characters.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
  (c:/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count333
@@ -786,24 +782,24 @@ Package caption Info: End \AtBeginDocument code.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 84.
+Package hyperref Info: Link coloring OFF on input line 86.
 \symgns@font=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `gns@font' in version `bold'
-(Font)                  TS1/cmss/m/n --> TS1/cmss/b/n on input line 84.
-Package gensymb Info: Math companion symbols declared on input line 84.
-LaTeX Info: Redefining \degree on input line 84.
-LaTeX Info: Redefining \celsius on input line 84.
-Package gensymb Info: Using text companion symbols for \degree, \celsius and \perthousand on input line 84.
-LaTeX Info: Redefining \ohm on input line 84.
-Package gensymb Info: Using \textohm for \ohm on input line 84.
-Package gensymb Info: Using \textmu for \micro on input line 84.
+(Font)                  TS1/cmss/m/n --> TS1/cmss/b/n on input line 86.
+Package gensymb Info: Math companion symbols declared on input line 86.
+LaTeX Info: Redefining \degree on input line 86.
+LaTeX Info: Redefining \celsius on input line 86.
+Package gensymb Info: Using text companion symbols for \degree, \celsius and \perthousand on input line 86.
+LaTeX Info: Redefining \ohm on input line 86.
+Package gensymb Info: Using \textohm for \ohm on input line 86.
+Package gensymb Info: Using \textmu for \micro on input line 86.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 87.
+(Font)              <12> on input line 89.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 87.
+(Font)              <8> on input line 89.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 87.
-LaTeX Font Info:    Trying to load font information for TS1+cmss on input line 87.
+(Font)              <6> on input line 89.
+LaTeX Font Info:    Trying to load font information for TS1+cmss on input line 89.
 (c:/texlive/2023/texmf-dist/tex/latex/base/ts1cmss.fd
 File: ts1cmss.fd 2022/07/10 v2.5l Standard LaTeX font definitions
 ) [1
@@ -821,7 +817,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.428 ...art}{VI\hspace {1em}Weaponry}{74}{part.6}
+l.445 ...ng, and Animal Control}{74}{section*.434}
                                                   % [1] [2])
 \tf@toc=\write4
 \openout4 = `main.toc'.
@@ -863,34 +859,44 @@ Chapter 5.
 Chapter 6.
 \openout2 = `Parts/core_tech/robots_total_cyborgs.aux'.
 
-(./Parts/core_tech/robots_total_cyborgs.tex) [15
+(./Parts/core_tech/robots_total_cyborgs.tex [15
 
+] [16]
+
+LaTeX Warning: Reference `subsec:swarmbot_hive' on page 17 undefined on input line 114.
+
+[17]) [18
+\@writefile{toc}{\contentsline {subsubsection}{Combat}{18}{section*.80}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{Multiple Swarms}{18}{section*.81}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{Fighting Swarms}{18}{section*.82}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{Swarmbot Hive}{18}{section*.83}\protected@file@percent }
+\newlabel{subsec:swarmbot_hive}{{6}{18}{Swarmbot Hive}{section*.83}{}}
 ]
 Chapter 7.
 \openout2 = `Parts/core_tech/machines_as_characters.aux'.
 
-(./Parts/core_tech/machines_as_characters.tex [16
+(./Parts/core_tech/machines_as_characters.tex [19
 
-] [17]) [18]
+] [20]) [21]
 Chapter 8.
-(./Parts/core_tech/personal_gear.tex [19
+(./Parts/core_tech/personal_gear.tex [22
 
-] [20]
+] [23]
 Underfull \hbox (badness 10000) in paragraph at lines 148--149
 
  []
 
-) [21] [22
+) [24] [25
 
 ]
 Chapter 9.
-(./Parts/comms_sensors_media/communication.tex [23
+(./Parts/comms_sensors_media/communication.tex [26
 
-] [24] [25] [26]) [27]
+] [27] [28] [29]) [30]
 Chapter 10.
-(./Parts/comms_sensors_media/media.tex [28
+(./Parts/comms_sensors_media/media.tex [31
 
-] [29]
+] [32]
 Underfull \hbox (badness 10000) in paragraph at lines 90--96
 
  []
@@ -900,7 +906,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 90--96
 
  []
 
-[30]
+[33]
 Underfull \hbox (badness 10000) in paragraph at lines 136--139
 
  []
@@ -910,57 +916,57 @@ Underfull \hbox (badness 10000) in paragraph at lines 142--145
 
  []
 
-[31] [32] [33]) [34]
+[34] [35] [36]) [37]
 Chapter 11.
-(./Parts/comms_sensors_media/sensors.tex [35
+(./Parts/comms_sensors_media/sensors.tex [38
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 99--99
 [][]\OT1/cmss/bx/n/12 Passive Elec-tro-mag-netic Sen-sor Ar-rays
  []
 
-[36] [37] [38] [39] [40]) [41] [42
+[39] [40] [41] [42] [43]) [44] [45
 
 ]
 Chapter 12.
-(./Parts/housing_tools_survival/housing_and_food.tex [43
+(./Parts/housing_tools_survival/housing_and_food.tex [46
 
-] [44]) [45]
+] [47]) [48]
 Chapter 13.
-(./Parts/housing_tools_survival/expedition_gear.tex [46
+(./Parts/housing_tools_survival/expedition_gear.tex [49
 
-] [47] [48]
-Underfull \hbox (badness 5985) in paragraph at lines 152--152
+] [50] [51] [52]
+Underfull \hbox (badness 5985) in paragraph at lines 173--173
 [][]\OT1/cmss/bx/n/14.4 Exploration, Sa-fari, and Sal-vage
  []
 
 
 LaTeX Font Warning: Font shape `OT1/cmss/bx/it' undefined
-(Font)              using `OT1/cmss/bx/n' instead on input line 162.
+(Font)              using `OT1/cmss/bx/n' instead on input line 183.
 
-[49]) [50]
+) [53]
 Chapter 14.
-(./Parts/housing_tools_survival/tools_construction.tex [51
+(./Parts/housing_tools_survival/tools_construction.tex [54
 
-] [52] [53] [54]) [55]
+] [55] [56] [57]) [58]
 Chapter 15.
-(./Parts/housing_tools_survival/manufacturing.tex [56
+(./Parts/housing_tools_survival/manufacturing.tex [59
 
-]) [57] [58
+]) [60] [61
 
 ]
 Chapter 16.
-(./Parts/covert_ops_and_sec/deception_intrusion.tex [59
+(./Parts/covert_ops_and_sec/deception_intrusion.tex [62
 
-] [60] [61] [62]) [63]
+] [63] [64] [65]) [66]
 Chapter 17.
-(./Parts/covert_ops_and_sec/security_surveillance.tex [64
+(./Parts/covert_ops_and_sec/security_surveillance.tex [67
 
-] [65] [66] [67]) [68]
+] [68] [69] [70]) [71]
 Chapter 18.
-(./Parts/covert_ops_and_sec/enforcement_coercion.tex [69
+(./Parts/covert_ops_and_sec/enforcement_coercion.tex [72
 
-] [70] [71] [72]) [73] [74
+] [73] [74] [75]) [76] [77
 
 ]
 Chapter 19.
@@ -999,9 +1005,9 @@ Overfull \hbox (4.72853pt too wide) in paragraph at lines 61--61
 []|\OT1/cmss/m/n/9 12| 
  []
 
-[75
+[78
 
-] [76]
+] [79]
 Overfull \hbox (1.11122pt too wide) in paragraph at lines 213--213
 []|\OT1/cmss/m/n/9 12+1| 
  []
@@ -1151,10 +1157,10 @@ Overfull \hbox (1.24115pt too wide) in paragraph at lines 213--213
 []|\OT1/cmss/m/n/9 1| 
  []
 
-[77]
+[80]
 Overfull \vbox (2.25745pt too high) has occurred while \output is active []
 
- [78]
+ [81]
 Overfull \hbox (0.93782pt too wide) in paragraph at lines 301--301
 []|\OT1/cmss/bx/n/9 RoF| 
  []
@@ -1174,7 +1180,7 @@ Overfull \hbox (3.8816pt too wide) in paragraph at lines 301--301
 []|\OT1/cmss/m/n/9 18M| 
  []
 
-[79]
+[82]
 Overfull \hbox (6.51291pt too wide) in paragraph at lines 425--425
 []|\OT1/cmss/bx/n/9 Acc| 
  []
@@ -1204,7 +1210,7 @@ Overfull \hbox (13.07101pt too wide) in paragraph at lines 425--425
 []|\OT1/cmss/m/n/9 160M| 
  []
 
-[80] [81] [82]
+[83] [84] [85]
 Overfull \hbox (1.02336pt too wide) in paragraph at lines 613--613
 []|\OT1/cmss/m/n/9 8+3| 
  []
@@ -1259,20 +1265,20 @@ Overfull \hbox (11.84651pt too wide) in paragraph at lines 613--613
 []|\OT1/cmss/m/n/8 27M| 
  []
 
-) [83]
+) [86]
 Chapter 20.
 (./Parts/weaponry/fluid_projectors.tex
 Overfull \hbox (1.43732pt too wide) in paragraph at lines 56--56
 []|\OT1/cmss/bx/n/9 RoF| 
  []
 
-) [84
+) [87
 
-] [85]
+] [88]
 Chapter 21.
-(./Parts/weaponry/guns_launchers.tex [86
+(./Parts/weaponry/guns_launchers.tex [89
 
-] [87]
+] [90]
 Overfull \hbox (1.41762pt too wide) in paragraph at lines 233--233
 []|\OT1/cmss/bx/n/9 Acc| 
  []
@@ -1617,7 +1623,7 @@ Overfull \hbox (3.98154pt too wide) in paragraph at lines 233--233
 []|\OT1/cmss/m/n/9 15M| 
  []
 
-[88]
+[91]
 Underfull \hbox (badness 10000) in paragraph at lines 320--322
 
  []
@@ -1627,7 +1633,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 325--326
 
  []
 
-[89] [90]
+[92] [93]
 Overfull \hbox (11.92719pt too wide) in paragraph at lines 557--557
 []|\OT1/cmss/bx/n/9 Acc| 
  []
@@ -2037,13 +2043,13 @@ Overfull \hbox (10.70776pt too wide) in paragraph at lines 557--557
 []|\OT1/cmss/m/n/9 20M| 
  []
 
-[91]
+[94]
 Overfull \vbox (9.59076pt too high) has occurred while \output is active []
 
 
 Overfull \vbox (9.59076pt too high) has occurred while \output is active []
 
- [92]
+ [95]
 Overfull \hbox (4.7833pt too wide) in paragraph at lines 642--642
 []|\OT1/cmss/bx/n/9 Acc| 
  []
@@ -2068,51 +2074,51 @@ Overfull \hbox (2.74324pt too wide) in paragraph at lines 642--642
 []|\OT1/cmss/m/n/9 10\TS1/cmss/m/n/9 „| 
  []
 
-[93]
+[96]
 Underfull \hbox (badness 10000) in paragraph at lines 707--709
 
  []
 
-[94]) [95]
+[97]) [98]
 Chapter 22.
 (./Parts/weaponry/firearm_accesories.tex
 Underfull \hbox (badness 10000) in paragraph at lines 18--20
 
  []
 
-[96
+[99
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 71--73
 
  []
 
-[97] [98]) [99]
+[100] [101]) [102]
 Chapter 23.
 (./Parts/weaponry/warheads_ammunition.tex
 Underfull \hbox (badness 10000) in paragraph at lines 16--16
 [][]\OT1/cmss/bx/it/12 Armor-Pierc-ing En-hanced Pen-e-tra-tor
  []
 
-[100
+[103
 
-] [101] [102]
+] [104] [105]
 Underfull \hbox (badness 10000) in alignment at lines 247--247
 [][][] 
  []
 
-[103] [104])
+[106] [107])
 Overfull \vbox (25.20189pt too high) has occurred while \output is active []
 
- [105] [106]
+ [108] [109]
 Chapter 24.
-(./Parts/weaponry/biochemical_nanotech.tex [107
-
-] [108]) [109]
-Chapter 25.
-(./Parts/weaponry/melee_thrown_weapons.tex [110
+(./Parts/weaponry/biochemical_nanotech.tex [110
 
 ] [111]) [112]
+Chapter 25.
+(./Parts/weaponry/melee_thrown_weapons.tex [113
+
+] [114]) [115]
 Chapter 26.
 (./Parts/weaponry/combat_robots.tex
 Underfull \hbox (badness 10000) in paragraph at lines 9--10
@@ -2134,7 +2140,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 51--52
 
  []
 
-[113
+[116
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 106--107
@@ -2151,107 +2157,97 @@ Underfull \hbox (badness 10000) in paragraph at lines 140--141
 
  []
 
-[114]) [115] [116
+[117]) [118] [119
 
 ]
 Chapter 27.
-(./Parts/defenses/body_armor_protective_gear.tex [117
+(./Parts/defenses/body_armor_protective_gear.tex [120
 
-] [118] [119] [120] [121]
+] [121] [122] [123] [124]
 Overfull \vbox (11.70183pt too high) has occurred while \output is active []
 
 
 Overfull \vbox (2.5907pt too high) has occurred while \output is active []
 
- [122] [123]) [124]
+ [125] [126]) [127]
 Chapter 28.
-(./Parts/defenses/powered_suits.tex [125
+(./Parts/defenses/powered_suits.tex [128
 
-] [126] [127]) [128]
+] [129] [130]) [131]
 Chapter 29.
-(./Parts/defenses/defense_systems.tex [129
+(./Parts/defenses/defense_systems.tex [132
 
-] [130])
+] [133])
 Overfull \vbox (6.70187pt too high) has occurred while \output is active []
 
- [131]
+ [134]
 Chapter 30.
-[132
+[135
 
-] [133
+] [136
 
 ]
 Chapter 31.
-(./Parts/medical_biotech/biomedical_equipment.tex [134
+(./Parts/medical_biotech/biomedical_equipment.tex [137
 
-] [135]
+] [138]
 Underfull \hbox (badness 10000) in alignment at lines 132--132
 [][][] 
  []
 
-[136] [137] [138] [139]) [140]
+[139] [140] [141] [142] [143]) [144]
 Chapter 32.
-(./Parts/medical_biotech/cybernetcs_uploading.tex [141
+(./Parts/medical_biotech/cybernetcs_uploading.tex [145
 
-] [142] [143] [144] [145] [146] [147] [148] [149] [150] [151]) [152] [153
+] [146] [147] [148] [149]
+
+LaTeX Warning: Reference `subsec:swarmbot_hive' on page 150 undefined on input line 361.
+
+[150] [151] [152] [153] [154] [155]) [156] [157
 
 ]
 Chapter 33.
-(./Parts/psi-tech/mundane_tech_lab.tex [154
+(./Parts/psi-tech/mundane_tech_lab.tex [158
 
-]) [155]
+]) [159]
 Chapter 34.
-(./Parts/psi-tech/psychotronic_equipment.tex [156
+(./Parts/psi-tech/psychotronic_equipment.tex [160
 
-] [157]
+] [161]
 Package mdframed Info: You first box width is to small
  mdframed fixed it
 (mdframed)              on input line 132.
- [158]
+ [162]
 Underfull \hbox (badness 10000) in paragraph at lines 159--160
 
  []
 
-[159]
+[163]
 Underfull \hbox (badness 10000) in paragraph at lines 162--164
 
  []
 
-[160] [161] [162] [163] [164] [165] [166] [167]) [168]
+[164] [165] [166] [167] [168] [169] [170] [171]) [172]
 Chapter 35.
-[169
+(./Parts/psi-tech/bio-psi.tex [173
+
+]) [174] [175] [176
 
 ]
 Chapter 36.
-[170
+(./Parts/vehicles/general_vehicles.tex [177
 
-] [171
-
-]
-Chapter 37.
-(./Parts/vehicles/general_vehicles.tex [172
-
-] [173]
-Overfull \hbox (20.21973pt too wide) in paragraph at lines 123--123
-[]|\OT1/cmss/bx/it/10 ST/HP| 
- []
-
-
-Overfull \hbox (1.30292pt too wide) in paragraph at lines 123--123
-[]|\OT1/cmss/m/n/10 100| 
- []
-
-[174]
+] [178] [179]
 Underfull \hbox (badness 10000) in alignment at lines 197--197
 [][][][][][][][][][][][] 
  []
 
-[175]
+[180]
 Overfull \hbox (7.41304pt too wide) in paragraph at lines 246--246
 []|\OT1/cmss/bx/n/9 ST/HP| 
  []
 
-[176]
+[181]
 Overfull \hbox (8.98647pt too wide) in paragraph at lines 286--286
 []|\OT1/cmss/bx/n/9 ST/HP| 
  []
@@ -2267,12 +2263,12 @@ Overfull \vbox (6.03517pt too high) has occurred while \output is active []
 
 Overfull \vbox (6.03517pt too high) has occurred while \output is active []
 
- [177]
+ [182]
 Overfull \hbox (8.4131pt too wide) in paragraph at lines 360--360
 []|\OT1/cmss/bx/n/9 ST/HP| 
  []
 
-[178]
+[183]
 Overfull \hbox (25.47403pt too wide) in paragraph at lines 406--406
 []|\OT1/cmss/bx/n/9 ST/HP| 
  []
@@ -2292,59 +2288,27 @@ Overfull \hbox (4.1988pt too wide) in paragraph at lines 406--406
 []|\OT1/cmss/m/n/9 50| 
  []
 
-[179]) [180] [181
-
-] (./Parts/appendix/core_tech.tex [182]
-Underfull \hbox (badness 10000) in paragraph at lines 117--117
-[]|\OT1/cmss/bx/it/10 Skill
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 117--117
-\OT1/cmss/bx/it/10 Dif-fi-
- []
-
-
-Overfull \hbox (10.55573pt too wide) in paragraph at lines 117--117
-[]|\OT1/cmss/m/n/10 Average,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 117--117
-\OT1/cmss/m/n/10 Hard,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 117--117
-\OT1/cmss/m/n/10 or
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 117--117
-\OT1/cmss/m/n/10 Very
- []
-
-) [183] (./main.aux (./Parts/core_tech/computer.aux) (./Parts/core_tech/robots_total_cyborgs.aux) (./Parts/core_tech/machines_as_characters.aux))
+[184]) [185] (./main.aux (./Parts/core_tech/computer.aux) (./Parts/core_tech/robots_total_cyborgs.aux) (./Parts/core_tech/machines_as_characters.aux))
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
-LaTeX Warning: There were multiply-defined labels.
+LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 28605 strings out of 476001
- 540449 string characters out of 5793198
- 1935068 words of memory out of 5000000
- 47142 multiletter control sequences out of 15000+600000
+ 28686 strings out of 476001
+ 541875 string characters out of 5793198
+ 1934068 words of memory out of 5000000
+ 47186 multiletter control sequences out of 15000+600000
  523549 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 104i,12n,102p,1286b,1225s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <c:/Users/Zacha/.texlive2023/texmf-var/fonts/pk/ljfour/jknappen/ec/tcss0800.600pk> <c:/Users/Zacha/.texlive2023/texmf-var/fonts/pk/ljfour/public/cm/cmss8.600pk> <c:/Users/Zacha/.texlive2023/texmf-var/fonts/pk/ljfour/public/cm/cmssbx10.480pk> <c:/Users/Zacha/.texlive2023/texmf-var/fonts/pk/ljfour/public/cm/cmssi9.600pk> <c:/Users/Zacha/.texlive2023/texmf-var/fonts/pk/ljfour/jknappen/ec/tcss0900.600pk> <c:/Users/Zacha/.texlive2023/texmf-var/fonts/pk/ljfour/public/cm/cmss9.600pk> <c:/Users/Zacha/.texlive2023/texmf-var/fonts/pk/ljfour/public/cm/cmssbx10.540pk> <c:/texlive/2023/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmsy10.pk> <c:/texlive/2023/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmmi10.pk> <c:/texlive/2023/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmr7.pk> <c:/texlive/2023/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmr10.pk> <c:/Users/Zacha/.texlive2023/texmf-var/fonts/pk/ljfour/jknappen/ec/tcss1000.600pk> <c:/Users/Zacha/.texlive2023/texmf-var/fonts/pk/ljfour/public/cm/cmssbx10.864pk> <c:/Users/Zacha/.texlive2023/texmf-var/fonts/pk/ljfour/public/cm/cmssbx10.1244pk> <c:/Users/Zacha/.texlive2023/texmf-var/fonts/pk/ljfour/public/cm/cmssi10.600pk> <c:/Users/Zacha/.texlive2023/texmf-var/fonts/pk/ljfour/public/cm/cmss10.600pk> <c:/Users/Zacha/.texlive2023/texmf-var/fonts/pk/ljfour/public/cm/cmssbx10.600pk> <c:/Users/Zacha/.texlive2023/texmf-var/fonts/pk/ljfour/public/cm/cmssbx10.720pk> <c:/Users/Zacha/.texlive2023/texmf-var/fonts/pk/ljfour/public/cm/cmssbx10.1493pk> <c:/Users/Zacha/.texlive2023/texmf-var/fonts/pk/ljfour/public/cm/cmss12.600pk> <c:/Users/Zacha/.texlive2023/texmf-var/fonts/pk/ljfour/public/cm/cmss17.600pk>
-Output written on main.pdf (184 pages, 1004274 bytes).
+ 104i,12n,102p,1286b,1226s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <c:/Users/Zacha/.texlive2023/texmf-var/fonts/pk/ljfour/jknappen/ec/tcss0800.600pk> <c:/Users/Zacha/.texlive2023/texmf-var/fonts/pk/ljfour/public/cm/cmss8.600pk> <c:/Users/Zacha/.texlive2023/texmf-var/fonts/pk/ljfour/public/cm/cmssbx10.480pk> <c:/Users/Zacha/.texlive2023/texmf-var/fonts/pk/ljfour/public/cm/cmssi9.600pk> <c:/Users/Zacha/.texlive2023/texmf-var/fonts/pk/ljfour/jknappen/ec/tcss0900.600pk> <c:/Users/Zacha/.texlive2023/texmf-var/fonts/pk/ljfour/public/cm/cmss9.600pk> <c:/Users/Zacha/.texlive2023/texmf-var/fonts/pk/ljfour/public/cm/cmssbx10.540pk> <c:/texlive/2023/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmmi10.pk> <c:/texlive/2023/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmr7.pk> <c:/texlive/2023/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmr10.pk> <c:/texlive/2023/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmsy10.pk> <c:/Users/Zacha/.texlive2023/texmf-var/fonts/pk/ljfour/jknappen/ec/tcss1000.600pk> <c:/Users/Zacha/.texlive2023/texmf-var/fonts/pk/ljfour/public/cm/cmssbx10.864pk> <c:/Users/Zacha/.texlive2023/texmf-var/fonts/pk/ljfour/public/cm/cmssbx10.1244pk> <c:/Users/Zacha/.texlive2023/texmf-var/fonts/pk/ljfour/public/cm/cmssi10.600pk> <c:/Users/Zacha/.texlive2023/texmf-var/fonts/pk/ljfour/public/cm/cmss10.600pk> <c:/Users/Zacha/.texlive2023/texmf-var/fonts/pk/ljfour/public/cm/cmssbx10.600pk> <c:/Users/Zacha/.texlive2023/texmf-var/fonts/pk/ljfour/public/cm/cmssbx10.720pk> <c:/Users/Zacha/.texlive2023/texmf-var/fonts/pk/ljfour/public/cm/cmssbx10.1493pk> <c:/Users/Zacha/.texlive2023/texmf-var/fonts/pk/ljfour/public/cm/cmss12.600pk> <c:/Users/Zacha/.texlive2023/texmf-var/fonts/pk/ljfour/public/cm/cmss17.600pk>
+Output written on main.pdf (186 pages, 1035393 bytes).
 PDF statistics:
- 4354 PDF objects out of 5155 (max. 8388607)
- 3367 compressed objects within 34 object streams
- 1366 named destinations out of 1440 (max. 500000)
+ 4533 PDF objects out of 5155 (max. 8388607)
+ 3568 compressed objects within 36 object streams
+ 1404 named destinations out of 1440 (max. 500000)
  1573 words of extra memory for PDF output out of 10000 (max. 10000000)
 
