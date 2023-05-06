@@ -6,3 +6,8 @@
 *.synctex(busy)
 *.toc
 *.fdb_latexmk
+main.aux
+main.fls
+main.log
+main.pdf
+main.toc
