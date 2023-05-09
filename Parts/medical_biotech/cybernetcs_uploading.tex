@@ -66,13 +66,47 @@ Use Mechanic (Robotics) skill to repair physical damage or malfunctioning cybern
 \subsection{Powering Cybernetics}\label{subsec:powering_cybernetics}
 Cybernetic devices are generally powered by body heat and motion, though there are some exceptions. Bionic limbs require cell replacement or recharging on a monthly basis (this is part of the maintenance requirement subsumed in their Mitigator limitation)
 
+\subsection{Armoring Cybernetics}\label{subsec:armoring_cybernetics}
+As machines of metal, plastic, and ceramic, bionic replacements have inherent DR that can be improved with purpose-built armor. Most implants do not have inherent DR, because of fragility, small size, diffuse nature, or flexibility requirements. Bionic hearts, gill implants, hive implants, and ripsnakes are rigid and compact enough to be armored. Count them as extremities for armoring purposes.
+
+\subsubsection{Rigid Armor}
+All rigid cybernetics can be armored beyond the free DR 2 they get as machinery. The normal maximum DR that can be built-in is equal to the crippling threshold (pp. B420-421) of the replaced part in HP ~x 2. For each additional level of Unnatural Features (up to 5), add +1 to the multiplier. Increased rigid armor supersedes the DR that comes with basic bionic limbs.
+
+Rigid armor costs \$50 and weighs 1 lbs. per point of DR for whole-body coverage; reduce cost and weight to the fraction covered for that bionic part.
+
+\subsubsection{Flexible Flesh-Like Armor}
+Realistic flesh biomorphics can be made with tougher material -- up to half the maximum DR of equivalent rigid parts (above). Realistic flesh biomorphics have Semi-Ablative and Flexible. Living flesh and synthetic organs can have up to 1/4 DR of equivalent rigid parts; these versions have Ablative and Tough Skin.
+
+Flexible flesh-like armor is a weak form of dermal armor; don't combine them with real dermal armor (see TODO, for the results of more than one layer). This type of armor should be purchased as lightweight partial suits of flexible armor (p. \pageref{subsec:ballistic_armor}).
+
+Bionic limbs \textit{can} have both rigid internal armor and flesh-like external armor. Bionic eyes can only have rigid armor.
+
 \subsection{Acquiring Cybernetics}\label{subsec:acquiring_cybernetics}
 At character creation, cybernetics are paid for with Character Points but during play, cybernetics are bought using money and you do not pay the Character Point cost.
 
 You cannot acquire Cybernetics without paying for them, even if you have the Character Points.
 
+\section{Implanted Gadgets}
+Many external devices can be implanted into living bodies. Tiny implants are powered by the user's motion, body-heat gradient, or nanomachines consuming blood sugar. Any implanted gadget that uses a B cell or larger probably needs real power cells and an access port to change them or the bio-power tap (p. TODO). Cybernetics located in the torso can have their power-cell port or charging socket located between two ribs and covered by synthetic flesh.
+
+Tiny cybernetics implants (less than 0.05 lb.) can be placed anywhere in the body. Small ones (0.05-0.25 lb.) should be anchored to bones (ribs, a spinal disk, skull, pelvis) to prevent internal lacerations from hard acceleration like falls, slams, or high-G maneuvers. Medium-sized implants (0.25-1 lb.) should be suspended in the body on shock mounting or distributed into multiple pieces around the body. Larger implants (larger than 1 lb.) almost always should be distributed into smaller pieces. Double all devices''' weights to account for the bio-compatible shell and added internal support structures and any access ports for data cables, ammunition, or power cells. Many sensors can be built as distributed arrays in the same manner as ladar smartskin (Ultra-Tech p. 64), taking up negligible internal space, but with added weight.
+
+Most simple implants count as an Accessory perk. However, some may be versatile enough or the user is so familiar with them that they may be better represented as full advantages.
+%See Perks vs. Powers (below) for more discussion on these options.
+
+Basic implantation has +2 CF and is a minor procedure that gives the device push-button activation (e.g. pushing on a biomonitor to activate the screen, or tapping on a subdermal printed computer). A device implanted just below or in the skin that doesn't require precise placement is typically -1 CF, and the surgery is one step easier than if it were placed elsewhere. If the device has a reflexive muscle trigger to turn it on and off (like cyber-claws) add +1 CF, or +2 CF if its function can be dialed up and down like a dimmer. If it requires biometric, positional, or physical feedback from the body (like an autoinjector, or the radar skin on p. 00), include +1 CF.
+
+To send to \textit{or} receive from an existing simple sense (like hearing or basic skin pressure) is +4 CF; +8 CF for complex information (like vision or the full sense of touch); or +12 CF for any number of senses. To both send and receive via an existing sense, add half again the CF (an extra +2, +4, or +6). To send non-human sensory information via another human sense (e.g., sensing magnetic field density via simulated tactile pressure) is also half again the CF of the target sense. Interfacing with complex senses is a major procedure and probably requires eye or brain surgery.
+
+To transmit information from the device to the user via surface thoughts is +8 CF, or +18 CF to include full two-way com-
+munication. Both versions need major brain surgery procedures.
+
+A device that must use an implant computer or implant radio instead of linking directly to a brain is only +2 CF. However, the implant computer or radio must be acquired separately. 
+
+If the cybernetic system requires modifying most of the body (for example, the skin, all nerves, or all blood vessels) rather than a simple implant, increase the surgery difficulty by one step.
+
 \section{Body Modifications}\label{sec:body_modifications}
-These include modifications to the body's limbs and organs, as well as implanted devices.
+These include modifications to the body's limbs and organs, as well as implanted devices. Also see \textit{Pyramid Issue 3/51}, pp. 15-21 for more options and rules for bionics.
 
 \subsection{Biomonitor Implant}\label{subsec:biomonitor_implant}
 This implant monitors vital signs: pulse, heartbeat, blood pressure, respiration, brainwaves, blood sugar, and alcohol levels, as well as the overall condition of the user's other cybernetics. It includes a small wrist display, and can connect to a neural interface (p. \pageref{sec:neural_interfaces}) or computer implant (p. \pageref{subsec:computer_implant}). It gives a +2 bonus to any First Aid, Diagnosis or Physician rolls on the cyborg, as long as the medic can see the display. Halve the bonus if the user can see it but has to describe it to the medic. If the medic has a neural interface or a computer, he can jack it into a port beside the visual readout and monitor the cyborg directly.
@@ -80,6 +114,13 @@ This implant monitors vital signs: pulse, heartbeat, blood pressure, respiration
 \textit{Statistics:} Accessory (Biomonitor) [1]. \textit{1 point}.
 
 \textit{Availability:} Simple procedure. \$100. LC4.
+
+\subsubsection{Autoinjector Implant}\label{subsubsec:autoinjector_implant}
+A biomonitor autoinjector (above) implanted in the torso. This is not under the user's control. Instead, it triggers based on physiological conditions. The refill/interface device is \$100, 0.5 lbs. LC4.
+
+\textit{Statistics:} Accessory (Autoinjector) [1]; Accessory (Biomonitor) [1]. \textit{2 points.}
+
+\textit{Availability:} Minor procedure. \$400. LC4.
 
 \subsection{Bionic Arm or Hand}\label{subsec:bionic_arm_hand}
 This is slightly stronger than the original, but constrained by the limits of the flesh~-and~-bone shoulder it is attached to.
@@ -92,7 +133,7 @@ This is slightly stronger than the original, but constrained by the limits of th
 \subsubsection{Two Bionic Arms}\label{subsubsec:two_bionic_arms}
 \textit{Statistics:} Arm ST+2 (Both arms; Temporary Disadvantages, Electrical, -20\%, and Maintenance, 1 person, weekly, -5\%) [8]; DR 2 (Arms, -20\%) [8]; No Fine Manipulators (Mitigator, -70\%) [-9]. \textit{7 points}.
 
-\textit{AVAILABILITY:} Two major procedures. \$24,000. LC4.
+\textit{Availability:} Two major procedures. \$24,000. LC4.
 
 If the recipient already has one existing bionic arm, use the Availability entry for one bionic arm.
 
@@ -179,6 +220,15 @@ This implant replaces the recipient's voicebox, and may include an artificial to
 
 \textit{Availability:} Minor procedure. \$5,000. LC4.
 
+\subsection{Bio-Power Tap}\label{subsec:bio-power_tap}
+An implanted flexible power cell and electric trickle-charger powered by the user's blood sugar using the same technology as gastrobot power supplies (p. \pageref{subsec:power_supply_swarmbot}). Unlike the ones for tiny implants, this produces enough energy to charge larger power cells. However, it requires the user to consume significant quantities of food. A bio-power tap can charge a C cell in one day.
+
+This device powers bionics or implants, including those that would otherwise require removable power cells, such as the gill implant (p. \pageref{subsec:gill_implant})
+
+\textit{Statistics:} Accessory (C Cell) [1]; Internal Create 1 (Electrical Energy; Temporary Disadvantage, Increased Consumption 1, -10\%) [4]. \textit{5 points}.
+
+\textit{Availability:} Minor procedure. \$4,000. LC4.
+
 \subsection{Bomb Implant}\label{subsec:bomb_implant}
 This explosive charge is attached to a timed or radio~-triggered detonator and placed in the subject's head or torso. Implanted bombs could be suicide devices under the control of the implantee, or used to insure the loyalty of untrustworthy subordinates. Implanted bombs are often wired into other implants to prevent tampering -- see \textit{Detecting and Removing Cybernetics} (p. \pageref{subsec:detecting_removing_cybernetics}).
 
@@ -256,6 +306,13 @@ These synthetic flesh implants allow the recipient to shift between two differen
 \textit{Availability:} Major procedure. \$20,000. LC3.
 
 If the subject already has bioplastic skin (p. \pageref{subsec:bioplastic_skin}), this is a minor procedure.
+
+\subsection{Radar Skin}\label{subsec:radar_skin}
+An array of subcutaneous radar emitters and receivers distributed throughout the body. Built as three small multi-mode radar arrays (for 360\degree coverage; p. \pageref{subsec:multi-mode_radar}) implanted (+2 CF) throughout the body with positional feedback (+1 CF and difficult surgery). It also has two-way mental communication (+18 CF) and a one-way full sensory output (+12 CF) which overlays its map in the visual field with hearing and touch as secondary sub-channels. Bearing and range to target comes as subconscious knowledge thanks to the two-way mind interface.
+
+\textit{Statistics:} Radar (Extended Arc, 360\degree, +125\%; Low-Probability Intercept, +10\%; Maximum Duration, 8 hours, -5\%; Multi-Mode, +50\%; Targeting, +20\%; Temporary Disadvantage, Electrical, -20\%) [56]. \textit{56 points}.
+
+\textit{Availability:} Major brain procedure. \$102,000, 3B/8 hrs. LC3.
 
 \subsection{Subdermal Armor}\label{subsec:subdermal_armor}
 This flexible armor is implanted under the skin. The operation uses nanotechnology to grow the armor under the skin. A careful tactile examination, a diagnostic bed, or a medscanner can detect the armor, but it is invisible to the naked eye and does not appear on metal detectors. It provides DR 12 vs. piercing and cutting damage and DR 4 vs. other damage.
@@ -434,6 +491,15 @@ This is a pair of bionic eyes with tiny infrared imaging cameras, day/night tele
 \textit{Statistics:} Accessory (HUD) [1]; Infravision (Temporary Disadvantage, Electrical, -20\%) [8]; Nictitating Membrane 2 [2]; Telescopic Vision 1 (Temporary Disadvantage, Electrical, -20\%) [4]; Blindness (Mitigator, -70\%) [-15]. \textit{0 points}.
 
 \textit{Availability:} Two major procedures (minor if replacing existing bionic eyes). \$8,000. LC4.
+
+\subsection{Wonder Glands}\label{subsec:wonder_glands}
+This upgraded version of the encapsulated cell implant (\textbf{GURPS Bio-Tech}, p. 120) includes a specialized, programmable biomonitor that releases a dose when certain conditions are met. Any drug (see \textit{Drugs and Nano}, \pageref{sec:drugs_nano} and \textit{Psi-Drugs and Nanodrugs}, \pageref{ch:psi-drugs_and_nanodrugs}) may be used; the usual choice is Ascepaline or Hyperstim, triggered if the subject is badly injured (HP 0 or worse) or unconscious.
+
+Wonder glands typically dispense drugs that must be administered immediately, such as combat enhancers or emergency healing drugs, although some people use them for lifestyle chemicals. This implant can also be used to refill the drug and poison reservoirs of stingers (p. \pageref{subsec:stinger}) and similar weapons.
+
+\textit{Statistics:} Any advantages or disadvantages granted, modified to fit the dosage requirements and triggering criteria. Aftermath, Limited Use, Takes Recharge, and Trigger are all appropriate modifiers.
+
+\textit{Availability:} Simple procedure. \$500 plus a microbe culture worth the cost of a single dose at LC4, multiplied by 10 for every LC lower. LC is that of the drug released.
 
 \section{Brain Implants}\label{sec:brain_implants}
 Brain implants are inserted into the recipient's skull and linked to his central nervous system. Some societies may see brain implants as sinister. Others may consider altering the mind to be more socially acceptable than modifying the body.
