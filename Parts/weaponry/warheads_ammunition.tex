@@ -4,6 +4,11 @@ For mines and hand grenades, there is no default warhead; each grenade or mine m
 
 Some types of warheads are only available for certain size classes -- for example, swarm warheads must be at least 25mm.
 
+\subsection{Reactive Fragments}\label{subsec:reactive_fragments}
+Reactive warhead fragments are compounds embedded in a plastic matrix that undergo an exothermal reaction on impact. When an explosion propels a reactive fragment into a solid target (DR 1+), the composite shock-ignites and reacts violently with oxygen in the air after a short delay. This reaction produces an additional explosion inside the target.
+
+Any warhead that inflicts fragmentation damage (p. B414) can use reactive fragments. The fragments do normal cutting damage, but with a ~x3 wounding modifier (it's an internal explosion, p. B415). Multiply final warhead cost by ~x1.2. LC is unaffected. Only works in atmosphere.
+
 \section{Conventional}\label{sec:conventional_warhead_ammu}
 Conventional rounds are ordinary kinetic~-energy, chemical, explosive warheads.
 
@@ -133,8 +138,8 @@ Grenades and satchel charges with HE warheads inflict the damage shown below. Wh
          & 18.5mm && 2d+4 cr ex [1d] &\\
          & 25mm && 4d+4 cr ex [1d+1] &\\
          & 40mm && 10d+1 cr ex [2d] &\\
-         & 64mm && 8d+8×2 cr ex [3d] &\\
-         & 100mm && 6d+6×5 [5d] &
+         & 64mm && 8d+8~x2 cr ex [3d] &\\
+         & 100mm && 6d+6~x5 [5d] &
     \end{tabularx}
     \label{tab:he_warhead}
 \end{table}
@@ -160,8 +165,8 @@ This has a light body to minimuze fragmentation. It is available for any 10mm or
          & 18.5mm && 2d+4 cr ex &\\
          & 25mm && 4d+4 cr ex &\\
          & 40mm && 8d+8 cr ex &\\
-         & 64mm && 8d+8×2 cr ex &\\
-         & 100mm && 6d+6×5 cr ex &\\
+         & 64mm && 8d+8~x2 cr ex &\\
+         & 100mm && 6d+6~x5 cr ex &\\
     \end{tabularx}
     \label{tab:hec_warhead}
 \end{table}
@@ -183,10 +188,10 @@ These warheads are available for any 25mm or larger round. Grenades and satchel 
     \rowcolors{1}{}{\colorweaponry}
     \begin{tabularx}{\columnwidth}{llX}
          \textbf{Warhead} & \textbf{Damage} &\\
-         25mm & 5d+5×3(10) cr inc + linked 2d cr ex [1d+1] &\\
-         40mm & 6d+6×4(10) cr inc + linked 4d cr ex [2d] &\\
-         64mm & 6d+6×7(10) cr inc + linked 8d cr ex [3d] &\\
-         100mm & 6d+6×10(10) cr inc + linked 8d×2 cr ex [5d] &
+         25mm & 5d+5~x3(10) cr inc + linked 2d cr ex [1d+1] &\\
+         40mm & 6d+6~x4(10) cr inc + linked 4d cr ex [2d] &\\
+         64mm & 6d+6~x7(10) cr inc + linked 8d cr ex [3d] &\\
+         100mm & 6d+6~x10(10) cr inc + linked 8d~x2 cr ex [5d] &
     \end{tabularx}
     \label{tab:shaped_warhead}
 \end{table}
@@ -200,7 +205,7 @@ These expanding memory~-plastic slugs are available for all weapons of 15mm or l
 This duplex~-type round consists of two slugs with a foot~-long strand of monowire slung between them. They spread apart after leaving the barrel, creating a high~-speed flying garrote that slices anything in its path. Monochain has half the damage range of an ordinary solid round, but gets +1 to hit. If it hits a neck, face, skull, extremity, or limb (or anywhere on a foe who has SM -2 or less) it does cutting damage with a (10) armor divisor. Unavailable for mines or hand grenades. Five times normal cost. LC2.
 
 \subsection{Shotshell}\label{subsec:shotshell}
-Multiple~-projectile rounds are available for grenade launchers, shotguns (including Gauss shotguns), and gyrocs. Divide the damage by 4, reduce the damage type from pi++ to pi, halve Range, add a ×9 multiplier to RoF, and reduce Rcl to 1. Normal cost. LC4.
+Multiple~-projectile rounds are available for grenade launchers, shotguns (including Gauss shotguns), and gyrocs. Divide the damage by 4, reduce the damage type from pi++ to pi, halve Range, add a ~x9 multiplier to RoF, and reduce Rcl to 1. Normal cost. LC4.
 
 \subsection{Smart Explosively Forged Projectile (SEFOP)}\label{subsec:sefop}
 This is a multi~-purpose sensor~-fused round capable of top attack. The round will detonate several feet away and usually above the target, forging the warhead into a high~-density slug that attacks from overhead.
@@ -217,10 +222,10 @@ SEFOP warhead damage replaces the piercing damage of the weapon. They can, alter
          & \textbf{Warhead} && \textbf{Damage} &\\
          & 15mm && 4d+4(2) imp inc &\\
          & 18.5mm && 5d+5(2) imp inc &\\
-         & 25mm && 5d+5×3(3) cr inc &\\
-         & 40mm && 6d+6×4(3) cr inc &\\
-         & 64mm && 6d+6×7(3) cr inc &\\
-         & 100mm && 6d+6×10(3) &\\
+         & 25mm && 5d+5~x3(3) cr inc &\\
+         & 40mm && 6d+6~x4(3) cr inc &\\
+         & 64mm && 6d+6~x7(3) cr inc &\\
+         & 100mm && 6d+6~x10(3) &\\
     \end{tabularx}
     \label{tab:sefop_warhead}
 \end{table}
@@ -263,9 +268,9 @@ Thermobaric warheads rely on combining with air for much of the blast. Divide th
     \begin{tabularx}{\columnwidth}{XlXlX}
          & \textbf{Warhead} && \textbf{Damage} &\\
          & 25mm && 8d+8 cr ex inc &\\
-         & 40mm && 8d+8×2 cr ex inc &\\
-         & 64mm && 6d+6×5 cr ex inc &\\
-         & 100mm && 6d+6×10 cr ex inc &\\
+         & 40mm && 8d+8~x2 cr ex inc &\\
+         & 64mm && 6d+6~x5 cr ex inc &\\
+         & 100mm && 6d+6~x10 cr ex inc &\\
     \end{tabularx}
     \label{tab:thermobaric_warhead}
 \end{table}
@@ -285,12 +290,12 @@ This shaped~-charge warhead can be miniaturized to fit into a bullet~-sized proj
     \begin{tabularx}{\columnwidth}{llX}
          \textbf{Warhead} & \textbf{Damage} & \\
          10mm & 8d(5) imp inc + linked 1d-2 cr ex [1d-2] &\\
-         15mm & 5d×2(5) imp inc + linked 1d cr ex [1d-1] &\\
-         18.5mm & 6d×2(5) imp inc + linked 1d+1 cr ex [1d] &\\
-         25mm & 6d×3(10) cr inc + linked 2d cr ex [1d+1] &\\
-         40mm & 6d×5(10) cr inc + linked 4d cr ex [2d] &\\
-         64mm & 6d×8(10) cr inc + linked 8d cr ex [3d] &\\
-         100mm & 6d×12(10) cr inc + linked 8d×2 cr ex [5d] &
+         15mm & 5d~x2(5) imp inc + linked 1d cr ex [1d-1] &\\
+         18.5mm & 6d~x2(5) imp inc + linked 1d+1 cr ex [1d] &\\
+         25mm & 6d~x3(10) cr inc + linked 2d cr ex [1d+1] &\\
+         40mm & 6d~x5(10) cr inc + linked 4d cr ex [2d] &\\
+         64mm & 6d~x8(10) cr inc + linked 8d cr ex [3d] &\\
+         100mm & 6d~x12(10) cr inc + linked 8d~x2 cr ex [5d] &
     \end{tabularx}
     \label{tab:hemp_warhead}
 \end{table}
@@ -336,6 +341,28 @@ Hand grenades and mines use the warhead effect. Guns and launcher sreplace their
 \end{table}
 They are five times normal cost \textit{plsu} the cost of the swarm. See \textit{Swarmbots} (p. \pageref{sec:swarmbots}) for the cost of various swarms, their effects, and their LC.
 
+\subsection{Camera}\label{subsec:camera_warhead}
+The warhead is replaced with a downward-facing wide-angle camera and directional transmitter. A parachute or contragravity generator keeps it aloft for one minute (parachute) or five minutes (contragravity). The camera's abilities and the transmission range are shown in the table below.
+
+\begin{table}[H]
+    \centering
+    \caption*{Camera Warhead Table}
+    \small
+    \rowcolors{1}{}{\colorweaponry}
+    \begin{tabularx}{\columnwidth}{lXl}
+        \textbf{Warhead} && \textbf{Effect} \\
+        10mm && NV 7, 2~x magnification, range 200 yards \\
+        15mm && NV 7, 2~x magnification, range 500 yards \\
+        18.5mm && NV 8, 2~x magnification, range 800 yards \\
+        25mm && NV 9, 4~x magnification, range 1 mile \\
+        40mm && NV 9, 8~x magnification, range 3 miles \\
+        64mm && NV 9, 16~x magnification, range 10 miles \\
+        100mm && NV 9, 32~x magnification, range 30 miles \\
+    \end{tabularx}
+\end{table}
+
+Camera payloads are four times normal cost, or five times normal cost to add Infrared Imaging, 10 times normal cost to add Hyperspectral Imaging, and 20 times normal cost to add PESA. LC3.
+
 \section{Nuclear and Antimatter}\label{sec:nuclear_antimatter_warheads}
 
 
@@ -354,19 +381,19 @@ A mininuke has a dial~-a~-yield setting that can be set from 0.01 kilotons to on
     \begin{tabularx}{\columnwidth}{XlXlX}
          & \textbf{Warhead} && \textbf{Damage} &\\
          \rowcolor{\colorweaponry}
-         & 0.01 kiloton && 6d×200 cr ex &\\
+         & 0.01 kiloton && 6d~x200 cr ex &\\
          \rowcolor{\colorweaponry}
-         & \textit{linked} && 4d×200 burn ex* rad sur &\\
-         & 0.1 kiloton && 6d×600 cr ex &\\
-         & \textit{linked} && 6d×400 burn ex* rad sur &\\
+         & \textit{linked} && 4d~x200 burn ex* rad sur &\\
+         & 0.1 kiloton && 6d~x600 cr ex &\\
+         & \textit{linked} && 6d~x400 burn ex* rad sur &\\
          \rowcolor{\colorweaponry}
-         & 1 kiloton && 6d×2,000 cr ex &\\
+         & 1 kiloton && 6d~x2,000 cr ex &\\
          \rowcolor{\colorweaponry}
-         & \textit{linked} && 4d×2,000 burn ex* rad sur &\\
+         & \textit{linked} && 4d~x2,000 burn ex* rad sur &\\
     \end{tabularx}
     \label{tab:mininuke_warhead}
 \end{table}
-* Divided by distance from the blast center, rather than by 3 × distance.
+* Divided by distance from the blast center, rather than by 3 ~x distance.
 
 Cost is 1,000 times normal. LC0.
 
@@ -382,19 +409,19 @@ There are three typical sizes of antimatter warhead: 0.1 micrograms (\micro{}g),
     \begin{tabularx}{\columnwidth}{XlXlX}
          & \textbf{Warhead} && \textbf{Damage} &\\
          \rowcolor{\colorweaponry}
-         & 0.1 \micro{}g && 6d×4 burn ex sur* &\\
+         & 0.1 \micro{}g && 6d~x4 burn ex sur* &\\
          \rowcolor{\colorweaponry}
-         & \textit{linked} && 6d×10,000 tox rad† &\\
-         & 1 \micro{}g && 6d×12 burn ex sur* &\\
-         & \textit{linked} && 6d×100,000 tox rad† &\\
+         & \textit{linked} && 6d~x10,000 tox rad† &\\
+         & 1 \micro{}g && 6d~x12 burn ex sur* &\\
+         & \textit{linked} && 6d~x100,000 tox rad† &\\
          \rowcolor{\colorweaponry}
-         & 10 \micro{}g && 6d×40 burn ex sur* &\\
+         & 10 \micro{}g && 6d~x40 burn ex sur* &\\
          \rowcolor{\colorweaponry}
-         & \textit{linked} && 6d×1,000,000 tox rad† &\\
+         & \textit{linked} && 6d~x1,000,000 tox rad† &\\
     \end{tabularx}
     \label{tab:antimatter_warhead}
 \end{table}
-* Divided by distance from the blast center, rather than 3 × distance.
+* Divided by distance from the blast center, rather than 3 ~x distance.
 
 † Divided by square of the distance.
 
@@ -490,8 +517,8 @@ The force option is available for any 15mm or larger warhead. Grenades and satch
          & 18.5mm && 2d+2 cr dkb ex &\\
          & 25mm && 4d cr dkb ex &\\
          & 40mm && 8d cr dkb ex &\\
-         & 64mm && 8d×2 cr dkb ex &\\
-         & 100mm && 6d×5 cr dkb ex &
+         & 64mm && 8d~x2 cr dkb ex &\\
+         & 100mm && 6d~x5 cr dkb ex &
     \end{tabularx}
     \label{tab:force_warhead}
 \end{table}
@@ -514,10 +541,59 @@ Hand grenades and mines use the warhead damage. Guns and launchers with plasma w
          & 15mm && 3d burn ex sur &\\
          & 18.5mm && 3d+2 burn ex sur &\\
          & 25mm && 6d burn ex sur &\\
-         & 40mm && 6d×2 burn ex sur &\\
-         & 64mm && 6d×4 burn ex sur &\\
-         & 100mm && 6d×10 burn ex sur &\\
+         & 40mm && 6d~x2 burn ex sur &\\
+         & 64mm && 6d~x4 burn ex sur &\\
+         & 100mm && 6d~x10 burn ex sur &\\
     \end{tabularx}
     \label{tab:plasma_warhead}
 \end{table}
 Plasma warheads are 10 times normal cost. LC1.
+
+\section{Explosives}
+All explosives listed here have the following properties.
+
+\textit{Detonators:} These create small precursor explosions powerful enough to detonate the main charge. They include a micro radio communicator (p. \pageref{itm:radio_comm_micro}) for remote triggering. This can be disabled and replaced with a timer (built-in) or optical cable (p. \pageref{itm:optical_cable}). \$20, neg. weight, LC3. 
+
+\textit{Insensitive:} Small explosive charges are needed to detonate the explosive. Standard impact, friction, heat, and sparks have no effect (e.g., lighting it on fire, shooting it, or hitting it with an electrolaser).
+
+\textit{Legality:} Standard explosives are LC2.
+
+\textit{Malleable:} The explosives can be mixed with a plasticizer to give them a variable consistency (usually between that of clay and toothpaste).
+
+\textit{Taggants:} Embedded taggants (p. \pageref{subsec:taggants}) are standard on all legal explosives. Packaged explosives may also include a homing beacon (p. \pageref{subsec:homing_beacon}) and other fail-safe devices.
+
+\textit{Toxic:} These explosives should not be consumed, even on a dare. Eating a small amount of ultra-tech explosive causes 2d toxic damage and both retching and seizures (see \textit{Afflictions}, pp. B428-429) after a 15-minute delay, with no HT roll to resist. Burning explosives will not detonate (see above), but will produce hazardous fumes. As an area-effect respiratory agent, it has a 10-second delay and HT-2 roll to resist, and causes retching.
+
+See \textbf{High-Tech}, pp. 181-183 for additional \textit{optional} rules, in addition to the basic guidelines for \textit{Explosions} (pp. B414-415).
+
+\subsection{Standard Explosives}
+Ultra-Tech explosives rely on more energetic molecular structures (e.g., octanitrocubane), the use of super-fine nanopowders in filler, metastable materials, and the development of improved techniques for safely encapsulating their lethal cargo. The default explosive fillers for warheads and ammunition are listed in the \textit{Standard Explosives Table} (below), along with their Relative Explosive Force (REF; p. B415) and nominal cost per pound.
+
+\subsection{Advanced Explosives}
+The explosives listed in the \textit{Advanced Explosives Table} (below) are difficult to synthesize and have limited applications due to safety or proliferation concerns. This difficulty is reflected in their cost.
+
+\multicolinterrupt{
+    \begin{table}[H]
+        \hrule height 1pt\medskip
+        \subsection{Standard Explosives Table}
+        \rowcolors{1}{}{\colorweaponry}
+        \begin{tabularx}{\linewidth}{lXcXcXlXc}
+            \textbf{Type} && \textbf{REF} && \textbf{Cost/lb.} && \textbf{Description} && \textbf{Notes} \\
+            Demex (RDX) && 1.4 && \$15 && Extrudable filler && \\
+            Plastex B && 4 && \$20 && Polynitrocubane compound && \\
+            High-Energy Explosive && 6 && \$40 && Metastable solid && \\
+        \end{tabularx}\medskip
+
+        \subsection{Advanced Explosives Table}
+        \rowcolors{1}{}{\colorweaponry}
+        \begin{tabularx}{\linewidth}{lXcXcXlXc}
+            \textbf{Type} && \textbf{REF} && \textbf{Cost/lb.} && \textbf{Description} && \textbf{Notes} \\
+            CL-20 && 2.3 && \$40 && Hexanitro hexaazaisowurtzitane && \\
+            VOMEX && 15 && \$200 && Advanced thermobaric compound && [1] \\
+            Isomers && 100 && \$5,000 && Triggered nuclear isomers && [2] \\
+        \end{tabularx}
+    \end{table}
+    [1] Produces an explosive cloud that is then detonated. Blast radius is increased (see \textit{Explosion}, p. B104); damage is divided by 2 ~x distance in yards from the blast instead of the usual 4 ~x distance. Only works in atmosphere.
+
+    [2] Isomer explosive damage also has the radiation damage modifier (p. B105).
+}
