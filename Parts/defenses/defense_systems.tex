@@ -24,10 +24,15 @@ Any critical hit to the ``eyes'' location by a beam weapon will burn out the TV 
 \subsection{Biomedical Sensors}\label{subsec:biomedical_sensors}
 These embedded sensors monitor cardiopulmonary function, blood pressure, oxygen saturation, posture, and activity level. The sensors also note the location and size of any penetrations into the armor. This permits remote monitoring of physiological status over a communications system; the patient data can also be encrypted and stored in a built~-in storage device. This data gives medics a +1 (quality) bonus to Diagnosis when examining the wearer in person, or allows Diagnosis skill to be attempted without the wearer being present at a -2 penalty. \$200, 0.2 lb., A/24 hr. LC4.
 
+\subsection{Cerablate Resin}\label{subsec:cerablate_resin}
+This polymer nanocomposite is spackled on rigid armor to provide temporary protection; it's flexible and subject to the blunt trauma rule (p. B379) if painted on the skin or clothing. Cerablate is a \textit{semi-ablative} material (see p. B47) and loses 1 DR for every 10 points of basic damage it resists.
+
+A typical application of cerablate resin provides DR 10. Enough resin to cover a full-body suit is 4 lbs. and \$400. Use the tailored armor rules for partial coverage (p. \pageref{sec:tailoring_armor}). LC3.
+
 \subsection{Electromagnetic Armor(EMA)}\label{subsec:electromagnetic_armor}
 This armor upgrade is designed to dissipate the penetrator jet created when a shaped~-charge warhead hits the exterior. When the round hits, embedded sensors trigger an electromagnetic pulse in the armor that disrupts the stream. Electromagnetic armor effectively doubles the armor DR vs. shaped~-charge warheads and plasma bolts. Laminate armor with the EMA upgrade has triple the armor DR against shaped-charge warheads and plasma bolts.
 
-EMA requires power and is limited in the number of times it may be used, a ``use'' being any penetration of the armor that is blocked only thanks to the doubling (or tripling) of DR. It draws on the suit or vehicle’s power plant or energy banks; the number of uses is specified in the descriptions of vehicles equipped with it.
+EMA requires power and is limited in the number of times it may be used, a ``use'' being any penetration of the armor that is blocked only thanks to the doubling (or tripling) of DR. It draws on the suit or vehicle's power plant or energy banks; the number of uses is specified in the descriptions of vehicles equipped with it.
 
 \textit{Vehicular EMA:} This is integrated into layered armor in vehicles such as tanks (p. \pageref{sec:tanks}).
 
@@ -35,28 +40,40 @@ EMA requires power and is limited in the number of times it may be used, a ``use
 
 EMA is an integral feature rather than an add~-on; its presence is noted in particular vehicle and armor designs.
 
+\subsection{Gas \& Liquid Channels}\label{subsec:gas-liquid_channels}
+These systems add a dispersal unit either for gases/aerosols or liquid chemicals. A suit can have both gas and liquid channels.
+
+\subsubsection{Gas Channels}\label{subsubsec:gas_channels}
+Gas channels disperse a cloud of gas or aerosols around the user for defensive purposes (see p. \pageref{subsec:biochemical_aerosol}). The dispersal unit can hold 160 doses of gases in eight tubes of 20 doses each. It can be triggered with any number of doses at once. \$200, 2 lb. LC4.
+
+\subsubsection{Liquid Channels}\label{subsubsec:liquid_channels}
+Secrete fluids such as slipspray (p. \pageref{subsec:slipspray}) or biochemical agents (p. \pageref{tab:biochemical_liquid}). The dispersal unit can hold eight single dose tubes, which can be triggered in any combination. \$200, 2 lb. LC4.
+
 \subsection{IFF Comm}\label{subsec:iff_comm}
 This software upgrade can be used with any directional communicator. It allows the user to send an ``Identify Friend of Foe'' signal and sets up an automatic response to any valid friendly IFF signal. IFF commas are compatible with the IFF interrogators (p. \pageref{subsec:iff_interrogator}).
 
-An IFF signal is an encrypted interrogation code. If the target has IFF comm software activated, and if it has the proper codes, its communicator will automatically reply with its own coded ``friend'' response. Once an IFF comm has identified a friendly target, it will pass this data to any navigational, sensor, or targeting displays it is linked to. If the target fails to respond, or any information does not match the IFF comm’s database, it will be indicated as potentially hostile.
+An IFF signal is an encrypted interrogation code. If the target has IFF comm software activated, and if it has the proper codes, its communicator will automatically reply with its own coded ``friend'' response. Once an IFF comm has identified a friendly target, it will pass this data to any navigational, sensor, or targeting displays it is linked to. If the target fails to respond, or any information does not match the IFF comm's database, it will be indicated as potentially hostile.
 
 IFF comm software is Complexity 2, \$500. LC3.
 
 \subsection{Life Jacket}\label{subsec:life_jacket}
-This small life jacket inflates automatically if totally submerged. Once activated, it reduces Swimming skill by 3, but the wearer won’t sink even if he wants to. One jacket will support 600 pounds in water. \$20, 2 lb.
+This small life jacket inflates automatically if totally submerged. Once activated, it reduces Swimming skill by 3, but the wearer won't sink even if he wants to. One jacket will support 600 pounds in water. \$20, 2 lb.
+
+\subsection{Multiple Optics}\label{subsec:multiple_optics}
+Helmets without a faceplate (p. \pageref{subsec:armor_without_faceplates}) can use distributed optical sensors. This provides the advantages of No Eyes due to multiple redundancies. The extra cameras cost \$500.
 
 \subsection{Nasal Filter Plugs}\label{subsec:nasal_filter_plugs}
-This pair of chemical~-biological filter plugs fits in the wearer’s nostrils. They do not provide full protection against gas, but as long as the wearer keeps her mouth closed and breathes only through her nose, the plugs add a +5 bonus to HT to protect against breathed gas (such as sleep gas), strong odors, or avoid infection from airborne microorganisms. They provide no protection against agents absorbed through skin.
+This pair of chemical~-biological filter plugs fits in the wearer's nostrils. They do not provide full protection against gas, but as long as the wearer keeps her mouth closed and breathes only through her nose, the plugs add a +5 bonus to HT to protect against breathed gas (such as sleep gas), strong odors, or avoid infection from airborne microorganisms. They provide no protection against agents absorbed through skin.
 
 Inserting the plugs takes three seconds if in hand. A DX roll can cut this to two seconds, but critical failure means the user drops one of the plugs instead of inserting it. In a surprise gas attack, the user must make an IQ roll to close her mouth and insert the plugs before breathing a whiff of gas. Combat Reflexes adds +6 to IQ for this purpose, and Hazardous Materials skill (p. B199) can substitute for IQ if it is higher.
 
 The filters only work perfectly for about four hours of continuous use. The HT bonus then declines by -1 every two hours; after 10 hours the plugs offer no protection at all. \$100, neg. weight. LC4.
 
 \subsection{Near Miss Indicator}\label{subsec:near_miss_indicator}
-This miniature acoustic sensor can attach to any combat helmet. It only works in conjunction with a HUD (p. \pageref{itm:terminal_hud}), and does not function in vacuum. The NMI’s sensor detects the flight path of projectiles (but not energy beams) as they pass across the user’s field of vision, then displays them as visible traces. This gives a +2 to Vision rolls to locate the source of enemy fire. \$1,000, neg. weight, A/24 hr. LC4.
+This miniature acoustic sensor can attach to any combat helmet. It only works in conjunction with a HUD (p. \pageref{itm:terminal_hud}), and does not function in vacuum. The NMI's sensor detects the flight path of projectiles (but not energy beams) as they pass across the user's field of vision, then displays them as visible traces. This gives a +2 to Vision rolls to locate the source of enemy fire. \$1,000, neg. weight, A/24 hr. LC4.
 
 \subsection{Personal Radar/Laser Detector}\label{subsec:personal_radar/laser_detector}
-This alerts the user if they're in the path of a radar or ladar beam at up to twice that beam’s range (1.5 times normal range for LPI radars, see p. \pageref{sec:active_sensors}). It cannot detect radars of a higher TL than its own. Soldiers often carry radar detectors built into combat helmets. \$50, 0.5 lb., A/10 days. LC4.
+This alerts the user if they're in the path of a radar or ladar beam at up to twice that beam's range (1.5 times normal range for LPI radars, see p. \pageref{sec:active_sensors}). It cannot detect radars of a higher TL than its own. Soldiers often carry radar detectors built into combat helmets. \$50, 0.5 lb., A/10 days. LC4.
 
 \subsection{Psionic Mind Shield}\label{subsec:psionic_mind_shield}
 This psychotronic device generates a telepathic mind shield that warns the user of mental attacks and defends against them. Add +4 to IQ or Will whenever the user resists an advantage with the Telepathic limitation. The shield also resists attempts to locate the user's mind using psionic abilities. Such abilities must win a Quick Contest against the wearer's Will+4 to find him.
@@ -67,7 +84,7 @@ These shields also work to defend against Raven abilities and Witchcraft that ta
 
 \textit{Mind Shild Circuitry:}\label{itm:mind_shield_circuitry} This can be built into any type of helmet: \$1,000, 0.5 lb., 2B/100 hr. LC3.
 
-\textit{Telepathic Barrier:}\label{itm:telepathic_barrier} This psionic stealth coating can be used to shield vehicle crews, building occupants, or even entire cities from telepathic detection and manipulation. It uses external power. \$1,000, 0.5 lb. per square foot. Sealing a 10’ cube requires an area of 600 square feet; a typical civilian vehicle is about 300 square feet.
+\textit{Telepathic Barrier:}\label{itm:telepathic_barrier} This psionic stealth coating can be used to shield vehicle crews, building occupants, or even entire cities from telepathic detection and manipulation. It uses external power. \$1,000, 0.5 lb. per square foot. Sealing a 10' cube requires an area of 600 square feet; a typical civilian vehicle is about 300 square feet.
 
 \textit{Mind Shield Headband:}\label{itm:mind_shield_headband} A more compact version of the standard telepathic mind shield, worn as a headband or tiara. \$2,000, 0.1 lb. B/100 hr. LC3.
 
@@ -75,10 +92,10 @@ These shields also work to defend against Raven abilities and Witchcraft that ta
 This is a tiny device (often worn on the wrist) that detects the local radiation level; it includes a touch~-sensitive display and micro~-communicator. It can provide the actual radiation level or be set to trigger an alarm if the radiation exceeds a specified amount. The same unit may be built into a helmet visor or connected to a HUD. \$100, neg. weight, AA/1 month. LC4.
 
 \subsection{Riot Shield}\label{subsec:riot_shield}
-Police on riot-control duty often use this large, rectangular shield of transparent armorplas. It has DB 3 and DR 30/HP 60. It does not impair the user’s vision, but lasers ignore its DR. \$100, 4 lb., LC4.
+Police on riot-control duty often use this large, rectangular shield of transparent armorplas. It has DB 3 and DR 30/HP 60. It does not impair the user's vision, but lasers ignore its DR. \$100, 4 lb., LC4.
 
 \subsection{Suit Patches}\label{subsec:suit_patches}
-Environment suits and sealed battlesuits usually have a front pocket containing 10 sticky emergency patches. Damage that penetrates the suit can be patched manually. This requires three seconds and a Vacc Suit skill roll. If the first attempt fails, each further attempt is at a cumulative -1. Every three seconds of delay or failed attempt means a loss of 10 minutes’ worth of air. Extra packets of suit patches are \$10, 0.1 lb.
+Environment suits and sealed battlesuits usually have a front pocket containing 10 sticky emergency patches. Damage that penetrates the suit can be patched manually. This requires three seconds and a Vacc Suit skill roll. If the first attempt fails, each further attempt is at a cumulative -1. Every three seconds of delay or failed attempt means a loss of 10 minutes' worth of air. Extra packets of suit patches are \$10, 0.1 lb.
 
 \subsection{Trauma Maintenance}\label{subsec:trauma_maintenance}
 This medical system is available for any battlesuit or flexible powered suit with biomedical sensors (p. \pageref{subsec:biomedical_sensors}). It includes an auto~-injector and 10 doses of drugs. The user can manually trigger it, or it can be preset to inject a specific drug if vital signs warrant it; e.g., a painkiller if injured or a stimulant if fatigued. The injector might also be remotely controlled by a superior officer, or loaded with non~-medical drugs; e.g., to trigger berserker rage. It has its own power supply to make it independent of suit power loss. \$2,000, neg. weight, A/1 year. LC4.
@@ -96,7 +113,7 @@ Reactive armor paste will only detonate if struck by a high~-velocity attack suc
 
 Each time the paste detonates, the wearer takes 1d crushing damage with the explosive modifier. Reactive armor paste is normally placed on armor, which will protect against this damage.
 
-Reactive armor paste is only good for a limited number of uses. If it’s already protected a location once, then roll 1d each time a successive attack strikes the same location. Subtract 1 for every prior attack that resulted in a detonation. If the result is 0 or less, an unprotected area has been hit and the paste has no effect.
+Reactive armor paste is only good for a limited number of uses. If it's already protected a location once, then roll 1d each time a successive attack strikes the same location. Subtract 1 for every prior attack that resulted in a detonation. If the result is 0 or less, an unprotected area has been hit and the paste has no effect.
 
 Reactive armor paste typically provides DR 20 (DR 200 vs. shaped charges). Enough paste to cover a full-body suit is 4 lb. and \$200. Use the tailored armor rules for partial coverage. LC2.
 
@@ -104,14 +121,14 @@ Reactive armor paste typically provides DR 20 (DR 200 vs. shaped charges). Enoug
 These options are available for smart vacc suits (p. \pageref{itm:smart_vacc_suit}) and space biosuits (p. \pageref{subsubsec:space_biosuit}). They make full use of the mutable capabilities of smart matter materials. Some of the possible suit features are:
 
 \subsubsection{Interphase}\label{subsubsec:interphase_option}
-This ``smartsuit-built-for-two'' feature allows two or more suits in physical contact to merge into a single, larger suit -- like a big bioplastic sleeping bag -- that contains all the original occupants. This takes 10 seconds and requires that all parties be cooperative, restrained, or unconscious. Once the suits are interphased, everyone within shares life support and can interact in ways that are difficult or impossible in separate suits; such skills as First Aid and Erotic Art are at only -1. A lone user can use First Aid on herself (still at -1) without opening her suit by activating interphase and causing her suit to balloon. It’s impossible to walk while wearing a sack, but the occupants can hop or roll at Move 1. Separating the suits takes 10 seconds; any suit wearer can initiate her suit’s separation. \$1,000 for a biosuit; \$5,000 for a smartsuit. LC4.
+This ``smartsuit-built-for-two'' feature allows two or more suits in physical contact to merge into a single, larger suit -- like a big bioplastic sleeping bag -- that contains all the original occupants. This takes 10 seconds and requires that all parties be cooperative, restrained, or unconscious. Once the suits are interphased, everyone within shares life support and can interact in ways that are difficult or impossible in separate suits; such skills as First Aid and Erotic Art are at only -1. A lone user can use First Aid on herself (still at -1) without opening her suit by activating interphase and causing her suit to balloon. It's impossible to walk while wearing a sack, but the occupants can hop or roll at Move 1. Separating the suits takes 10 seconds; any suit wearer can initiate her suit's separation. \$1,000 for a biosuit; \$5,000 for a smartsuit. LC4.
 
 \subsubsection{Rainbow}\label{subsubsec:rainbow_option}
-The suit can change its color on request, or even become transparent (though not invisible). This lets the suit mimic different kinds of clothing – for example, the user could make arms, head, and legs transparent to create the illusion of swimwear. The helmet’s colors and transparency can also be adjusted.
+The suit can change its color on request, or even become transparent (though not invisible). This lets the suit mimic different kinds of clothing – for example, the user could make arms, head, and legs transparent to create the illusion of swimwear. The helmet's colors and transparency can also be adjusted.
 
 The rainbow option is not as effective as a chameleon suit, but does allow the user to don a camouflage pattern (-2 to be spotted) if desired. It can also give the suit a chrome pattern, for the equivalent of a reflec armor surface (p. \pageref{subsubsec:reflec}). \$400 for biosuit; \$2,000 for a smartsuit. LC4.
 
 \subsubsection{Morphwear}\label{subsubsec:morphwear_option}
 The suit can reconfigure itself to mimic normal clothing, with the hood retracting into the body and the legs, torso, and sleeves separating and billowing as necessary to duplicate anything from a formal suit to a cocktail dress. A large library of outfits can be programmed; in combination with the Rainbow setting, the suit can duplicate most types of full clothing, and create the illusion of skimpy outfits by becoming selectively transparent.
 
-While it is activated, the morphwear function compromises the suit’s ability to protect against hostile environments and halves DR. The suit can change back to its protective form in two seconds. \$1,000 for a biosuit, \$5,000 for a smartsuit.
+While it is activated, the morphwear function compromises the suit's ability to protect against hostile environments and halves DR. The suit can change back to its protective form in two seconds. \$1,000 for a biosuit, \$5,000 for a smartsuit.
