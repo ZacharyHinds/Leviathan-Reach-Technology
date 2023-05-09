@@ -18,11 +18,11 @@ Each modification specifies the type of procedure, the cost of the cybernetics, 
 \subsection{Procedure}\label{subsec:procedure_cybernetics}
 Installing cybernetic modifications requires, except for simple procedures, involved neuro~-surgery. For players or NPCs performing this surgery, use the Surgery (Cybernetics) skill (Defaults: Surgery-2). When receiving this surgery at a reputable hospital, no skill rolls are generally required.
 
-The Surgical Procedures Table shows the difficulty modifiers (parenthetical modifier is for brain or eye surgery), time per attempt, and the injury caused by a failed roll (which is applied to the body part being operated on). Success installs the modification, but it won't work until after the specified recovery period. The fee is the surgical fee charged at a clinic or hospital -- ignore it when doing your own work.
+The Surgical Procedures Table shows the difficulty modifiers (parenthetical modifier is for brain or eye surgery), time per attempt, and the injury caused by a failed roll (which is applied to the body part being operated on). In addition to these modifiers, apply \textit{General Surgery Modifiers} (\textbf{GURPS Bio-Tech}, p. 138). Success installs the modification, but it won't work until after the specified recovery period. The fee is the surgical fee charged at a clinic or hospital -- ignore it when doing your own work.
 
 These times assume the surgeon is using precise, robotic instruments; without them, double the recovery time and damage. (Increase the damage from a failed Simple procedure to 1d/2 HP.)
 
-A modification is not functional until the recovery time has passed. If a disadvantage is mitigated by the modification -- e.g., One Hand for Bionic Hand -- the patient will suffer the disadvantage until the recovery time is completed.
+A modification is not functional until the recovery time has passed. Additionally, follow the rules for \textit{Recovery} (\textbf{Bio-Tech}, p. 139). If a disadvantage is mitigated by the modification -- e.g., One Hand for Bionic Hand -- the patient will suffer the disadvantage until the recovery time is completed.
 
 On a critical success, halve the recovery time. A critical failure means that the cybernetic is defective in some way. This may mean it will break down at some point or it might cause an inconvenient disadvantage.
 
@@ -35,8 +35,8 @@ On a critical success, halve the recovery time. A critical failure means that th
         \begin{tabularx}{\linewidth}{lXcXcXcXcXr}
              \textbf{Procedure} && \textbf{Modifiers} && \textbf{Time} && \textbf{Injury} && \textbf{Recovery Period} && \textbf{Fee} \\
              Simple && +4 (+2) && 15 min. && 1 HP && 1 hour && \$100 \\
-             Minor && +2 (+0) && 1 hour && 1d/2 HP && 1 day && \$1,000 \\
-             Major && +0 (-2) && 2 hours && 1d HP && 1 week && \$10,000 \\
+             Minor && +2 (+0) && 1 hour && 1d HP && 1 day && \$1,000 \\
+             Major && +0 (-2) && 2 hours && 2d HP && 1 week && \$10,000 \\
              Radical && -3 (-5) && 4 hours && 3d HP && 4 weeks && \$100,000 \\
         \end{tabularx}
         % \caption{Caption}
@@ -484,6 +484,25 @@ The recipient's skin is covered with a switchable smart matter nanofilm. When ac
 \textit{Statistics:} Slippery 3 [6]. \textit{6 points}.
 
 \textit{Availability:} Major procedure. \$12,000. LC3.
+
+\subsection{Stickskin}\label{subsec:stickskin}
+The recipient's palms and soles are covered with switchable gecko adhesive skin (p. \pageref{subsubsec:gecko_adhesive}). When activated, the user can adhere to any solid surface. They can be combined with slickskin at no penalty, since they cover nonoverlapping areas.
+
+\textit{Statistics:} Clinging (Temporary Disadvantage, Electrical, -20\%) [16]. \textit{16 points}.
+
+\textit{Availability:} Major procedure. \$16,000. LC3.
+
+This is only a minor procedure and half cost if the recipient
+already has bioplastic skin.
+
+\subsection{Swimskin}\label{subsec:swimskin}
+The recipient's skin is covered with a biomemetic swim surface and a permanent water-repellant coating (see \textit{Waterproof Clothing}, p. \pageref{subsubsec:waterproof_clothing}). The user will have to use sonic showers (p. \pageref{subsec:sonic_shower}) or wash with non-water-based solvents. The microscopic layer of trapped air reduces water drag, increasing Water Move when unclothed. Provides at most Slippery 3 when combined with Slickskin.
+
+\textit{Statistics:} Water Move +2 [10]; Resistant to Contact Agents (+3) [3]; Slippery 1 [2]. \textit{15 points}.
+
+\textit{Availability:} Major procedure. \$25,000. LC3.
+
+This is only a minor procedure and half cost if the recipient already has bioplastic skin.
 
 \subsection{Thermal Imaging Eyes}\label{subsec:thermal_imaging_eyes}
 This is a pair of bionic eyes with tiny infrared imaging cameras, day/night telescopic optics, and a HUD (p. \pageref{itm:terminal_hud}) chipped into the optic nerves.
