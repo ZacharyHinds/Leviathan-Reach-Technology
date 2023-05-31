@@ -25,6 +25,7 @@
 \usepackage{adjustbox}
 \usepackage{bookmark}
 \usepackage{ragged2e}
+\usepackage{makecell}
 
 \setcounter{secnumdepth}{0}
 \setcounter{tocdepth}{1}
@@ -62,7 +63,9 @@
 % \newcommand{\updatepartcolor}[1]{\renewcommand{\partcolor}{#1}}
 % \newcommand{\rowcolorspartcolor}{\rowcolors{1}{}{\partcolor}}
 
-\renewcommand\familydefault{\sfdefault}
+\usepackage[defaultfam,tabular,lining]{montserrat}
+\usepackage[T1]{fontenc}
+\renewcommand*\oldstylenums[1]{{\fontfamily{Montserrat-TOsF}\selectfont #1}}
 
 
 \newmdenv[%

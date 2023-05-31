@@ -186,12 +186,12 @@ These warheads are available for any 25mm or larger round. Grenades and satchel 
     \footnotesize
     \caption*{Shaped Charge Warhead Table}
     \rowcolors{1}{}{\colorweaponry}
-    \begin{tabularx}{\columnwidth}{llX}
-         \textbf{Warhead} & \textbf{Damage} &\\
-         25mm & 5d+5~x3(10) cr inc + linked 2d cr ex [1d+1] &\\
-         40mm & 6d+6~x4(10) cr inc + linked 4d cr ex [2d] &\\
-         64mm & 6d+6~x7(10) cr inc + linked 8d cr ex [3d] &\\
-         100mm & 6d+6~x10(10) cr inc + linked 8d~x2 cr ex [5d] &
+    \begin{tabularx}{\columnwidth}{lX}
+         \textbf{Warhead} & \textbf{Damage} \\
+         25mm & 5d+5~x3(10) cr inc + linked 2d cr ex [1d+1] \\
+         40mm & 6d+6~x4(10) cr inc + linked 4d cr ex [2d] \\
+         64mm & 6d+6~x7(10) cr inc + linked 8d cr ex [3d] \\
+         100mm & 6d+6~x10(10) cr inc + linked 8d~x2 cr ex [5d]\\
     \end{tabularx}
     \label{tab:shaped_warhead}
 \end{table}
@@ -287,15 +287,15 @@ This shaped~-charge warhead can be miniaturized to fit into a bullet~-sized proj
     \small
     \caption*{HEMP Warhead Table}
     \rowcolors{1}{}{\colorweaponry}
-    \begin{tabularx}{\columnwidth}{llX}
-         \textbf{Warhead} & \textbf{Damage} & \\
-         10mm & 8d(5) imp inc + linked 1d-2 cr ex [1d-2] &\\
-         15mm & 5d~x2(5) imp inc + linked 1d cr ex [1d-1] &\\
-         18.5mm & 6d~x2(5) imp inc + linked 1d+1 cr ex [1d] &\\
-         25mm & 6d~x3(10) cr inc + linked 2d cr ex [1d+1] &\\
-         40mm & 6d~x5(10) cr inc + linked 4d cr ex [2d] &\\
-         64mm & 6d~x8(10) cr inc + linked 8d cr ex [3d] &\\
-         100mm & 6d~x12(10) cr inc + linked 8d~x2 cr ex [5d] &
+    \begin{tabularx}{\columnwidth}{lX}
+         \textbf{Warhead} & \textbf{Damage}  \\
+         10mm & 8d(5) imp inc + linked 1d-2 cr ex [1d-2] \\
+         15mm & 5d~x2(5) imp inc + linked 1d cr ex [1d-1] \\
+         18.5mm & 6d~x2(5) imp inc + linked 1d+1 cr ex [1d] \\
+         25mm & 6d~x3(10) cr inc + linked 2d cr ex [1d+1] \\
+         40mm & 6d~x5(10) cr inc + linked 4d cr ex [2d] \\
+         64mm & 6d~x8(10) cr inc + linked 8d cr ex [3d] \\
+         100mm & 6d~x12(10) cr inc + linked 8d~x2 cr ex [5d] 
     \end{tabularx}
     \label{tab:hemp_warhead}
 \end{table}
@@ -330,6 +330,7 @@ Hand grenades and mines use the warhead effect. Guns and launcher sreplace their
 \begin{table}[H]
     \centering
     \caption*{Swarm Warhead Table}
+    \small
     \rowcolors{1}{}{\colorweaponry}
     \begin{tabularx}{\columnwidth}{XlXlX}
          & \textbf{Warhead} && \textbf{Damage} &\\
@@ -351,13 +352,13 @@ The warhead is replaced with a downward-facing wide-angle camera and directional
     \rowcolors{1}{}{\colorweaponry}
     \begin{tabularx}{\columnwidth}{lXl}
         \textbf{Warhead} && \textbf{Effect} \\
-        10mm && NV 7, 2~x magnification, range 200 yards \\
-        15mm && NV 7, 2~x magnification, range 500 yards \\
-        18.5mm && NV 8, 2~x magnification, range 800 yards \\
-        25mm && NV 9, 4~x magnification, range 1 mile \\
-        40mm && NV 9, 8~x magnification, range 3 miles \\
-        64mm && NV 9, 16~x magnification, range 10 miles \\
-        100mm && NV 9, 32~x magnification, range 30 miles \\
+        10mm && NV 7, 2~x magnify, range 200 yards \\
+        15mm && NV 7, 2~x magnify, range 500 yards \\
+        18.5mm && NV 8, 2~x magnify, range 800 yards \\
+        25mm && NV 9, 4~x magnify, range 1 mile \\
+        40mm && NV 9, 8~x magnify, range 3 miles \\
+        64mm && NV 9, 16~x magnify, range 10 miles \\
+        100mm && NV 9, 32~x magnify, range 30 miles \\
     \end{tabularx}
 \end{table}
 
@@ -378,18 +379,19 @@ A mininuke has a dial~-a~-yield setting that can be set from 0.01 kilotons to on
     \caption*{Mininuke Warhead Table}
     % \rowcolors{1}{}{\colorweaponry}
     % \rowcolor{\colorweaponry}
-    \begin{tabularx}{\columnwidth}{XlXlX}
-         & \textbf{Warhead} && \textbf{Damage} &\\
+    
+    \begin{tabularx}{\columnwidth}{XllX}
+         & \textbf{Warhead} & \textbf{Damage} &\\
          \rowcolor{\colorweaponry}
-         & 0.01 kiloton && 6d~x200 cr ex &\\
+         & 0.01 kiloton & 6d~x200 cr ex &\\
          \rowcolor{\colorweaponry}
-         & \textit{linked} && 4d~x200 burn ex* rad sur &\\
-         & 0.1 kiloton && 6d~x600 cr ex &\\
-         & \textit{linked} && 6d~x400 burn ex* rad sur &\\
+         & \textit{linked} & 4d~x200 burn ex* rad sur &\\
+         & 0.1 kiloton & 6d~x600 cr ex &\\
+         & \textit{linked} & 6d~x400 burn ex* rad sur &\\
          \rowcolor{\colorweaponry}
-         & 1 kiloton && 6d~x2,000 cr ex &\\
+         & 1 kiloton & 6d~x2,000 cr ex &\\
          \rowcolor{\colorweaponry}
-         & \textit{linked} && 4d~x2,000 burn ex* rad sur &\\
+         & \textit{linked} & 4d~x2,000 burn ex* rad sur &\\
     \end{tabularx}
     \label{tab:mininuke_warhead}
 \end{table}

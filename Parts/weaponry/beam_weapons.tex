@@ -41,22 +41,25 @@ Failure to resist inflicts crippling Blindness (p. B125).
 \multicolinterrupt{
     \normalsize
     \begin{table}[H]
-        \sffamily
+        % \sffamily
         \hrule height 1pt\medskip
         \subsection{\textit{Dazzler Laser Weapons Table}}
         \noindent BEAM WEAPONS (PROJECTOR) (DX-4, or other Beam Weapons-4)
         \centering
-        \small
-        \rowcolors{1}{}{\colorweaponry}
-        \begin{tabularx}{\linewidth}{lcXccXcXcXcXc}
+        \footnotesize
+        \rowcolors{2}{}{\colorweaponry}
+        \begin{tabularx}{\linewidth}{lccccccXcXlXc}
             \textbf{Weapon} & \textbf{Damage} & \textbf{Acc} & \textbf{Range} & \textbf{Weight} & \textbf{RoF} & \textbf{Shots} & \textbf{ST} & \textbf{Bulk} & \textbf{Rcl} & \textbf{Cost} & \textbf{LC} & \textbf{Notes} \\
             Dazzler Carbine & HT-5 aff (3 yd) & 6 & 1,500/4,500 & 5/C & 1 & 9,000(3) & 6† & -2 & 1 & \$500 & 3 & [1] \\ 
             Laser Penlight & HT-4 aff (1 yd) & 6 & 100/300 & 0.1/A & 1 & 900(3) & 1 & -1 & 1 & \$3 & 4 & [1] \\
-            Mini Laser Flashlight & HT-5 aff (1 yd) & 6 & 170/500 & 0.25/B & 1 & 3,600(3) & 1 & -1 & 1 & \$10 & 4 & [1] \\
-            Heavy Laser Flashlight & HT-5 aff (1 yd) & 6 & 330/1,000 & 1/2B & 1 & 3,600(3) & 1 & -2 & 1 & \$20 & 4 & [1] \\
+            Mini LFL* & HT-5 aff (1 yd) & 6 & 170/500 & 0.25/B & 1 & 3,600(3) & 1 & -1 & 1 & \$10 & 4 & [1] \\
+            Heavy LFL* & HT-5 aff (1 yd) & 6 & 330/1,000 & 1/2B & 1 & 3,600(3) & 1 & -2 & 1 & \$20 & 4 & [1] \\
             Laser Searchlight & HT-5 aff (2 yd) & 12 & 7,000/20,000 & 10/C & 1 & 1,800(3) & 1 & -5 & 1 & \$500 & 4 & [1] \\
         \end{tabularx}
         \label{tab:dazzler_laser_weapons}
+        \begin{flushleft}
+            {\footnotesize * Laser Flashlight, see \textit{Flashlights and Searchlights} (p. \pageref{subsec:flashlights_searchlights})}
+        \end{flushleft}
     \end{table}
 }
 
@@ -197,16 +200,17 @@ An ultraviolet laser has triple the usual Range, but due to its lower efficiency
             Survival Laser & 4d(2) burn & 12 & 300/900 & 3.3/2C & 6 & 56(3) & 6† & -3 & 1 & \$2,400 & 3 \\ 
         \end{tabularx}\medskip
         
-        \noindent GUNNER (BEAMS) (DX-4, other Gunner-4)
+        {\normalsize\noindent GUNNER (BEAMS) (DX-4, other Gunner-4)}
+        \footnotesize
         \begin{tabularx}{\linewidth}{lcXcrccXcXrX}
             \textbf{Weapon} & \textbf{Damage} & \textbf{Acc} & \textbf{Range} & \textbf{Weight} & \textbf{RoF} & \textbf{Shots} & \textbf{ST} & \textbf{Bulk} & \textbf{Rcl} & \textbf{Cost} & \textbf{LC} \\
             % name & damage & acc & range & weight & rof & shots & st & bulk & rcl & \$ & LC \\ 
-            Area Defense Laser & 6d~x5(2) burn & 18 & 36,000/110,000 & 8,000/10Fp & 1 & 83(5) & 200M & -10 & 1 & \$2,000,000 & 1 \\ 
-            Point Defense Laser & 3d~x5(2) burn & 18 & 9,000/27,000 & 1,000/Fp & 1 & 66(5) & 70M & -10 & 1 & \$250,000 & 1 \\ 
-            Semi~-Portable Laser & 6d(2) burn & 18 & 1,400/4,300 & 70/Ep & 10 & 100(5) & 18M & -8 & 1 & \$32,000 & 1 \\ 
-            Gatling Laser & 6d~x2(2) burn & 18 & 2,900/8,700 & 70/Ep & 4 & 100(5) & 18M & -8 & 1 & \$70,000 & 1 \\ 
-            Laser Cannon & 6d~x10(2) burn & 18 & 72,000/220,000 & 8,000/10Fp & 1 & 83(5) & 200M & -10 & 1 & \$4,000,000 & 1 \\ 
-            Strike Laser & 6d~x5(2) burn & 18 & 18,000/54,000 & 1,000/Fp & 1 & 66(5) & 70M & -10 & 1 & \$500,000 & 1 \\ 
+            Area Defense Laser & 6d~x5(2) burn & 18 & 36,000/110,000 & 8,000/10Fp & 1 & 83(5) & 200M & -10 & 1 & \$2M & 1 \\ 
+            Point Defense Laser & 3d~x5(2) burn & 18 & 9,000/27,000 & 1,000/Fp & 1 & 66(5) & 70M & -10 & 1 & \$250K & 1 \\ 
+            Semi~-Portable Laser & 6d(2) burn & 18 & 1,400/4,300 & 70/Ep & 10 & 100(5) & 18M & -8 & 1 & \$32K & 1 \\ 
+            Gatling Laser & 6d~x2(2) burn & 18 & 2,900/8,700 & 70/Ep & 4 & 100(5) & 18M & -8 & 1 & \$70K & 1 \\ 
+            Laser Cannon & 6d~x10(2) burn & 18 & 72,000/220,000 & 8,000/10Fp & 1 & 83(5) & 200M & -10 & 1 & \$4M & 1 \\ 
+            Strike Laser & 6d~x5(2) burn & 18 & 18,000/54,000 & 1,000/Fp & 1 & 66(5) & 70M & -10 & 1 & \$500K & 1 \\ 
         \end{tabularx}
         \label{tab:high-energy_laser_rifle_gunner}
     \end{table}
@@ -413,12 +417,12 @@ When set to stun, the victim takes no damage, but must make a HT roll to resist 
         \subsection{\textit{Particle Beam Table}}
         \noindent GUNNER (BEAMS) (DX-4, other Gunner-4)
         \centering
-        \small
+        \footnotesize
         \rowcolors{1}{}{\colorweaponry}
         \begin{tabularx}{\linewidth}{lcXccXcXcXcX}
             \textbf{Weapon} & \textbf{Damage} & \textbf{Acc} & \textbf{Range} & \textbf{Weight} & \textbf{RoF} & \textbf{Shots} & \textbf{ST} & \textbf{Bulk} & \textbf{Rcl} & \textbf{Cost} & \textbf{LC} \\
             % name & damage & acc & range & weight & rof & shots & st & bulk & rcl & \$ & LC \\ 
-            Blaser Cannon & 5d~x10(5) burn sur & 15 & 30,000/90,000 & 4,000/10Fp & 1 & 20(5) & 160M & -10 & 1 & \$2,000,000 & 1 \\ 
+            Blaser Cannon & 5d~x10(5) burn sur & 15 & 30,000/90,000 & 4,000/10Fp & 1 & 20(5) & 160M & -10 & 1 & \$2M & 1 \\ 
         \end{tabularx}
         \label{tab:particle_beam}
     \end{table}
@@ -528,10 +532,12 @@ These weapons fire a low~-velocity jet of high temperature plasma. Hydrogen fuel
 
 Flamers inflict burning damage, but not tight~-beam burning damage. Effectively, these weapons are modern iterations of 20th century flamethrowers. They fire their fuel in one second bursts and take the listed amount of time to reload. They inspire fear in their intended targets, usually requiring Fright Checks for those who face them. Furthermore, they can be used in combat with an \textit{All-Out Attack (Jet)} see sidebar or \textbf{GURPS High Tech} p. 178.
 
-\begin{calloutbox}
-    \subsection{All-Out Attack (Jet)}\label{subsec:all-out_attack_jet}
-    A flamer can be played over an area up to three yards wide as an All-Out Attack. Roll separately to hit each target. Divide damage and burn duration by the width of the area (round down). 
-\end{calloutbox}
+\begin{table}[H]
+    \begin{calloutbox}
+        \subsection{All-Out Attack (Jet)}\label{subsec:all-out_attack_jet}
+        \hspace{1em}A flamer can be played over an area up to three yards wide as an All-Out Attack. Roll separately to hit each target. Divide damage and burn duration by the width of the area (round down). 
+    \end{calloutbox}
+\end{table}
 
 \subsubsection{Flamer Weapons}\label{subsubsec:flamer_weapons}
 \textit{Assault Flamer:}\label{itm:assault_flamer} This rifle~-sized plasma weapon is often used by armored infantry involved in spaceship boarding actions and house~-to~-house fighting.
@@ -589,7 +595,7 @@ Plasma weapons use special power cells which include an integrated magazine of h
 
 \textit{Plasma Gatling Cannon:}\label{itm:plasma_gatling_cannon} A light~-weight multibarrel plasma cannon with a high rate of fire.
 
-\textit{Semi~-Portable Plasma:}\label{itm:semi-portable_plasma} A powerful weapon designed for use on a tripod mount or by heavy battlesuits.
+\textit{Semi~-Portable (SP) Plasma:}\label{itm:semi-portable_plasma} A powerful weapon designed for use on a tripod mount or by heavy battlesuits.
 
 \multicolinterrupt{
     \begin{table}[H]
@@ -611,9 +617,9 @@ Plasma weapons use special power cells which include an integrated magazine of h
         \begin{tabularx}{\linewidth}{lcXcrccXcXrX}
             \textbf{Weapon} & \textbf{Damage} & \textbf{Acc} & \textbf{Range} & \textbf{Weight} & \textbf{RoF} & \textbf{Shots} & \textbf{ST} & \textbf{Bulk} & \textbf{Rcl} & \textbf{Cost} & \textbf{LC} \\
             % name & damage & acc & range & weight & rof & shots & st & bulk & rcl & \$ & LC \\ 
-            Plasma Cannon & 6d~x25(2) burn ex & 12 & 7,500/22,500 & 5,000/10Fp & 1 & 40(5) & 240M & -10 & 2 & \$2,000,000 & 1 \\
-            Plasma Gatling Gun & 6d~x5(2) burn ex & 12 & 1,500/4,500 & 250/5Ep & 10 & 100(5) & 50M & -9 & 2 & \$320,000 & 1 \\
-            Semi~-Portable Plasma Gun & 20d(2) burn ex & 12 & 1,000/3,000 & 70/Ep & 3 & 100(5) & 27M & -8 & 2 & \$140,000 & 1 \\
+            Plasma Cannon & 6d~x25(2) burn ex & 12 & 7,500/22,500 & 5,000/10Fp & 1 & 40(5) & 240M & -10 & 2 & \$2M & 1 \\
+            Plasma Gatling Gun & 6d~x5(2) burn ex & 12 & 1,500/4,500 & 250/5Ep & 10 & 100(5) & 50M & -9 & 2 & \$320K & 1 \\
+            SP Plasma Gun & 20d(2) burn ex & 12 & 1,000/3,000 & 70/Ep & 3 & 100(5) & 27M & -8 & 2 & \$140K & 1 \\
         \end{tabularx}
         \label{tab:plasma_gun}
     \end{table}
